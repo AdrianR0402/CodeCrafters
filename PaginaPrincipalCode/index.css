@@ -1,0 +1,371 @@
+.user-con-fondo-icon,
+.usuario {
+  position: relative;
+  flex-shrink: 0;
+}
+.user-con-fondo-icon {
+  width: 90px;
+  height: 80px;
+  overflow: hidden;
+}
+.usuario {
+  display: inline-block;
+  font-weight: 700;
+  width: 91px;
+  height: 28px;
+}
+.user-con-fondo-parent {
+  width: 226px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 29px 23px;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.peliculas {
+  position: absolute;
+  top: 13px;
+  left: 15px;
+  display: inline-block;
+  font-weight: 700;
+  width: 95px;
+  height: 24px;
+}
+.item1,
+.item2 {
+  position: relative;
+  width: 126px;
+  height: 50px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.item2 {
+  text-align: center;
+}
+.animes {
+  position: absolute;
+  top: 13px;
+  left: 31px;
+  display: inline-block;
+  width: 95px;
+  height: 24px;
+}
+.acerca,
+.animes {
+  font-weight: 700;
+}
+.span {
+  font-family: var(--font-inter);
+  color: var(--primary);
+}
+.acerca-de,
+.buscar {
+  position: absolute;
+  top: 13px;
+  left: 18px;
+  display: inline-block;
+  width: 121px;
+  height: 24px;
+}
+.buscar {
+  left: 31px;
+  font-weight: 700;
+  width: 215px;
+}
+.item14,
+.menu {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.item14 {
+  position: relative;
+  width: 204px;
+  height: 50px;
+}
+.menu {
+  width: 923px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 38px 33px;
+  box-sizing: border-box;
+}
+.logo-lucecine-1 {
+  position: relative;
+  width: 128px;
+  height: 109px;
+  object-fit: cover;
+}
+.carousel,
+.carouselcontrols-icon,
+.header {
+  align-self: stretch;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.header {
+  background-color: var(--color-gray-100);
+  height: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 21px 13px;
+  box-sizing: border-box;
+  gap: 43px;
+}
+.carousel,
+.carouselcontrols-icon {
+  height: 304px;
+}
+.carouselcontrols-icon {
+  position: relative;
+  max-width: 100%;
+}
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.novedades {
+  position: relative;
+  display: inline-block;
+  width: 694px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.h1 {
+  width: 1440px;
+  height: 66px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.background-color-icon {
+  position: relative;
+  border-radius: var(--br-9xs) var(--br-9xs) 0 0;
+  width: 175px;
+  height: 193px;
+  object-fit: cover;
+}
+.p {
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 175px;
+  height: 190px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.los-asesinos-de {
+  position: relative;
+}
+.peli1 {
+  width: 212px;
+  height: 238px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.kraven,
+.p1,
+.peli1 {
+  flex-shrink: 0;
+}
+.p1 {
+  width: 175px;
+  height: 190px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.kraven {
+  position: relative;
+  display: inline-block;
+  width: 139px;
+  height: 18px;
+}
+.fila1 {
+  align-self: stretch;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-11xl);
+  font-size: var(--font-size-base);
+  color: var(--text);
+  font-family: var(--font-signika-negative);
+}
+.fila1,
+.fila2,
+.peli71 {
+  height: 238px;
+  overflow: hidden;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.peli71 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.fila2 {
+  width: 1574px;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-11xl);
+  font-size: var(--font-size-base);
+  color: var(--text);
+  font-family: var(--font-signika-negative);
+}
+.contenido,
+.fila2,
+.fila3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fila3 {
+  align-self: stretch;
+  height: 238px;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-base);
+  color: var(--text);
+}
+.contenido {
+  height: 870px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  font-size: var(--font-size-5xl);
+  color: var(--primary);
+  font-family: var(--font-inter);
+}
+.siguenos-en-nuestras {
+  position: relative;
+  display: inline-block;
+  width: 278px;
+  height: 26px;
+  flex-shrink: 0;
+}
+.instagram-icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.redes,
+.siguenos {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.redes {
+  flex-direction: row;
+  padding: 0 1px;
+}
+.siguenos {
+  flex-direction: column;
+  padding: var(--padding-3xs) 54px;
+}
+.ayuda1,
+.contacto,
+.cuenta,
+.sobre-nosotros,
+.trminos-legales {
+  position: relative;
+  text-decoration: underline;
+  display: inline-block;
+  width: 156px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.ayuda1,
+.contacto,
+.cuenta,
+.trminos-legales {
+  width: 111px;
+}
+.ayuda1,
+.cuenta,
+.trminos-legales {
+  width: 97px;
+}
+.ayuda1,
+.trminos-legales {
+  width: 181px;
+}
+.ayuda1 {
+  width: 78px;
+}
+.minimenu {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  gap: 30px;
+}
+.footer,
+.series-peliculas-animes-deskto {
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  height: 174px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  font-family: var(--font-signika-negative);
+}
+.series-peliculas-animes-deskto {
+  position: relative;
+  background-color: #030315;
+  border: 1px solid var(--color-black);
+  width: 100%;
+  height: 1478px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--text);
+  font-family: var(--font-roboto-condensed);
+}

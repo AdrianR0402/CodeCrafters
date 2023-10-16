@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-signika-negative: "Signika Negative";
+    --font-inter: Inter;
+    --font-roboto-condensed: "Roboto Condensed";
+  
+    /* font sizes */
+    --font-size-xl: 20px;
+    --font-size-base: 16px;
+    --font-size-5xl: 24px;
+  
+    /* Colors */
+    --color-gray-100: #121728;
+    --color-black: #000;
+    --text: #fff;
+    --primary: #40a2e2;
+  
+    /* Gaps */
+    --gap-3xs: 10px;
+  
+    /* Paddings */
+    --padding-3xs: 10px;
+    --padding-11xl: 30px;
+  
+    /* Border radiuses */
+    --br-9xs: 4px;
+  }
+  
