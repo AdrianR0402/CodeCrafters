@@ -5,10 +5,6 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10168,19 +10164,6 @@ html {
     font-size: 3rem;
     line-height: 2.5rem;
   }
-}
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-body {
-  @apply leading-[normal] m-0;
-}
-
-*,
-::before,
-::after {
-  border-width: 0;
 }
 
 .divider-custom {
