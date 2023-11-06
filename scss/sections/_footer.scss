@@ -12,3 +12,14 @@
 .copyright {
     background-color: darken($secondary, 10%);
 }
+
+a {
+    color: $texto;
+    transition: color 0.3s;
+    text-decoration: none;
+    margin: 8px;
+}
+a:hover {
+    color: $primary;
+    text-decoration: none;
+}
