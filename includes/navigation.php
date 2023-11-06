@@ -4,7 +4,7 @@
             <div class="col md-4">
                 <a class="navbar-brand" href="index.php">Usuario</a>
 
-                
+
             </div>
             <div class="col md-4">
                 <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -35,7 +35,8 @@
                 </div>
             </div>
             <div class="col md-4">
-                <a class="navbar-brand" href="index.php">LuceCine</a>
+                <a class="navbar-brand" href="index.php"><img class="img-fluid w-90"
+                        src="assets/img/portfolio/portada.jpg" alt="..."></a>
                 <button class="navbar-toggler text-uppercase font-weight-bold text-white rounded text-end" type="button"
                     data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
                     aria-expanded="false" aria-label="Toggle navigation">
