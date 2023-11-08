@@ -10275,6 +10275,10 @@ html {
     font-size: 1.5em;
   }
 }
+#logoNav {
+  width: 100px;
+}
+
 .form-floating input.form-control,
 .form-floating textarea.form-control {
   font-size: 1.5rem;
