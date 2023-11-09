@@ -10,16 +10,16 @@
                 <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
                 <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
             </div>
-            <div class="row">
-                <div class="col-lg-10 mb-0 mb-lg-0 mx-auto mt-4">
-                    <a href="#">Sobre Nosotros</a>
-                    <a href="#">Contacto</a>
-                    <a href="#">Cuenta</a>
-                    <a href="#">Términos Legales</b>
-                        <a href="#">Ayuda</b>
-                            <a href="#">Subscripciones</b>
-                </div>
-            </div>
         </div>
+        <div class="row">
+            <div class="col-lg-10 mb-0 mb-lg-0 mx-auto mt-4">
+                <a href="#">Sobre Nosotros</a>
+                <a href="#">Contacto</a>
+                <a href="#">Cuenta</a>
+                <a href="#">Términos Legales</a>
+                <a href="#">Ayuda</a>
+                <a href="#">Subscripciones</a>
+            </div>
+        </div> 
     </div>
 </footer>
