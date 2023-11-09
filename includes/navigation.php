@@ -40,6 +40,9 @@
         <div class="col md-3">
             <a class="navbar-brand" href="index.php"><img class="float-end" id="logoNav"
                     src="assets/img/portfolio/portada.jpg" alt="..."></a>
+
+        </div>
+        <div>
             <button class="navbar-toggler text-uppercase font-weight-bold text-white rounded text-end" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
