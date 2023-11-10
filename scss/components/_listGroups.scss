@@ -7,7 +7,7 @@
     .list-group-item {
         a {
             
-            
+            background-color: orange;
             transition: color 0.3s;
             &:hover {
                 color: $primary;

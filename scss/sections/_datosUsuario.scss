@@ -1,4 +1,9 @@
 .datosUsuario {
+    background-color: $azulSecundario;
+    .datosUsuario-header {
+        color: $texto;
+    }
+
     .datosUsuario-item {
         cursor: pointer;
         position: relative;

@@ -39,7 +39,7 @@
         </div>
         <div class="col md-3">
             <a class="navbar-brand" href="index.php"><img class="float-end" id="logoNav"
-                    src="assets/img/portfolio/portada.jpg" alt="..."></a>
+                    src="/assets/img/portfolio/portada.jpg" alt="..."></a>
 
         </div>
         <div>

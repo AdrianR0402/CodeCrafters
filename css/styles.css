@@ -10312,6 +10312,7 @@ html {
   padding: 30px;
 }
 .list-group .list-group-item a {
+  background-color: orange;
   transition: color 0.3s;
 }
 .list-group .list-group-item a:hover {
@@ -10411,6 +10412,12 @@ a:hover {
   text-decoration: none;
 }
 
+.datosUsuario {
+  background-color: #34416A;
+}
+.datosUsuario .datosUsuario-header {
+  color: #ffffff;
+}
 .datosUsuario .datosUsuario-item {
   cursor: pointer;
   position: relative;
