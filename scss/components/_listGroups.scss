@@ -1,0 +1,25 @@
+.list-group {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+    padding: 30px;
+    .list-group-item {
+        a {
+            
+            
+            transition: color 0.3s;
+            &:hover {
+                color: $primary;
+            }
+
+            &.active {
+                color: $primary;
+            }
+        }
+        
+    }
+}
+
+
+

@@ -12,6 +12,8 @@
 			$CURRENT_PAGE = "Contact"; 
 			$PAGE_TITLE = "Contact Us";
 			break;
+		case "/datosUsuario/password.php";
+			break;
 		default:
 			$CURRENT_PAGE = "Index";
 			$PAGE_TITLE = "Welcome to my homepage!";

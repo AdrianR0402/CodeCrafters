@@ -10159,6 +10159,7 @@ html {
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
+  color: #40A2E2;
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
@@ -10303,6 +10304,23 @@ html {
   color: #6c757d;
 }
 
+.list-group {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "roboto condensed bold 700 italic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  padding: 30px;
+}
+.list-group .list-group-item a {
+  transition: color 0.3s;
+}
+.list-group .list-group-item a:hover {
+  color: #40A2E2;
+}
+.list-group .list-group-item a.active {
+  color: #40A2E2;
+}
+
 .masthead {
   padding-top: calc(1rem + 54px);
   padding-bottom: 1rem;
@@ -10391,6 +10409,30 @@ a {
 a:hover {
   color: #40A2E2;
   text-decoration: none;
+}
+
+.datosUsuario .datosUsuario-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0rem;
+  overflow: hidden;
+  background-color: #121728;
+}
+.datosUsuario .datosUsuario-item .datosUsuario-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(64, 162, 226, 0.9);
+}
+.datosUsuario .datosUsuario-item .datosUsuario-item:hover {
+  opacity: 1;
+}
+.datosUsuario .datosUsuario-item .datosUsuario-item .datosUsuario-item-content {
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
