@@ -1,17 +1,17 @@
-.bannerDatos {
-    height: 300px;
+.inicioSesion-header {
+    color: $texto;
 }
 
-.datosUsuario {
+.inicioSesion {
     background-color: $azulSecundario;
-    .datosUsuario-header {
-        color: $texto;
-    }
-    .datosUsuario-text {
+
+
+
+    .inicioSesion-text {
         color: $texto;
     }
 
-    .datosUsuario-item {
+    .inicioSesion-item {
         cursor: pointer;
         position: relative;
         display: block;
@@ -20,7 +20,7 @@
         overflow: hidden;
         background-color: $secondary;
 
-        .datosUsuario-item {
+        .inicioSesion-item {
             position: absolute;
             top: 0;
             left: 0;
@@ -32,7 +32,7 @@
                 opacity: 1;
             }
 
-            .datosUsuario-item-content {
+            .inicioSesion-item-content {
                 font-size: 1.5rem;
             }
         }

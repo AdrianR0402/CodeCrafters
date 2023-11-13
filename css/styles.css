@@ -10412,10 +10412,17 @@ a:hover {
   text-decoration: none;
 }
 
+.bannerDatos {
+  height: 300px;
+}
+
 .datosUsuario {
   background-color: #34416A;
 }
 .datosUsuario .datosUsuario-header {
+  color: #ffffff;
+}
+.datosUsuario .datosUsuario-text {
   color: #ffffff;
 }
 .datosUsuario .datosUsuario-item {
@@ -10439,6 +10446,40 @@ a:hover {
   opacity: 1;
 }
 .datosUsuario .datosUsuario-item .datosUsuario-item .datosUsuario-item-content {
+  font-size: 1.5rem;
+}
+
+.inicioSesion-header {
+  color: #ffffff;
+}
+
+.inicioSesion {
+  background-color: #34416A;
+}
+.inicioSesion .inicioSesion-text {
+  color: #ffffff;
+}
+.inicioSesion .inicioSesion-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0rem;
+  overflow: hidden;
+  background-color: #121728;
+}
+.inicioSesion .inicioSesion-item .inicioSesion-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(64, 162, 226, 0.9);
+}
+.inicioSesion .inicioSesion-item .inicioSesion-item:hover {
+  opacity: 1;
+}
+.inicioSesion .inicioSesion-item .inicioSesion-item .inicioSesion-item-content {
   font-size: 1.5rem;
 }
 
