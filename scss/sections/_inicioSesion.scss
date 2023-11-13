@@ -1,0 +1,38 @@
+.inicioSesion {
+    background-color: $azulSecundario;
+
+    .inicioSesion-header {
+        color: $texto;
+    }
+
+    .inicioSesion-text {
+        color: $texto;
+    }
+
+    .inicioSesion-item {
+        cursor: pointer;
+        position: relative;
+        display: block;
+        max-width: 25rem;
+        border-radius: $border-radius;
+        overflow: hidden;
+        background-color: $secondary;
+
+        .inicioSesion-item {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: $transition-base;
+            opacity: 0;
+            background-color: fade-out($primary, .1);
+
+            &:hover {
+                opacity: 1;
+            }
+
+            .inicioSesion-item-content {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

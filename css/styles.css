@@ -10449,4 +10449,37 @@ a:hover {
   font-size: 1.5rem;
 }
 
+.inicioSesion {
+  background-color: #34416A;
+}
+.inicioSesion .inicioSesion-header {
+  color: #ffffff;
+}
+.inicioSesion .inicioSesion-text {
+  color: #ffffff;
+}
+.inicioSesion .inicioSesion-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0rem;
+  overflow: hidden;
+  background-color: #121728;
+}
+.inicioSesion .inicioSesion-item .inicioSesion-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(64, 162, 226, 0.9);
+}
+.inicioSesion .inicioSesion-item .inicioSesion-item:hover {
+  opacity: 1;
+}
+.inicioSesion .inicioSesion-item .inicioSesion-item .inicioSesion-item-content {
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
