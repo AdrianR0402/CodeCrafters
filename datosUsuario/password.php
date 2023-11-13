@@ -32,8 +32,9 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <h2 class="datosUsuario-header">Cambiar contraseña</h2>
-                                            <h3 class="">Escoge una contraseña única para mantener segura tu cuenta</h3>
+                                            <p class="datosUsuario-text">Escoge una contraseña única para mantener segura tu cuenta</p>
                                         </div>
+                                        
                                     </div>
                                 </div>
                             </div>
