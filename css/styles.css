@@ -10449,11 +10449,12 @@ a:hover {
   font-size: 1.5rem;
 }
 
+.inicioSesion-header {
+  color: #ffffff;
+}
+
 .inicioSesion {
   background-color: #34416A;
-}
-.inicioSesion .inicioSesion-header {
-  color: #ffffff;
 }
 .inicioSesion .inicioSesion-text {
   color: #ffffff;
