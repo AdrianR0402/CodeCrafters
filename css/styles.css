@@ -10418,6 +10418,9 @@ a:hover {
 .datosUsuario .datosUsuario-header {
   color: #ffffff;
 }
+.datosUsuario .datosUsuario-text {
+  color: #ffffff;
+}
 .datosUsuario .datosUsuario-item {
   cursor: pointer;
   position: relative;
