@@ -4,9 +4,13 @@
 
 <head>
     <?php include("../includes/head-tag-contents.php"); ?>
-    <link rel="stylesheet" href="tu_estilo_personalizado.css"> <!-- Agrega tu hoja de estilo personalizada aquí -->
     <style>
-        /* Agrega tu estilo personalizado aquí */
+        .form-control {
+            background-color: #fff;
+            /* Cambia el color de fondo del campo de entrada */
+            box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+            /* Agrega sombra al campo de entrada */
+        }
     </style>
 </head>
 
@@ -21,7 +25,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="text-center inicioSesion-header">
-                                <h1 class="display-4">INICIAR SESIÓN</h1>
+                                <h1 class="display-2">INICIAR SESIÓN</h1>
                             </div>
                             <div class="inicioSesion">
                                 <div class="col-md-8 offset-md-2">
@@ -29,7 +33,8 @@
                                         <!-- Usuario -->
                                         <div class="form-group row mb-3">
                                             <label for="usuario"
-                                                class="col-sm-3 col-form-label text-right font-weight-bold">Usuario:</label>
+                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white"
+                                                style="font-size: 1.2em;">Usuario:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control" id="usuario">
                                             </div>
@@ -38,7 +43,8 @@
                                         <!-- Contraseña -->
                                         <div class="form-group row mb-4">
                                             <label for="contrasena"
-                                                class="col-sm-3 col-form-label text-right font-weight-bold">Contraseña:</label>
+                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white"
+                                                style="font-size: 1.2em;">Contraseña:</label>
                                             <div class="col-sm-9">
                                                 <input type="password" class="form-control" id="contrasena">
                                             </div>
@@ -47,8 +53,8 @@
                                         <!-- ¿OLVIDASTE TU CONTRASEÑA? -->
                                         <div class="form-group row">
                                             <div class="col-sm-9 offset-sm-3">
-                                                <b class="olvidaste-tu-contrasea font-weight-bold">¿OLVIDASTE TU
-                                                    CONTRASEÑA?</b>
+                                                <b class="olvidaste-tu-contrasea font-weight-bold text-white"
+                                                    style="font-size: 1.2em;">¿OLVIDASTE TU CONTRASEÑA?</b>
                                             </div>
                                         </div>
                                     </form>
