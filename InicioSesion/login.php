@@ -11,6 +11,29 @@
             box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
             /* Agrega sombra al campo de entrada */
         }
+
+        .crear-cuenta {
+            color: #17a2b8;
+            /* Cambia el color del enlace "CREAR CUENTA" según tus preferencias */
+        }
+
+        .no-tienes-cuenta-container {
+            font-size: 1.5em;
+            color: #fff;
+            /* Color blanco */
+            font-weight: bold;
+            /* Texto en negrita */
+        }
+
+        .font-weight-bold {
+            font-weight: bold;
+            /* Texto en negrita */
+        }
+
+        .btn-acceder {
+            font-weight: bold;
+            /* Texto en negrita */
+        }
     </style>
 </head>
 
@@ -34,9 +57,9 @@
                                         <div class="form-group row mb-3">
                                             <label for="usuario"
                                                 class="col-sm-3 col-form-label text-right font-weight-bold text-white"
-                                                style="font-size: 1.2em;">Usuario:</label>
+                                                style="font-size: 1.3em;">Usuario:</label>
                                             <div class="col-sm-9">
-                                                <input type="text" class="form-control" id="usuario">
+                                                <input type="text" class="form-control font-weight-bold" id="usuario">
                                             </div>
                                         </div>
 
@@ -44,9 +67,10 @@
                                         <div class="form-group row mb-4">
                                             <label for="contrasena"
                                                 class="col-sm-3 col-form-label text-right font-weight-bold text-white"
-                                                style="font-size: 1.2em;">Contraseña:</label>
+                                                style="font-size: 1.3em;">Contraseña:</label>
                                             <div class="col-sm-9">
-                                                <input type="password" class="form-control" id="contrasena">
+                                                <input type="password" class="form-control font-weight-bold"
+                                                    id="contrasena">
                                             </div>
                                         </div>
 
@@ -65,8 +89,17 @@
                             <div class="row mt-4">
                                 <div class="col-md-8 offset-md-2">
                                     <div class="text-center">
-                                        <button type="button" class="btn btn-primary btn-acceder">ACCEDER</button>
+                                        <button type="button"
+                                            class="btn btn-primary btn-acceder font-weight-bold">ACCEDER</button>
                                     </div>
+                                </div>
+                            </div>
+
+                            <!-- Enlace "CREAR CUENTA" -->
+                            <div class="row mt-3">
+                                <div class="col-md-8 offset-md-2 text-center">
+                                    <span class="no-tienes-cuenta-container">¿No tienes cuenta? <a href="#"
+                                            class="crear-cuenta">CREAR CUENTA</a></span>
                                 </div>
                             </div>
                         </div>
