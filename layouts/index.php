@@ -10,9 +10,7 @@
 
     <?php include("../includes/navigation.php"); ?>
     <main>
-    <body>
-      <div class="container-fluid my-5">
-              <div class="body">
+        <div class="body">
           <b class="recomendaciones">RECOMENDACIONES</b>
           <div class="rectangle-parent">
             <img class="frame-child" alt="" src="./public/rectangle-1@2x.png" />
