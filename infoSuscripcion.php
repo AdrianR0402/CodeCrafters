@@ -18,14 +18,14 @@
                             <h2 class="page-section-heading mb-4">Datos de usuario</h2>
                             <div class="container">
                                 <ul class="list-group">
-                                    <li class="list-group-item"><a href="infoSuscripcion.php" class="linksMenu">Información de
+                                    <li class="list-group-item active"><a href="infoSuscripcion.php" class="linksMenu">Información de
                                             Suscripción</a></li>
                                     <li class="list-group-item"><a href="preferencias.php" class="linksMenu">Preferencias</a></li>
                                     <li class="list-group-item"><a href="notifications.php" class="linksMenu">Notificaciones por
                                             correo</a></li>
                                     <li class="list-group-item"><a href="cambiarCorreo.php" class="linksMenu">Cambiar correo</a>
                                     </li>
-                                    <li class="list-group-item active"><a href="password.php" class="linksMenu">Cambiar contraseña</a>
+                                    <li class="list-group-item"><a href="password.php" class="linksMenu">Cambiar contraseña</a>
                                     </li>
                                 </ul>
                             </div>
@@ -35,29 +35,15 @@
                                 <div class="container-fluid p-2 text-center">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <h2 class="datosUsuario-header">Cambiar contraseña</h2>
-                                            <p class="datosUsuario-text">Escoge una contraseña única para mantener
-                                                segura tu cuenta</p>
+                                            <h2 class="datosUsuario-header">Información de suscripción</h2>
+                                            <p class="datosUsuario-text">Gestiona tu plan de suscripción y tu historial de pedidos</p>
                                         </div>
                                         <div class="col-md-6 text-center mx-auto">
-                                            <form action="">
-                                                <div class="mb-3 mt-3">
-                                                    <label class="datosUsuario-text mb-1">Contraseña actual</label><input type="password" class="form-control" id="passAct"
-                                                        placeholder="Contraseña actual" name="passAct">
-                                                </div>
-                                                <div class="mb-3">
-                                                <label class="datosUsuario-text mb-1">Contraseña nueva</label>
-                                                    <input type="password" class="form-control" id="passNueva"
-                                                        placeholder="Nueva contraseña" name="passNueva">
-                                                </div>
-                                                <div class="mb-3">
-                                                <label class="datosUsuario-text mb-1">Confirmar contraseña</label>
-                                                    <input type="password" class="form-control" id="passRep"
-                                                        placeholder="Repetir contraseña" name="passRep">
-                                                </div>
-                                                <button type="submit" class="btn btn-primary">Cambiar
-                                                    contraseña</button>
-                                            </form>
+                                            <p class="datosUsuario-header">Miembro Mega Fan</p>
+                                            <p class="datosUsuario-text">64,99 € / anual + VAT aplicable</p>
+                                            <p class="datosUsuario-text">Tu suscripción se renovará el 6 de febrero de 2024</p>
+                                            <a href="#" class="linksContenido">Cancelar suscripción</a>
+                                            <a href="#" class="linksContenido">Gestionar método de pago</a>
                                         </div>
                                     </div>
                                 </div>
