@@ -18,9 +18,9 @@
                 </div>
 
                 <div class="container-fluid mt-5 px-5">
-                    <div class="container-fluid mx-5 p-5">
+                    
                         <div class="row">
-                            <div class="col-md-3 text-center">
+                            <div class="col-md-3  text-center">
                                 <h2 class="page-section-heading mb-4">General</h2>
                                 <div class="container">
                                     <ul class="list-group">
@@ -38,7 +38,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-9 px-5">
+                            <div class="col-sm-12 col-md-9 px-3 px-md-5">
                                 <div class="datosUsuario container-border">
                                     <div class="container-fluid p-5 text-center">
                                         <div class="row">
@@ -70,7 +70,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
                 </div>
 
 
