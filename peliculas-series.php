@@ -30,11 +30,71 @@
         </header>
         <main>
             <section class="page-section">
-                <h2>Recomendadas</h2>
-                <div>
+            <div class="container mt-5">
+            <h2 class="mb-4">Carteles de Películas</h2>
 
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                    <img src="path/to/movie1.jpg" class="card-img-top" alt="Película 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre de la Película 1</h5>
+                        <p class="card-text">Descripción breve de la película 1.</p>
+                    </div>
+                    </div>
                 </div>
-            </section>
+
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                <img src="path/to/movie2.jpg" class="card-img-top" alt="Película 2">
+                <div class="card-body">
+                    <h5 class="card-title">Nombre de la Película 2</h5>
+                    <p class="card-text">Descripción breve de la película 2.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                <img src="path/to/movie2.jpg" class="card-img-top" alt="Película 2">
+                <div class="card-body">
+                    <h5 class="card-title">Nombre de la Película 3</h5>
+                    <p class="card-text">Descripción breve de la película 3.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                <img src="path/to/movie2.jpg" class="card-img-top" alt="Película 2">
+                <div class="card-body">
+                    <h5 class="card-title">Nombre de la Película 4</h5>
+                    <p class="card-text">Descripción breve de la película 4.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                <img src="path/to/movie2.jpg" class="card-img-top" alt="Película 2">
+                <div class="card-body">
+                    <h5 class="card-title">Nombre de la Película 5</h5>
+                    <p class="card-text">Descripción breve de la película 5.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                <img src="path/to/movie2.jpg" class="card-img-top" alt="Película 2">
+                <div class="card-body">
+                    <h5 class="card-title">Nombre de la Película 6</h5>
+                    <p class="card-text">Descripción breve de la película 6.</p>
+                </div>
+                </div>
+            </div>
+
+      <!-- Repite este bloque para cada película adicional -->
+
+    </div>
+  </div>
+        </section>
         </main>
         <?php include("includes/footer.php"); ?>
     </body>
