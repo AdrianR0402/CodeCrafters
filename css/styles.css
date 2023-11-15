@@ -10215,6 +10215,11 @@ html {
   align-items: center;
 }
 
+.btn-acceder {
+  font-size: 1.5em;
+  width: 100%;
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -10462,11 +10467,12 @@ a:hover {
   font-size: 1.5rem;
 }
 
+.inicioSesion-header {
+  color: #ffffff;
+}
+
 .inicioSesion {
   background-color: #34416A;
-}
-.inicioSesion .inicioSesion-header {
-  color: #ffffff;
 }
 .inicioSesion .inicioSesion-text {
   color: #ffffff;
@@ -10487,6 +10493,12 @@ a:hover {
   transition: all 0.2s ease-in-out;
   opacity: 0;
   background-color: rgba(64, 162, 226, 0.9);
+  background-color: #f8f9fa;
+  /* Cambia el color de fondo según tus preferencias */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  /* Agrega sombra */
 }
 .inicioSesion .inicioSesion-item .inicioSesion-item:hover {
   opacity: 1;
