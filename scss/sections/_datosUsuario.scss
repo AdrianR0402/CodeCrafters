@@ -14,6 +14,16 @@
     }
 }
 
+.container-border {
+    border: 2px solid #17a2b8;
+    /* Color del borde */
+    border-radius: 15px;
+    /* Radio de la esquina del borde */
+    padding: 20px;
+    /* Espaciado interno del container */
+    margin-bottom: 20px;
+    /* Espaciado inferior del container */
+}
 
 .datosUsuario {
     background-color: $azulSecundario;

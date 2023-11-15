@@ -1,14 +1,14 @@
-<?php include("../includes/a_config.php"); ?>
+<?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html>
 
 <head>
-    <?php include("../includes/head-tag-contents.php"); ?>
+    <?php include("includes/head-tag-contents.php"); ?>
 </head>
 
 <body>
 
-    <?php include("../includes/navigation.php"); ?>
+    <?php include("includes/navigation.php"); ?>
     <main>
         <section class="page-section">
             <div class="container-fluid mt-4 mx-0 px-0">
@@ -39,7 +39,7 @@
                                 </div>
                             </div>
                             <div class="col-md-9 px-5">
-                                <div class="datosUsuario">
+                                <div class="datosUsuario container-border">
                                     <div class="container-fluid p-5 text-center">
                                         <div class="row">
                                             <div class="col-md-12">
@@ -49,10 +49,9 @@
                                             </div>
                                             <div class="col-md-6 text-center mx-auto">
                                                 <form action="">
-                                                    <div class="mb-3 mt-3 form-floating">
+                                                    <div class="mb-3 mt-3">
                                                         <input type="password" class="form-control" id="passAct"
                                                             placeholder="Contraseña actual" name="passAct">
-                                                        <label for="passAct">Contraseña actual</label>
                                                     </div>
                                                     <div class="mb-3">
                                                         <input type="password" class="form-control" id="passNueva"
@@ -81,7 +80,7 @@
 
     </main>
 
-    <?php include("../includes/footer.php"); ?>
+    <?php include("includes/footer.php"); ?>
 
 </body>
 
