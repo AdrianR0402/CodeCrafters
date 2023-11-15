@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <?php include("../includes/head-tag-contents.php"); ?>
+        <?php include("includes/head-tag-contents.php"); ?>
     </head>
     <body>
-        <?php include("../includes/navigation.php"); ?>
+        <?php include("includes/navigation.php"); ?>
         <header>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -96,6 +96,6 @@
   </div>
         </section>
         </main>
-        <?php include("../includes/footer.php"); ?>
+        <?php include("includes/footer.php"); ?>
     </body>
 </html>
