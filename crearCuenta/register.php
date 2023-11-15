@@ -12,7 +12,6 @@
             /* Agrega sombra al campo de entrada */
         }
 
-
         .no-tienes-cuenta-container {
             font-size: 1.5em;
             color: #fff;
@@ -26,7 +25,8 @@
             /* Texto en negrita */
         }
 
-        .btn-acceder {
+        .btn-acceder,
+        .btn-registrarse {
             font-weight: bold;
             /* Texto en negrita */
         }
@@ -55,7 +55,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="text-center inicioSesion-header">
-                                <h1 class="display-2">INICIAR SESIÓN</h1>
+                                <h1 class="display-2">REGISTRARSE</h1>
                             </div>
                             <div class="inicioSesion container-border">
                                 <div class="col-md-8 offset-md-2">
@@ -70,6 +70,16 @@
                                             </div>
                                         </div>
 
+                                        <!-- Email -->
+                                        <div class="form-group row mb-3">
+                                            <label for="email"
+                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white"
+                                                style="font-size: 1.3em;">Email:</label>
+                                            <div class="col-sm-9">
+                                                <input type="email" class="form-control font-weight-bold" id="email">
+                                            </div>
+                                        </div>
+
                                         <!-- Contraseña -->
                                         <div class="form-group row mb-4">
                                             <label for="contrasena"
@@ -80,14 +90,20 @@
                                                     id="contrasena">
                                             </div>
                                         </div>
-
-                                        <!-- ¿OLVIDASTE TU CONTRASEÑA? -->
+                                        <!-- Checkbox -->
                                         <div class="form-group row">
                                             <div class="col-sm-9 offset-sm-3">
-                                                <b class="olvidaste-tu-contrasea font-weight-bold text-white"
-                                                    style="font-size: 1.2em;">¿OLVIDASTE TU CONTRASEÑA?</b>
+                                                <label class="font-weight-bold text-white"
+                                                    style="font-size: 1.2em; display: flex; align-items: center;">
+                                                    <input type="checkbox"
+                                                        style="margin-right: 10px; transform: scale(1.5);">
+                                                    Al crear una cuenta muestras tu conformidad con nuestros Términos de
+                                                    Uso y nuestra Política de
+                                                    Privacidad, confirmando además que tienes 16 años o más.
+                                                </label>
                                             </div>
                                         </div>
+
                                     </form>
                                 </div>
                             </div>
@@ -96,18 +112,16 @@
                             <div class="row mt-4">
                                 <div class="col-md-8 offset-md-2">
                                     <div class="text-center">
-                                        <button type="button"
-                                            class="btn btn-primary btn-acceder font-weight-bold">ACCEDER</button>
+                                        <button type="button" class="btn btn-primary btn-acceder font-weight-bold">CREAR
+                                            CUENTA</button>
                                     </div>
                                 </div>
                             </div>
-
                             <!-- Enlace "CREAR CUENTA" -->
                             <div class="row mt-3">
                                 <div class="col-md-8 offset-md-2 text-center">
-                                    <span class="no-tienes-cuenta-container">¿No tienes cuenta? <a
-                                            href="../crearCuenta/register.php" class="crear-cuenta">CREAR
-                                            CUENTA</a></span>
+                                    <span class="no-tienes-cuenta-container">¿Ya tienes una cuenta? <a
+                                            href="../inicioSesion/login.php" class="crear-cuenta">ACCEDER</a></span>
                                 </div>
                             </div>
                         </div>
