@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <?php include("includes/head-tag-contents.php"); ?>
+    <?php include("../includes/head-tag-contents.php"); ?>
     <style>
         .form-control {
             background-color: #fff;
