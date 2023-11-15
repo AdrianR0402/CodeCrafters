@@ -30,7 +30,7 @@
         </header>
         <main>
             <section class="page-section">
-            <div class="container mt-5">
+            <div class="container mt-5 overflow-auto">
                 <h2 class="mb-4">Carteles de Películas</h2>
 
                 <div class="row">
