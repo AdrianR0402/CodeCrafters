@@ -105,8 +105,8 @@
                             <!-- Enlace "CREAR CUENTA" -->
                             <div class="row mt-3">
                                 <div class="col-md-8 offset-md-2 text-center">
-                                    <span class="no-tienes-cuenta-container">¿No tienes cuenta? <a
-                                            href="../crearCuenta/register.php" class="crear-cuenta">CREAR
+                                    <span class="no-tienes-cuenta-container">¿No tienes cuenta? <a href="register.php"
+                                            class="crear-cuenta">CREAR
                                             CUENTA</a></span>
                                 </div>
                             </div>
