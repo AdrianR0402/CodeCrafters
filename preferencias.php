@@ -67,9 +67,9 @@
                                                     </select>
                                                 </div>
                                             </form>
-                                            <div class="form-check form-switch mt-2">
+                                            <div class="form-check form-switch mt-5">
                                                 <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
-                                                <label class="form-check-label datosUsuario-text" for="mySwitch">Activar el contenido para adultos</label>
+                                                <label class="form-check-label datosUsuario-header" for="mySwitch">Activar el contenido para adultos</label>
                                             </div>
                                         </div>
                                     </div>
