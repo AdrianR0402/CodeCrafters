@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php include("includes/a_config.php"); ?>
 <html>
     <head>
         <?php include("includes/head-tag-contents.php"); ?>
@@ -28,13 +29,13 @@
                 </button>
             </div>
         </header>
-        <main>
-            <section class="page-section">
-            <div class="container mt-5 overflow-auto">
+        <main >
+            <section class="page-section ">
+            <div class="container mt-5 overflow-auto ">
                 <h2 class="mb-4">Carteles de Películas</h2>
 
-                <div class="row">
-                    <div class="col-md-4 mb-4">
+                <div class="d-flex">
+                    <div class="col-md-4 mb-4 mx-3">
                         <div class="card">
                         <img src="path/to/movie1.jpg" class="card-img-top" alt="Película 1">
                         <div class="card-body">
@@ -44,7 +45,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 mb-4">
+                    <div class="col-md-4 mb-4 mx-3">
                         <div class="card">
                         <img src="path/to/movie2.jpg" class="card-img-top" alt="Película 2">
                         <div class="card-body">
@@ -53,7 +54,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
+                    <div class="col-md-4 mb-4 mx-3">
                         <div class="card">
                         <img src="path/to/movie2.jpg" class="card-img-top" alt="Película 2">
                         <div class="card-body">
@@ -62,7 +63,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
+                    <div class="col-md-4 mb-4 mx-3">
                         <div class="card">
                         <img src="path/to/movie2.jpg" class="card-img-top" alt="Película 2">
                         <div class="card-body">
@@ -71,7 +72,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
+                    <div class="col-md-4 mb-4 mx-3">
                         <div class="card">
                         <img src="path/to/movie2.jpg" class="card-img-top" alt="Película 2">
                         <div class="card-body">
@@ -80,7 +81,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-md-4 mb-4">
+                    <div class="col-md-4 mb-4 mx-3">
                         <div class="card">
                         <img src="path/to/movie2.jpg" class="card-img-top" alt="Película 2">
                         <div class="card-body">
@@ -92,8 +93,8 @@
 
       <!-- Repite este bloque para cada película adicional -->
 
+                </div>
             </div>
-  </div>
         </section>
         </main>
         <?php include("includes/footer.php"); ?>
