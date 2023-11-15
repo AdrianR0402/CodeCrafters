@@ -11,7 +11,7 @@
 
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link py-3 px-0 px-lg-3  dropdown-toggle" href="#" id="navbarDropdown"
+                        <a class="nav-link py-3 px-0 px-md-6  dropdown-toggle" href="#" id="navbarDropdown"
                             role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Catálogo
                         </a>
