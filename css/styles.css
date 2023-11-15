@@ -10489,15 +10489,15 @@ a:hover {
 }
 
 .form-control {
-  background-color: #fff;
+  background-color: #ffffff;
   /* Cambia el color de fondo del campo de entrada */
-  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 20px 20px 20px #030315;
   /* Agrega sombra al campo de entrada */
 }
 
 .no-tienes-cuenta-container {
   font-size: 1.5em;
-  color: #fff;
+  color: #ffffff;
   /* Color blanco */
   font-weight: bold;
   /* Texto en negrita */
@@ -10515,7 +10515,7 @@ a:hover {
 }
 
 .container-border {
-  border: 2px solid #17a2b8;
+  border: 2px solid #40A2E2;
   /* Color del borde */
   border-radius: 15px;
   /* Radio de la esquina del borde */
@@ -10530,35 +10530,6 @@ a:hover {
 }
 .inicioSesion .inicioSesion-text {
   color: #ffffff;
-}
-.inicioSesion .inicioSesion-item {
-  cursor: pointer;
-  position: relative;
-  display: block;
-  max-width: 25rem;
-  border-radius: 0rem;
-  overflow: hidden;
-  background-color: #121728;
-}
-.inicioSesion .inicioSesion-item .inicioSesion-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: all 0.2s ease-in-out;
-  opacity: 0;
-  background-color: rgba(64, 162, 226, 0.9);
-  background-color: #f8f9fa;
-  /* Cambia el color de fondo según tus preferencias */
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  /* Agrega sombra */
-}
-.inicioSesion .inicioSesion-item .inicioSesion-item:hover {
-  opacity: 1;
-}
-.inicioSesion .inicioSesion-item .inicioSesion-item .inicioSesion-item-content {
-  font-size: 1.5rem;
 }
 
 .bannerDatos {

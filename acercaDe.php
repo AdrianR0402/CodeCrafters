@@ -1,28 +1,76 @@
+<?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
-    <?php include("../includes/head-tag-contents.php"); ?>
+    <?php include("includes/head-tag-contents.php"); ?>
+    <style>
+        /* Establecer un tamaño máximo para las imágenes */
+        .img-thumbnail {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
 </head>
 
 <body>
 
-    <?php include("../includes/navigation.php"); ?>
+    <?php include("includes/navigation.php"); ?>
     <main>
-        <div class="inicioSesion">
-            <div class="container mt-5">
-                <div class="text-center">
-                    <h1 class="display-4 mb-4">¡Bienvenido al fascinante mundo del cine en LuceCine!</h1>
-                    <p>Descubre una amplia selección de películas, explora reseñas cautivadoras y recibe
-                        recomendaciones cinematográficas exclusivas. Únete a nuestra apasionada comunidad y mantente al
-                        día
-                        con las últimas noticias del séptimo arte.</p>
+        <section class="page-section" id="inicioSesion">
+            <div class="container-fluid py-4 text-center">
+                <h1 class="display-1 text-primary">Lucecine</h1>
+                <p class="lead text-white">Tu sitio de películas y series favorito</p>
+            </div>
+
+            <!-- Texto sobre la página -->
+            <div class="container mt-4">
+                <p class="text-center text-white" style="font-size: 24px;">Bienvenido a Lucecine, el lugar perfecto para
+                    disfrutar de tus
+                    películas y series
+                    favoritas. Explora nuestro amplio catálogo y sumérgete en el emocionante mundo del cine y la
+                    televisión.</p>
+            </div>
+
+            <!-- Sección de Imágenes con Texto -->
+            <div class="container mt-4">
+                <div class="row">
+                    <!-- Primera Imagen con Texto -->
+                    <div class="col-md-6">
+                        <img src="assets/img/portfolio/peliculas.png" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Primera Imagen">
+                        <p class="mt-2 text-center text-white" style="font-size: 20px;">Peliculas
+                        </p>
+                    </div>
+                    <!-- Segunda Imagen con Texto -->
+                    <div class="col-md-6">
+                        <img src="assets/img/portfolio/series.png" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Segunda Imagen">
+                        <p class="mt-2 text-center text-white" style="font-size: 20px;">Series
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Tercera Imagen con Texto -->
+                    <div class="col-md-6">
+                        <img src="assets/img/portfolio/animes.png" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        <p class="mt-2 text-center text-white" style="font-size: 20px;">Animes
+                        </p>
+                    </div>
+                    <!-- Cuarta Imagen con Texto -->
+                    <div class="col-md-6">
+                        <img src="assets/img/portfolio/trailers.png" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Cuarta Imagen">
+                        <p class="mt-2 text-center text-white" style="font-size: 20px;">Trailers
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
 
+        </section>
     </main>
-    <?php include("../includes/footer.php"); ?>
+    <?php include("includes/footer.php"); ?>
 </body>
 
 </html>
