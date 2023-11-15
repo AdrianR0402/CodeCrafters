@@ -10324,12 +10324,7 @@ html {
   background-color: #030313;
 }
 .list-group .list-group-item.active {
-<<<<<<< HEAD
   color: #40A2E2;
-=======
-  color: #fff;
-  background-color: #40A2E2;
->>>>>>> 1e1ead2eb21f07d0811adb4dce47078ac8a70029
 }
 
 .masthead {
@@ -10485,8 +10480,6 @@ a:hover {
 .inicioSesion-header {
   color: #ffffff;
 }
-<<<<<<< HEAD
-=======
 
 .form-control {
   background-color: #ffffff;
@@ -10524,7 +10517,6 @@ a:hover {
   margin-bottom: 20px;
   /* Espaciado inferior del container */
 }
->>>>>>> 1e1ead2eb21f07d0811adb4dce47078ac8a70029
 
 .inicioSesion {
   background-color: #34416A;
