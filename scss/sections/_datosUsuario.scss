@@ -1,14 +1,29 @@
 .bannerDatos {
-    height: 300px;
+    height: 320px;
 }
+
+.linksMenu {
+    
+    transition: color 0.3s;
+    &:hover {
+        color: $primary;
+    }
+
+    &.active {
+        color: $primary;
+    }
+}
+
 
 .datosUsuario {
     background-color: $azulSecundario;
     .datosUsuario-header {
         color: $texto;
+        font-family: $headings-font-family;
     }
     .datosUsuario-text {
         color: $texto;
+        font-family: $font-family-sans-serif;
     }
 
     .datosUsuario-item {

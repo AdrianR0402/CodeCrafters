@@ -3,23 +3,23 @@
     padding-bottom: 1rem;
     font-family: $headings-font-family;
     font-weight: $headings-font-weight;
-    padding: 30px;
     .list-group-item {
-        a {
-            
-            background-color: orange;
-            transition: color 0.3s;
-            &:hover {
-                color: $primary;
-            }
-
-            &.active {
-                color: $primary;
-            }
-        }
-        
-    }
+        color: $texto;
+        background-color: $background;
+          &:hover,
+          &:focus {
+            color: $primary;
+            background-color: shade-color($background, 10%);
+          }
+    
+          &.active {
+            color: $white;
+            background-color: $primary;
+          }
+      }
 }
+
+
 
 
 
