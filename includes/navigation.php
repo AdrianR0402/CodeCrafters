@@ -26,13 +26,13 @@
                             class="nav-link <?php if ($CURRENT_PAGE == "Index") { ?>active<?php } ?> py-3 px-0 px-lg-3 rounded"
                             href="index.php">Inicio</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a
-                            class="nav-link <?php if ($CURRENT_PAGE == "About") { ?>active<?php } ?> py-3 px-0 px-lg-3 rounded"
+                            class="nav-link <?php if ($CURRENT_PAGE == "acercaDe") { ?>active<?php } ?> py-3 px-0 px-lg-3 rounded"
                             href="acercaDe.php">Acerca de</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a
                             class="nav-link <?php if ($CURRENT_PAGE == "Contact") { ?>active<?php } ?> py-3 px-0 px-lg-3 rounded"
                             href="contact.php">Contacto</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a
-                            class="nav-link <?php if ($CURRENT_PAGE == "Help") { ?>active<?php } ?> py-3 px-0 px-lg-3 rounded"
+                            class="nav-link <?php if ($CURRENT_PAGE == "ayuda") { ?>active<?php } ?> py-3 px-0 px-lg-3 rounded"
                             href="ayuda.php">Ayuda</a></li>
                 </ul>
             </div>
