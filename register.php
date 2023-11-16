@@ -25,8 +25,7 @@
                                         <!-- Usuario -->
                                         <div class="form-group row mb-3">
                                             <label for="usuario"
-                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white"
-                                                style="font-size: 1.3em;">Usuario:</label>
+                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white letraInicioSesion">Usuario:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control font-weight-bold" id="usuario">
                                             </div>
@@ -35,8 +34,7 @@
                                         <!-- Email -->
                                         <div class="form-group row mb-3">
                                             <label for="email"
-                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white"
-                                                style="font-size: 1.3em;">Email:</label>
+                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white letraInicioSesion">Email:</label>
                                             <div class="col-sm-9">
                                                 <input type="email" class="form-control font-weight-bold" id="email">
                                             </div>
@@ -45,8 +43,7 @@
                                         <!-- Contraseña -->
                                         <div class="form-group row mb-4">
                                             <label for="contrasena"
-                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white"
-                                                style="font-size: 1.3em;">Contraseña:</label>
+                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white letraInicioSesion">Contraseña:</label>
                                             <div class="col-sm-9">
                                                 <input type="password" class="form-control font-weight-bold"
                                                     id="contrasena">
@@ -55,10 +52,8 @@
                                         <!-- Checkbox -->
                                         <div class="form-group row">
                                             <div class="col-sm-9 offset-sm-3">
-                                                <label class="font-weight-bold text-white"
-                                                    style="font-size: 1.2em; display: flex; align-items: center;">
-                                                    <input type="checkbox"
-                                                        style="margin-right: 10px; transform: scale(1.5);">
+                                                <label class="font-weight-bold text-white LetraCheckbox">
+                                                    <input type="checkbox">
                                                     Al crear una cuenta muestras tu conformidad con nuestros Términos de
                                                     Uso y nuestra Política de
                                                     Privacidad, confirmando además que tienes 16 años o más.

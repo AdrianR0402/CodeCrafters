@@ -25,8 +25,7 @@
                                         <!-- Reporte -->
                                         <div class="form-group row mb-3">
                                             <label for="reporte"
-                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white"
-                                                style="font-size: 1.3em;">Reporte:</label>
+                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white letraInicioSesion">Reporte:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control font-weight-bold" id="reporte">
                                             </div>
@@ -35,8 +34,7 @@
                                         <!-- Problemas -->
                                         <div class="form-group row mb-4">
                                             <label for="problemas"
-                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white"
-                                                style="font-size: 1.3em;">Problemas:</label>
+                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white letraInicioSesion">Problemas:</label>
                                             <div class="col-sm-9">
                                                 <textarea class="form-control font-weight-bold"
                                                     id="problemas"></textarea>
@@ -46,9 +44,9 @@
                                         <!-- ¿OLVIDASTE TU CONTRASEÑA? -->
                                         <div class="form-group row">
                                             <div class="col-sm-9 offset-sm-3">
-                                                <b class="olvidaste-tu-contrasea font-weight-bold text-white"
-                                                    style="font-size: 1.2em;"> <a href="password.php"
-                                                        class="crear-cuenta">
+                                                <b
+                                                    class="olvidaste-tu-contrasea font-weight-bold text-white letraInicioSesion">
+                                                    <a href="password.php" class="crear-cuenta">
                                                         ¿Necesitas ayuda?
                                                         Contáctanos al:
                                                         <br>

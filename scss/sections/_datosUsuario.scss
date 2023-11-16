@@ -1,5 +1,6 @@
 .bannerDatos {
     height: 320px;
+    background-color: red;
 }
 
 .linksMenu {
@@ -29,7 +30,7 @@
 
 
 .container-border {
-    border: 2px solid #17a2b8;
+    border: 2px solid $azulPrimario;
     /* Color del borde */
     border-radius: 15px;
     /* Radio de la esquina del borde */

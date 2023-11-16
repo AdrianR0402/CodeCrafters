@@ -46,3 +46,19 @@
         color: $texto;
     }
 }
+
+.letraInicioSesion {
+    font-size: 1.3em;
+}
+
+.margenCheckbox {
+    margin-right: 10px;
+    transform: scale(1.5);
+
+}
+
+.letraCheckbox {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
