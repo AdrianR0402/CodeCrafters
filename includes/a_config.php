@@ -17,7 +17,7 @@
 			$PAGE_TITLE = "Password";
 			break;
 		default:
-			$CURRENT_PAGE = "Index";
+			$CURRENT_PAGE = "";
 			$PAGE_TITLE = "Welcome to my homepage!";
 	}
 ?>
