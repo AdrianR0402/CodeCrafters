@@ -10548,6 +10548,21 @@ a:hover {
   color: #ffffff;
 }
 
+.letraInicioSesion {
+  font-size: 1.3em;
+}
+
+.margenCheckbox {
+  margin-right: 10px;
+  transform: scale(1.5);
+}
+
+.letraCheckbox {
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+}
+
 .bannerDatos {
   height: 320px;
 }
@@ -10595,6 +10610,62 @@ a:hover {
 }
 .series-Peliculas .series-Peliculas-item .series-Peliculas-item .series-Peliculas-item-content {
   font-size: 1.5rem;
+}
+
+.acercaDe-header {
+  color: #ffffff;
+}
+
+.form-control {
+  background-color: #ffffff;
+  /* Cambia el color de fondo del campo de entrada */
+  box-shadow: 20px 20px 20px #030315;
+  /* Agrega sombra al campo de entrada */
+}
+
+.no-tienes-cuenta-container {
+  font-size: 1.5em;
+  color: #ffffff;
+  /* Color blanco */
+  font-weight: bold;
+  /* Texto en negrita */
+}
+
+.font-weight-bold {
+  font-weight: bold;
+  /* Texto en negrita */
+}
+
+.btn-acceder,
+.btn-registrarse {
+  font-weight: bold;
+  /* Texto en negrita */
+}
+
+.container-border {
+  border: 2px solid #40A2E2;
+  /* Color del borde */
+  border-radius: 15px;
+  /* Radio de la esquina del borde */
+  padding: 20px;
+  /* Espaciado interno del container */
+  margin-bottom: 20px;
+  /* Espaciado inferior del container */
+}
+
+.acercaDe {
+  background-color: #34416A;
+}
+.acercaDe fon .acercaDe-text {
+  color: #ffffff;
+}
+
+.letraLucecine {
+  font-size: 24px;
+}
+
+.letrasImg {
+  font-size: 60px;
 }
 
 /*# sourceMappingURL=styles.css.map */

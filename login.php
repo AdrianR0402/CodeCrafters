@@ -25,8 +25,7 @@
                                         <!-- Usuario -->
                                         <div class="form-group row mb-3">
                                             <label for="usuario"
-                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white"
-                                                style="font-size: 1.3em;">Usuario:</label>
+                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white letraInicioSesion">Usuario:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control font-weight-bold" id="usuario">
                                             </div>
@@ -35,8 +34,7 @@
                                         <!-- Contraseña -->
                                         <div class="form-group row mb-4">
                                             <label for="contrasena"
-                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white"
-                                                style="font-size: 1.3em;">Contraseña:</label>
+                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white letraInicioSesion">Contraseña:</label>
                                             <div class="col-sm-9">
                                                 <input type="password" class="form-control font-weight-bold"
                                                     id="contrasena">
@@ -46,9 +44,10 @@
                                         <!-- ¿OLVIDASTE TU CONTRASEÑA? -->
                                         <div class="form-group row">
                                             <div class="col-sm-9 offset-sm-3">
-                                                <b class="olvidaste-tu-contrasea font-weight-bold text-white"
-                                                    style="font-size: 1.2em;"> <a href="password.php"
-                                                        class="crear-cuenta">¿OLVIDASTE LA CONTRASEÑA?
+                                                <b
+                                                    class="olvidaste-tu-contrasea font-weight-bold text-white letraInicioSesion">
+                                                    <a href="password.php" class="crear-cuenta">¿OLVIDASTE LA
+                                                        CONTRASEÑA?
                                                     </a></b>
                                             </div>
                                         </div>

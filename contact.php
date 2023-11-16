@@ -47,7 +47,7 @@
                                 </div>
                                 <div class="form-floating mb-3">
                                     <textarea class="form-control" id="message" type="text"
-                                        placeholder="Enter your message here..." style="height: 10rem"
+                                        placeholder="Enter your message here..."
                                         data-sb-validations="required"></textarea>
                                     <label for="message">Message</label>
                                     <div class="invalid-feedback" data-sb-feedback="message:required">A message is
