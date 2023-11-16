@@ -4,18 +4,6 @@
 
 <head>
     <?php include("includes/head-tag-contents.php"); ?>
-    <style>
-        /* Establecer un tamaño máximo para las imágenes */
-        .img-thumbnail {
-            max-width: 100%;
-            max-height: 100%;
-        }
-
-        /* Aplicar negrita a los elementos de texto específicos */
-        .text-bold {
-            font-weight: bold;
-        }
-    </style>
 </head>
 
 <body>
