@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="col md-3">
             <img src="/assets/img/image" class="img-fluid" alt="" id="UserNav">
-            <a class="navbar-brand" href="index.php">Usuario </a>
+            <a class="navbar-brand" href="infoSuscripcion.php">Usuario </a>
 
 
         </div>
@@ -27,7 +27,7 @@
                             href="index.php">Inicio</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a
                             class="nav-link <?php if ($CURRENT_PAGE == "About") { ?>active<?php } ?> py-3 px-0 px-lg-3 rounded"
-                            href="about.php">Acerca de</a></li>
+                            href="acercaDe.php">Acerca de</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a
                             class="nav-link <?php if ($CURRENT_PAGE == "Contact") { ?>active<?php } ?> py-3 px-0 px-lg-3 rounded"
                             href="contact.php">Contacto</a></li>
