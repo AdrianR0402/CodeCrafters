@@ -32,66 +32,66 @@
         <main>
             <section class="page-section series-Peliculas "id="series-Peliculas">
             <div class="container-fluid mt-5 ">
-                <div class="series-Peliculas">
-                <h2 class="mb-4">Carteles de Películas</h2>
+                
+            <h2 class="mb-4">Carteles de Películas</h2>
 
-                <div class="d-flex">
+            <div class="d-flex overflow-x" style="white-space: nowrap;">
+                <div>
                     <div class="col-md-4">
-                        <img src="assets/img/background-color4@2x.png" class="float-left  mx-auto img-tarjetas img-thumbnail"
+                        <img src="assets/img/background-color4@2x.png" class="float-left mx-auto  img-thumbnail"
+                            alt="Primera Imagen">
+                            <p class="mt-2 text-white" style="font-size: 30px;">
+                            <span class="text-bold">Titulo Pelicula 1</span>
+                            </p>
+                    </div>
+                </div>
+
+                    
+                <div class="">
+                    <div class="col-md-4">
+                        <img src="assets/img/background-color3@2x.png" class="float-left  mx-auto  img-thumbnail"
                             alt="Primera Imagen">
                             <p class="mt-2 text-white" style="font-size: 30px;">
                             <span class="text-bold">Titulo Pelicula 1</span>
                         </p>
                     </div>
-
-                    <div class="col-md-4 mb-4 mx-3">
-                        <div class="">
-                        <img src="path/to/movie2.jpg" class="card-img-top img-fluid" alt="Película 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Nombre de la Película 2</h5>
-                            
-                        </div>
-                        </div>
+                </div>
+                    
+                <div class="">
+                    <div class="col-md-4">
+                        <img src="assets/img/background-color5@2x.png" class="float-left  mx-auto  img-thumbnail"
+                            alt="Primera Imagen">
+                            <p class="mt-2 text-white" style="font-size: 30px;">
+                            <span class="text-bold">Titulo Pelicula 1</span>
+                        </p>
                     </div>
-                    <div class="col-md-4 mb-4 mx-3">
-                        <div class="">
-                        <img src="path/to/movie2.jpg" class="card-img-top img-fluid" alt="Película 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Nombre de la Película 3</h5>
-                            
-                        </div>
-                        </div>
+                </div>    
+                <div class="">
+                    <div class="col-md-4">
+                        <img src="assets/img/background-color7@2x.png" class="float-left  mx-auto  img-thumbnail"
+                            alt="Primera Imagen">
+                            <p class="mt-2 text-white" style="font-size: 30px;">
+                            <span class="text-bold">Titulo Pelicula 1</span>
+                        </p>
                     </div>
-                    <div class="col-md-4 mb-4 mx-3">
-                        <div class="">
-                        <img src="path/to/movie2.jpg" class="card-img-top img-fluid" alt="Película 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Nombre de la Película 4</h5>
-                            
-                        </div>
-                        </div>
+                </div>    
+                <div class="">
+                    <div class="col-md-4">
+                        <img src="assets/img/background-color8@2x.png" class="float-left  mx-auto  img-thumbnail"
+                            alt="Primera Imagen">
+                            <p class="mt-2 text-white" style="font-size: 30px;">
+                            <span class="text-bold">Titulo Pelicula 1</span>
+                        </p>
                     </div>
-                    <div class="col-md-4 mb-4 mx-3">
-                        <div class="">
-                        <img src="path/to/movie2.jpg" class="card-img-top img-fluid" alt="Película 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Nombre de la Película 5</h5>
-                            
-                        </div>
-                        </div>
+                </div>    
+                <div class="">
+                    <div class="col-md-4">
+                        <img src="assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail"
+                            alt="Primera Imagen">
+                            <p class="mt-2 text-white" style="font-size: 30px;">
+                            <span class="text-bold">Titulo Pelicula 1</span>
+                        </p>
                     </div>
-                    <div class="col-md-4 mb-4 mx-3">
-                        <div class="">
-                        <img src="path/to/movie2.jpg" class="card-img-top img-fluid" alt="Película 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Nombre de la Película 6</h5>
-                            
-                        </div>
-                        </div>
-                    </div>
-
-      <!-- Repite este bloque para cada película adicional -->
-
                 </div>
             </div>
         </section>

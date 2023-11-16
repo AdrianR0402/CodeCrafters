@@ -13,13 +13,13 @@
         </div>
         <div class="row">
             <div class="col-lg-10 mb-0 mb-lg-0 mx-auto mt-4">
-                <a href="#">Sobre Nosotros</a>
-                <a href="#">Contacto</a>
+                <a href="acercaDe.php">Sobre Nosotros</a>
+                <a href="">Contacto</a>
                 <a href="#">Cuenta</a>
                 <a href="#">Términos Legales</a>
                 <a href="#">Ayuda</a>
                 <a href="#">Subscripciones</a>
             </div>
-        </div> 
+        </div>
     </div>
 </footer>
