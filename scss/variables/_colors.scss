@@ -11,6 +11,7 @@ $azulSecundario: #34416A;
 $azulAccent: #121728;
 $blancoFuente: #ffffff;
 $azulFondo: #030315;
+$blancoAzul:#c8c8f7;
 
 
 //- Override primary color
@@ -18,6 +19,7 @@ $primary: $azulPrimario;
 $secondary: $azulAccent;
 $background: $azulFondo;
 $texto: $blancoFuente;
+$titulo:$blancoAzul;
 
 // $danger: yellow;
 // The contrast ratio to reach against white, to determine if color changes from "light" to "dark". Acceptable values for WCAG 2.0 are 3, 4.5 and 7.
