@@ -10,6 +10,8 @@
 
     <?php include("includes/navigation.php"); ?>
     <main>
+      <section class="page-section" id=home>
+        <div class="home">
         <div class="body">
           <b class="recomendaciones">RECOMENDACIONES</b>
           <div class="rectangle-parent">
@@ -22,7 +24,7 @@
                 <p class="blank-line">
                   <b>Lorem ipsum </b>
                 </p>
-                <p class="blank-line">
+                <p>
                   dolor sit amet, consectetur adipiscing elit. Nullam eu leo
                   dignissim, rutrum ante sagittis, hendrerit lorem. Phasellus
                   sed pellentesque augue. Nunc iaculis tellus eget velit dapibus
@@ -37,7 +39,7 @@
                   risus eu, pulvinar lobortis neque. Vivamus facilisis et quam
                   et elementum.
                 </p>
-                <p class="blank-line">
+                <p>
                   Nullam nec molestie augue, sed lacinia nunc. Quisque sit amet
                   enim non turpis gravida vestibulum. Curabitur congue ligula
                   tristique, sagittis est sit amet, efficitur quam. Mauris
@@ -325,6 +327,8 @@
       </div>
     </div>
   </div>
+  </div>
+  </section>
     </main>
 
     <?php include("includes/footer.php"); ?>

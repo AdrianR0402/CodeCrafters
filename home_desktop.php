@@ -1,335 +1,328 @@
-<?php include("../includes/a_config.php"); ?>
+<?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html>
 
 <head>
-    <?php include("../includes/head-tag-contents.php"); ?>
+    <?php include("includes/head-tag-contents.php"); ?>
 </head>
 
 <body>
 
-    <?php include("../includes/navigation.php"); ?>
+    <?php include("includes/navigation.php"); ?>
     <main>
-    <body>
-      <div class="container-fluid my-5">
-              <div class="body">
-          <b class="recomendaciones">RECOMENDACIONES</b>
-          <div class="rectangle-parent">
-            <img class="frame-child" alt="" src="./public/rectangle-1@2x.png" />
-
-            <div class="titulo-y-sipnosis-de-la-pelicu">
-              <div class="lorem-ipsum-dolor-container">
-                <p class="blank-line">&nbsp;</p>
-                <p class="blank-line">&nbsp;</p>
-                <p class="blank-line">
-                  <b>Lorem ipsum </b>
-                </p>
-                <p class="blank-line">
-                  dolor sit amet, consectetur adipiscing elit. Nullam eu leo
-                  dignissim, rutrum ante sagittis, hendrerit lorem. Phasellus
-                  sed pellentesque augue. Nunc iaculis tellus eget velit dapibus
-                  suscipit. Nam eget vestibulum libero, ut consequat tortor.
-                  Morbi convallis mattis tortor, eu scelerisque nisl rutrum a.
-                  Nullam molestie nisi id suscipit gravida. Quisque pulvinar
-                  sapien vitae faucibus porta. Nullam sit amet luctus eros. Duis
-                  vehicula mollis vestibulum. Nullam tristique magna nec
-                  accumsan sodales. Curabitur tellus est, luctus at sapien eget,
-                  venenatis tincidunt lacus. Sed non erat gravida, consequat
-                  nibh dignissim, vehicula nulla. Mauris purus diam, pharetra id
-                  risus eu, pulvinar lobortis neque. Vivamus facilisis et quam
-                  et elementum.
-                </p>
-                <p class="blank-line">
-                  Nullam nec molestie augue, sed lacinia nunc. Quisque sit amet
-                  enim non turpis gravida vestibulum. Curabitur congue ligula
-                  tristique, sagittis est sit amet, efficitur quam. Mauris
-                  condimentum lorem id orci auctor, a elementum orci dapibus. Ut
-                  porttitor lobortis placerat. Proin sit amet elit blandit,
-                  facilisis velit quis, auctor ante. Vestibulum eu cursus risus,
-                  vitae tincidunt neque. Curabitur lacinia lacus sed bibendum
-                  eleifend. Cras volutpat ex a tempor viverra. In sed odio in
-                  neque suscipit placerat vel ut purus. Sed eu augue a magna
-                  mattis suscipit. Morbi ut consectetur orci. Fusce molestie
-                  fringilla tortor quis dictum.
-                </p>
-              </div>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container-fluid my-5">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                        class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                        class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                        class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                        class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                        class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                        class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid " src="assets/img/portfolio/submarine.png" alt="..." />
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="rectangle-group">
-            <img class="frame-item" alt="" src="./public/rectangle-44@2x.png" />
-
-            <img class="frame-item" alt="" src="./public/rectangle-45@2x.png" />
-
-            <img class="frame-item" alt="" src="./public/rectangle-46@2x.png" />
-
-            <img class="frame-item" alt="" src="./public/rectangle-47@2x.png" />
-
-            <img class="frame-item" alt="" src="./public/rectangle-48@2x.png" />
-
-            <img class="frame-item" alt="" src="./public/rectangle-49@2x.png" />
-          </div>
-          <b class="peliculas1">PELICULAS</b>
-          <div class="rectangle-container">
-            <img
-              class="frame-child"
-              alt=""
-              src="./public/rectangle-11@2x.png"
-            />
-
-            <div class="titulo-y-sipnosis-de-la-pelicu">
-              <div class="lorem-ipsum-dolor-container">
-                <p class="blank-line">&nbsp;</p>
-                <p class="blank-line">&nbsp;</p>
-                <p class="blank-line">
-                  <b>Lorem ipsum </b>
-                </p>
-                <p class="blank-line">
-                  dolor sit amet, consectetur adipiscing elit. Nullam eu leo
-                  dignissim, rutrum ante sagittis, hendrerit lorem. Phasellus
-                  sed pellentesque augue. Nunc iaculis tellus eget velit dapibus
-                  suscipit. Nam eget vestibulum libero, ut consequat tortor.
-                  Morbi convallis mattis tortor, eu scelerisque nisl rutrum a.
-                  Nullam molestie nisi id suscipit gravida. Quisque pulvinar
-                  sapien vitae faucibus porta. Nullam sit amet luctus eros. Duis
-                  vehicula mollis vestibulum. Nullam tristique magna nec
-                  accumsan sodales. Curabitur tellus est, luctus at sapien eget,
-                  venenatis tincidunt lacus. Sed non erat gravida, consequat
-                  nibh dignissim, vehicula nulla. Mauris purus diam, pharetra id
-                  risus eu, pulvinar lobortis neque. Vivamus facilisis et quam
-                  et elementum.
-                </p>
-                <p class="blank-line">
-                  Nullam nec molestie augue, sed lacinia nunc. Quisque sit amet
-                  enim non turpis gravida vestibulum. Curabitur congue ligula
-                  tristique, sagittis est sit amet, efficitur quam. Mauris
-                  condimentum lorem id orci auctor, a elementum orci dapibus. Ut
-                  porttitor lobortis placerat. Proin sit amet elit blandit,
-                  facilisis velit quis, auctor ante. Vestibulum eu cursus risus,
-                  vitae tincidunt neque. Curabitur lacinia lacus sed bibendum
-                  eleifend. Cras volutpat ex a tempor viverra. In sed odio in
-                  neque suscipit placerat vel ut purus. Sed eu augue a magna
-                  mattis suscipit. Morbi ut consectetur orci. Fusce molestie
-                  fringilla tortor quis dictum.
-                </p>
-              </div>
+        </section>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                            aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png"
+                                        alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+                                        neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore
+                                        quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                        itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="frame-div">
-            <img
-              class="frame-item"
-              alt=""
-              src="./public/rectangle-441@2x.png"
-            />
-
-            <img
-              class="frame-item"
-              alt=""
-              src="./public/rectangle-451@2x.png"
-            />
-
-            <img
-              class="frame-item"
-              alt=""
-              src="./public/rectangle-461@2x.png"
-            />
-
-            <img
-              class="frame-item"
-              alt=""
-              src="./public/rectangle-471@2x.png"
-            />
-
-            <img
-              class="frame-item"
-              alt=""
-              src="./public/rectangle-481@2x.png"
-            />
-
-            <img
-              class="frame-item"
-              alt=""
-              src="./public/rectangle-491@2x.png"
-            />
-          </div>
-          <b class="series1">
-            <p class="blank-line">SERIES</p>
-          </b>
-          <div class="rectangle-container">
-            <img
-              class="frame-child"
-              alt=""
-              src="./public/rectangle-12@2x.png"
-            />
-
-            <div class="titulo-y-sipnosis-de-la-pelicu">
-              <div class="lorem-ipsum-dolor-container">
-                <p class="blank-line">&nbsp;</p>
-                <p class="blank-line">&nbsp;</p>
-                <p class="blank-line">
-                  <b>Lorem ipsum </b>
-                </p>
-                <p class="blank-line">
-                  dolor sit amet, consectetur adipiscing elit. Nullam eu leo
-                  dignissim, rutrum ante sagittis, hendrerit lorem. Phasellus
-                  sed pellentesque augue. Nunc iaculis tellus eget velit dapibus
-                  suscipit. Nam eget vestibulum libero, ut consequat tortor.
-                  Morbi convallis mattis tortor, eu scelerisque nisl rutrum a.
-                  Nullam molestie nisi id suscipit gravida. Quisque pulvinar
-                  sapien vitae faucibus porta. Nullam sit amet luctus eros. Duis
-                  vehicula mollis vestibulum. Nullam tristique magna nec
-                  accumsan sodales. Curabitur tellus est, luctus at sapien eget,
-                  venenatis tincidunt lacus. Sed non erat gravida, consequat
-                  nibh dignissim, vehicula nulla. Mauris purus diam, pharetra id
-                  risus eu, pulvinar lobortis neque. Vivamus facilisis et quam
-                  et elementum.
-                </p>
-                <p class="blank-line">
-                  Nullam nec molestie augue, sed lacinia nunc. Quisque sit amet
-                  enim non turpis gravida vestibulum. Curabitur congue ligula
-                  tristique, sagittis est sit amet, efficitur quam. Mauris
-                  condimentum lorem id orci auctor, a elementum orci dapibus. Ut
-                  porttitor lobortis placerat. Proin sit amet elit blandit,
-                  facilisis velit quis, auctor ante. Vestibulum eu cursus risus,
-                  vitae tincidunt neque. Curabitur lacinia lacus sed bibendum
-                  eleifend. Cras volutpat ex a tempor viverra. In sed odio in
-                  neque suscipit placerat vel ut purus. Sed eu augue a magna
-                  mattis suscipit. Morbi ut consectetur orci. Fusce molestie
-                  fringilla tortor quis dictum.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="frame-div">
-            <img
-              class="frame-item"
-              alt=""
-              src="./public/rectangle-442@2x.png"
-            />
-
-            <img
-              class="frame-item"
-              alt=""
-              src="./public/rectangle-452@2x.png"
-            />
-
-            <img
-              class="frame-item"
-              alt=""
-              src="./public/rectangle-462@2x.png"
-            />
-
-            <img
-              class="frame-item"
-              alt=""
-              src="./public/rectangle-472@2x.png"
-            />
-
-            <img
-              class="frame-item"
-              alt=""
-              src="./public/rectangle-482@2x.png"
-            />
-
-            <div class="rectangle-wrapper">
-              <img
-                class="group-child"
-                alt=""
-                src="./public/rectangle-492@2x.png"
-              />
-            </div>
-          </div>
-          <b class="animes1">
-            <p class="blank-line">ANIMES</p>
-          </b>
-          <div class="rectangle-container">
-            <img
-              class="frame-child"
-              alt=""
-              src="./public/rectangle-13@2x.png"
-            />
-
-            <div class="titulo-y-sipnosis-de-la-pelicu">
-              <div class="lorem-ipsum-dolor-container">
-                <p class="blank-line">&nbsp;</p>
-                <p class="blank-line">&nbsp;</p>
-                <p class="blank-line">
-                  <b>Lorem ipsum </b>
-                </p>
-                <p class="blank-line">
-                  dolor sit amet, consectetur adipiscing elit. Nullam eu leo
-                  dignissim, rutrum ante sagittis, hendrerit lorem. Phasellus
-                  sed pellentesque augue. Nunc iaculis tellus eget velit dapibus
-                  suscipit. Nam eget vestibulum libero, ut consequat tortor.
-                  Morbi convallis mattis tortor, eu scelerisque nisl rutrum a.
-                  Nullam molestie nisi id suscipit gravida. Quisque pulvinar
-                  sapien vitae faucibus porta. Nullam sit amet luctus eros. Duis
-                  vehicula mollis vestibulum. Nullam tristique magna nec
-                  accumsan sodales. Curabitur tellus est, luctus at sapien eget,
-                  venenatis tincidunt lacus. Sed non erat gravida, consequat
-                  nibh dignissim, vehicula nulla. Mauris purus diam, pharetra id
-                  risus eu, pulvinar lobortis neque. Vivamus facilisis et quam
-                  et elementum.
-                </p>
-                <p class="blank-line">
-                  Nullam nec molestie augue, sed lacinia nunc. Quisque sit amet
-                  enim non turpis gravida vestibulum. Curabitur congue ligula
-                  tristique, sagittis est sit amet, efficitur quam. Mauris
-                  condimentum lorem id orci auctor, a elementum orci dapibus. Ut
-                  porttitor lobortis placerat. Proin sit amet elit blandit,
-                  facilisis velit quis, auctor ante. Vestibulum eu cursus risus,
-                  vitae tincidunt neque. Curabitur lacinia lacus sed bibendum
-                  eleifend. Cras volutpat ex a tempor viverra. In sed odio in
-                  neque suscipit placerat vel ut purus. Sed eu augue a magna
-                  mattis suscipit. Morbi ut consectetur orci. Fusce molestie
-                  fringilla tortor quis dictum.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="frame-div">
-            <img
-              class="frame-item"
-              alt=""
-              src="./public/rectangle-443@2x.png"
-            />
-
-            <img
-              class="frame-item"
-              alt=""
-              src="./public/rectangle-453@2x.png"
-            />
-
-            <img
-              class="frame-item"
-              alt=""
-              src="./public/rectangle-463@2x.png"
-            />
-
-            <img
-              class="frame-item"
-              alt=""
-              src="./public/rectangle-473@2x.png"
-            />
-
-            <img
-              class="frame-child22"
-              alt=""
-              src="./public/rectangle-483@2x.png"
-            />
-
-            <img
-              class="frame-child23"
-              alt=""
-              src="./public/rectangle-493@2x.png"
-            />
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                            aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+                                        neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore
+                                        quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                        itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                            aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent
+                                    </h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png"
+                                        alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+                                        neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore
+                                        quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                        itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                            aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+                                        neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore
+                                        quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                        itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                            aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe
+                                    </h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+                                        neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore
+                                        quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                        itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal"
+                            aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png"
+                                        alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia
+                                        neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore
+                                        quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur
+                                        itaque. Nam.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <?php include("../includes/footer.php"); ?>
+    <?php include("includes/footer.php"); ?>
 
 </body>
 
