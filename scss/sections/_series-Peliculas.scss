@@ -14,43 +14,19 @@
     }
 }
 
-.linksContenido {
-    transition: color 0.3s;
-    color: $primary;
-    &:hover {
-        color: $primary;
-    }
 
-    &.active {
-        color: $primary;
-    }
-
-}
-
-
-.container-border {
-    border: 2px solid #17a2b8;
-    /* Color del borde */
-    border-radius: 15px;
-    /* Radio de la esquina del borde */
-    padding: 20px;
-    /* Espaciado interno del container */
-    margin-bottom: 20px;
-    /* Espaciado inferior del container */
-}
-
-.datosUsuario {
+.series-Peliculas {
     background-color: $azulSecundario;
-    .datosUsuario-header {
-        color: $primary;
+    .series-Peliculas-header {
+        color: $texto;
         font-family: $headings-font-family;
     }
-    .datosUsuario-text {
+    .series-Peliculas-text {
         color: $texto;
         font-family: $font-family-sans-serif;
     }
 
-    .datosUsuario-item {
+    .series-Peliculas-item {
         cursor: pointer;
         position: relative;
         display: block;
@@ -59,7 +35,7 @@
         overflow: hidden;
         background-color: $secondary;
 
-        .datosUsuario-item {
+        .series-Peliculas-item {
             position: absolute;
             top: 0;
             left: 0;
@@ -71,7 +47,7 @@
                 opacity: 1;
             }
 
-            .datosUsuario-item-content {
+            .series-Peliculas-item-content {
                 font-size: 1.5rem;
             }
         }

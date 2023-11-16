@@ -17,29 +17,29 @@
                     <div class="container">
                         <div class="row">
                             <div class="text-center inicioSesion-header">
-                                <h1 class="display-2">INICIAR SESIÓN</h1>
+                                <h1 class="display-2">AYUDA</h1>
                             </div>
                             <div class="inicioSesion container-border">
                                 <div class="col-md-8 offset-md-2">
                                     <form class="mt-4 mb-4">
-                                        <!-- Usuario -->
+                                        <!-- Reporte -->
                                         <div class="form-group row mb-3">
-                                            <label for="usuario"
+                                            <label for="reporte"
                                                 class="col-sm-3 col-form-label text-right font-weight-bold text-white"
-                                                style="font-size: 1.3em;">Usuario:</label>
+                                                style="font-size: 1.3em;">Reporte:</label>
                                             <div class="col-sm-9">
-                                                <input type="text" class="form-control font-weight-bold" id="usuario">
+                                                <input type="text" class="form-control font-weight-bold" id="reporte">
                                             </div>
                                         </div>
 
-                                        <!-- Contraseña -->
+                                        <!-- Problemas -->
                                         <div class="form-group row mb-4">
-                                            <label for="contrasena"
+                                            <label for="problemas"
                                                 class="col-sm-3 col-form-label text-right font-weight-bold text-white"
-                                                style="font-size: 1.3em;">Contraseña:</label>
+                                                style="font-size: 1.3em;">Problemas:</label>
                                             <div class="col-sm-9">
-                                                <input type="password" class="form-control font-weight-bold"
-                                                    id="contrasena">
+                                                <textarea class="form-control font-weight-bold"
+                                                    id="problemas"></textarea>
                                             </div>
                                         </div>
 
@@ -48,7 +48,14 @@
                                             <div class="col-sm-9 offset-sm-3">
                                                 <b class="olvidaste-tu-contrasea font-weight-bold text-white"
                                                     style="font-size: 1.2em;"> <a href="password.php"
-                                                        class="crear-cuenta">¿OLVIDASTE LA CONTRASEÑA?
+                                                        class="crear-cuenta">
+                                                        ¿Necesitas ayuda?
+                                                        Contáctanos al:
+                                                        <br>
+                                                        <span class="font-weight-bold">Atención al cliente:
+                                                            6-8789-9799</span>
+                                                        <br>
+                                                        Disponible las 24 horas.
                                                     </a></b>
                                             </div>
                                         </div>
@@ -61,17 +68,8 @@
                                 <div class="col-md-8 offset-md-2">
                                     <div class="text-center">
                                         <button type="button"
-                                            class="btn btn-primary btn-acceder font-weight-bold">ACCEDER</button>
+                                            class="btn btn-primary btn-acceder font-weight-bold">ENVIAR INFORME</button>
                                     </div>
-                                </div>
-                            </div>
-
-                            <!-- Enlace "CREAR CUENTA" -->
-                            <div class="row mt-3">
-                                <div class="col-md-8 offset-md-2 text-center">
-                                    <span class="no-tienes-cuenta-container">¿No tienes cuenta? <a href="register.php"
-                                            class="crear-cuenta">CREAR
-                                            CUENTA</a></span>
                                 </div>
                             </div>
                         </div>

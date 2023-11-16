@@ -10323,11 +10323,6 @@ html {
   color: #40A2E2;
   background-color: #030313;
 }
-.list-group .list-group-item.active {
-  color: #fff;
-  background-color: #40A2E2;
-}
-
 .masthead {
   padding-top: calc(1rem + 54px);
   padding-bottom: 1rem;
@@ -10432,11 +10427,33 @@ a:hover {
   color: #40A2E2;
 }
 
+.linksContenido {
+  transition: color 0.3s;
+  color: #40A2E2;
+}
+.linksContenido:hover {
+  color: #40A2E2;
+}
+.linksContenido.active {
+  color: #40A2E2;
+}
+
+.container-border {
+  border: 2px solid #17a2b8;
+  /* Color del borde */
+  border-radius: 15px;
+  /* Radio de la esquina del borde */
+  padding: 20px;
+  /* Espaciado interno del container */
+  margin-bottom: 20px;
+  /* Espaciado inferior del container */
+}
+
 .datosUsuario {
   background-color: #34416A;
 }
 .datosUsuario .datosUsuario-header {
-  color: #ffffff;
+  color: #40A2E2;
   font-family: "roboto condensed bold 700 italic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .datosUsuario .datosUsuario-text {
@@ -10471,13 +10488,76 @@ a:hover {
   color: #ffffff;
 }
 
+.form-control {
+  background-color: #ffffff;
+  /* Cambia el color de fondo del campo de entrada */
+  box-shadow: 20px 20px 20px #030315;
+  /* Agrega sombra al campo de entrada */
+}
+
+.no-tienes-cuenta-container {
+  font-size: 1.5em;
+  color: #ffffff;
+  /* Color blanco */
+  font-weight: bold;
+  /* Texto en negrita */
+}
+
+.font-weight-bold {
+  font-weight: bold;
+  /* Texto en negrita */
+}
+
+.btn-acceder,
+.btn-registrarse {
+  font-weight: bold;
+  /* Texto en negrita */
+}
+
+.container-border {
+  border: 2px solid #40A2E2;
+  /* Color del borde */
+  border-radius: 15px;
+  /* Radio de la esquina del borde */
+  padding: 20px;
+  /* Espaciado interno del container */
+  margin-bottom: 20px;
+  /* Espaciado inferior del container */
+}
+
 .inicioSesion {
   background-color: #34416A;
 }
 .inicioSesion .inicioSesion-text {
   color: #ffffff;
 }
-.inicioSesion .inicioSesion-item {
+
+.bannerDatos {
+  height: 320px;
+}
+
+.linksMenu {
+  transition: color 0.3s;
+}
+.linksMenu:hover {
+  color: #40A2E2;
+}
+.linksMenu.active {
+  color: #40A2E2;
+}
+
+.series-Peliculas {
+  background-color: #34416A;
+}
+.series-Peliculas .series-Peliculas-header {
+  color: #ffffff;
+  font-family: "roboto condensed bold 700 italic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.series-Peliculas .series-Peliculas-text {
+  color: #ffffff;
+  font-family: "signika negative", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.series-Peliculas .series-Peliculas-item {
   cursor: pointer;
   position: relative;
   display: block;
@@ -10486,24 +10566,18 @@ a:hover {
   overflow: hidden;
   background-color: #121728;
 }
-.inicioSesion .inicioSesion-item .inicioSesion-item {
+.series-Peliculas .series-Peliculas-item .series-Peliculas-item {
   position: absolute;
   top: 0;
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
   background-color: rgba(64, 162, 226, 0.9);
-  background-color: #f8f9fa;
-  /* Cambia el color de fondo según tus preferencias */
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  /* Agrega sombra */
 }
-.inicioSesion .inicioSesion-item .inicioSesion-item:hover {
+.series-Peliculas .series-Peliculas-item .series-Peliculas-item:hover {
   opacity: 1;
 }
-.inicioSesion .inicioSesion-item .inicioSesion-item .inicioSesion-item-content {
+.series-Peliculas .series-Peliculas-item .series-Peliculas-item .series-Peliculas-item-content {
   font-size: 1.5rem;
 }
 

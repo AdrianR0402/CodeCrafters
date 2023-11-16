@@ -12,7 +12,9 @@
 			$CURRENT_PAGE = "Contact"; 
 			$PAGE_TITLE = "Contact Us";
 			break;
-		case "/datosUsuario/password.php";
+		case "/password.php";
+			$CURRENT_PAGE = "Password"; 
+			$PAGE_TITLE = "Password";
 			break;
 		default:
 			$CURRENT_PAGE = "Index";

@@ -1,52 +1,14 @@
-<?php include("../includes/a_config.php"); ?>
+<?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html>
 
 <head>
-    <?php include("../includes/head-tag-contents.php"); ?>
-    <style>
-        .form-control {
-            background-color: #fff;
-            /* Cambia el color de fondo del campo de entrada */
-            box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
-            /* Agrega sombra al campo de entrada */
-        }
-
-        .no-tienes-cuenta-container {
-            font-size: 1.5em;
-            color: #fff;
-            /* Color blanco */
-            font-weight: bold;
-            /* Texto en negrita */
-        }
-
-        .font-weight-bold {
-            font-weight: bold;
-            /* Texto en negrita */
-        }
-
-        .btn-acceder,
-        .btn-registrarse {
-            font-weight: bold;
-            /* Texto en negrita */
-        }
-
-        .container-border {
-            border: 2px solid #17a2b8;
-            /* Color del borde */
-            border-radius: 15px;
-            /* Radio de la esquina del borde */
-            padding: 20px;
-            /* Espaciado interno del container */
-            margin-bottom: 20px;
-            /* Espaciado inferior del container */
-        }
-    </style>
+    <?php include("includes/head-tag-contents.php"); ?>
 </head>
 
 <body>
 
-    <?php include("../includes/navigation.php"); ?>
+    <?php include("includes/navigation.php"); ?>
     <main>
 
         <section class="page-section" id="inicioSesion">
@@ -120,8 +82,8 @@
                             <!-- Enlace "CREAR CUENTA" -->
                             <div class="row mt-3">
                                 <div class="col-md-8 offset-md-2 text-center">
-                                    <span class="no-tienes-cuenta-container">¿Ya tienes una cuenta? <a
-                                            href="../inicioSesion/login.php" class="crear-cuenta">ACCEDER</a></span>
+                                    <span class="no-tienes-cuenta-container">¿Ya tienes una cuenta? <a href="login.php"
+                                            class="crear-cuenta">ACCEDER</a></span>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +93,7 @@
         </section>
     </main>
 
-    <?php include("../includes/footer.php"); ?>
+    <?php include("includes/footer.php"); ?>
 
 </body>
 
