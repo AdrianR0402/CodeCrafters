@@ -23,6 +23,7 @@
     .series-Peliculas-header {
         color: $texto;
         font-family: $headings-font-family;
+        font-size:$headings-font-size;
     }
     .series-Peliculas-text {
         color: $texto;
@@ -59,7 +60,7 @@
 .container-fluid::-webkit-scrollbar {
     width: 5px; /* Ancho del scrollbar */
     height: 5px; /* Altura del scrollbar */
-    margin-left: 20px;
+   
 }
 
 .container-fluid::-webkit-scrollbar-track {
