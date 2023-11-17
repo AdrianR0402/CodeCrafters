@@ -10687,4 +10687,41 @@ a:hover {
   color: #40A2E2;
 }
 
+.subscription-option {
+  border: 2px solid #17a2b8;
+  /* Borde de color */
+  border-radius: 10px;
+  /* Bordes redondeados */
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.subscription-option h5, .subscription-option .h5 {
+  color: #007bff;
+  /* Color del título */
+}
+
+.subscription-option strong {
+  color: #28a745;
+  /* Color del precio */
+}
+
+.subscription p {
+  color: #ffffff;
+}
+
+.subscription h5, .subscription .h5 {
+  color: #40A2E2;
+}
+
+.subscription h2, .subscription .h2 {
+  color: #40A2E2;
+}
+
+.subscription a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=styles.css.map */
