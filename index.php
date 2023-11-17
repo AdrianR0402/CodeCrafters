@@ -29,13 +29,13 @@
             </div>
 
             <!-- Primera Imagen con Texto -->
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6 img1">
                         <img src="assets/img/portfolio/home/1.jpg" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Tercera Imagen">
                     </div>
                     <div class="col-md-6">
-                        <p class="mt-2 text-center text-white text-bold" style="font-size: 20px;">Lorem ipsum</p>
+                        <p class="mt-2 text-center text-white text-bold" style="font-size: 20px;">Título</p>
                         <p class="mt-2 text-center text-white" style="font-size: 14px;">
                         dolor sit amet, consectetur adipiscing elit. Nullam eu leo
                   dignissim, rutrum ante sagittis, hendrerit lorem. Phasellus
@@ -85,13 +85,13 @@
             </div>
 
             <!-- Segunda Imagen con Texto -->
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md img1">
                         <img src="assets/img/portfolio/home/2.jpg" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Tercera Imagen">
                     </div>
                     <div class="col-md">
-                    <p class="mt-2 text-center text-white text-bold" style="font-size: 20px;">Lorem ipsum</p>
+                    <p class="mt-2 text-center text-white text-bold" style="font-size: 20px;">Título</p>
                         <p class="mt-2 text-center text-white" style="font-size: 14px;">
                         dolor sit amet, consectetur adipiscing elit. Nullam eu leo
                   dignissim, rutrum ante sagittis, hendrerit lorem. Phasellus
@@ -139,13 +139,13 @@
             </div>
 
             <!-- Tercera Imagen con Texto -->
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md img1">
                         <img src="assets/img/portfolio/home/5.jpg" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Tercera Imagen">
                     </div>
                     <div class="col-md">
-                    <p class="mt-2 text-center text-white text-bold" style="font-size: 20px;">Lorem ipsum</p>
+                    <p class="mt-2 text-center text-white text-bold" style="font-size: 20px;">Título</p>
                         <p class="mt-2 text-center text-white" style="font-size: 14px;">
                         dolor sit amet, consectetur adipiscing elit. Nullam eu leo
                   dignissim, rutrum ante sagittis, hendrerit lorem. Phasellus
@@ -194,14 +194,14 @@
             </div>
 
             <!-- Cuarta Imagen con Texto -->
-                <div class="row">
+                <div class="row align-items-center">
                     
                     <div class="col-md img1">
                         <img src="assets/img/portfolio/home/4.jpg" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Tercera Imagen">
                     </div>
                     <div class="col-md">
-                    <p class="mt-2 text-center text-white text-bold" style="font-size: 20px;">Lorem ipsum</p>
+                    <p class="mt-2 text-center text-white text-bold" style="font-size: 20px;">Título</p>
                         <p class="mt-2 text-center text-white" style="font-size: 14px;">
                         dolor sit amet, consectetur adipiscing elit. Nullam eu leo
                   dignissim, rutrum ante sagittis, hendrerit lorem. Phasellus

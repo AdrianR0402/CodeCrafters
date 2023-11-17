@@ -10716,6 +10716,10 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.img2 img {
+  width: auto;
+}
+
 .contact .contact-body {
   color: #ffffff;
 }
