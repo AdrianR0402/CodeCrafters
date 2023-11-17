@@ -10430,7 +10430,6 @@ a:hover {
 
 .bannerDatos {
   height: 320px;
-  background-color: red;
 }
 
 .linksMenu {
@@ -10693,7 +10692,7 @@ a:hover {
 }
 
 .subscription-option {
-  border: 2px solid #17a2b8;
+  border: 2px solid #40A2E2;
   /* Borde de color */
   border-radius: 10px;
   /* Bordes redondeados */
@@ -10703,7 +10702,7 @@ a:hover {
 }
 
 .subscription-option h5, .subscription-option .h5 {
-  color: #007bff;
+  color: #40A2E2;
   /* Color del título */
 }
 

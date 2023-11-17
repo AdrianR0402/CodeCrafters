@@ -50,7 +50,7 @@
                                                     </select>
                                                 </div>
                                             </form>
-                                            <p class="datosUsuario-header mt-3">Video</p>
+                                            <p class="datosUsuario-header mt-4">Video</p>
                                             <form>
                                                 <div class="form-group">
                                                     <label for="languageSelect" class="mb-2 datosUsuario-text">Selecciona tu idioma del audio:</label>
