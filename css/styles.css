@@ -10753,4 +10753,19 @@ a:hover {
   margin-left: 20px;
 }
 
+.contact .contact-body {
+  color: #ffffff;
+}
+.contact .contact-main {
+  padding: 20px;
+}
+
+.contact p {
+  color: #40A2E2;
+}
+
+.contact h5, .contact .h5 {
+  color: #40A2E2;
+}
+
 /*# sourceMappingURL=styles.css.map */
