@@ -4,6 +4,9 @@
 
 <head>
     <?php include("includes/head-tag-contents.php"); ?>
+    <style>
+
+    </style>
 </head>
 
 <body>
@@ -15,7 +18,7 @@
             <div class="container mt-5">
                 <h2 class="text-center mb-4">Opciones de Suscripción</h2>
 
-                <div class="row">
+                <div class="row d-flex align-items-stretch">
                     <!-- Columna 1 -->
                     <div class="col-md-4">
                         <div class="subscription-option">
@@ -49,7 +52,6 @@
             </div>
         </section>
     </main>
-
     <?php include("includes/footer.php"); ?>
 
 </body>
