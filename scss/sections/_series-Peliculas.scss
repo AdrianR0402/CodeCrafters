@@ -19,7 +19,7 @@
 
 
 .series-Peliculas {
-    background-color: $azulSecundario;
+
     .series-Peliculas-header {
         color: $texto;
         font-family: $headings-font-family;
@@ -55,4 +55,19 @@
             }
         }
     }
+}
+.container-fluid::-webkit-scrollbar {
+    width: 5px; /* Ancho del scrollbar */
+    height: 5px; /* Altura del scrollbar */
+    margin-left: 20px;
+}
+
+.container-fluid::-webkit-scrollbar-track {
+    background: transparent; /* Fondo del scrollbar */
+}
+
+.container-fluid::-webkit-scrollbar-thumb {
+    background-color:$primary; /* Color del scrollbar */
+    border-radius: 2px; /* Borde del scrollbar */
+    width: 100px;
 }
