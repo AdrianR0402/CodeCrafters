@@ -1,20 +1,22 @@
 .subscription-option {
-    border: 2px solid #17a2b8;
+    border: 2px solid $primary;
     /* Borde de color */
     border-radius: 10px;
     /* Bordes redondeados */
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
+    height: 100%;
+    /* Ocupar la altura completa */
 }
 
 .subscription-option h5 {
-    color: #007bff;
+    color: $primary;
     /* Color del título */
 }
 
 .subscription-option strong {
-    color: #28a745;
+    color: $verdeStrong;
     /* Color del precio */
 }
 

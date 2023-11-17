@@ -35,7 +35,7 @@
                                 <div class="container-fluid p-2 text-center">
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <h2 class="datosUsuario-header">Información de suscripción</h2>
+                                            <h1 class="datosUsuario-header">Información de suscripción</h1>
                                             <p class="datosUsuario-text">Gestiona tu plan de suscripción y tu historial de pedidos</p>
                                         </div>
                                         <div class="col-md-6 text-center mx-auto">

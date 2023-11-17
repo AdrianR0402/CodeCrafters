@@ -50,7 +50,7 @@
                                                     </select>
                                                 </div>
                                             </form>
-                                            <p class="datosUsuario-header mt-3">Video</p>
+                                            <p class="datosUsuario-header mt-4">Video</p>
                                             <form>
                                                 <div class="form-group">
                                                     <label for="languageSelect" class="mb-2 datosUsuario-text">Selecciona tu idioma del audio:</label>
@@ -67,9 +67,9 @@
                                                     </select>
                                                 </div>
                                             </form>
-                                            <div class="form-check form-switch mt-5">
+                                            <div class="form-check form-switch mt-5 ">
                                                 <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
-                                                <label class="form-check-label datosUsuario-header" for="mySwitch">Activar el contenido para adultos</label>
+                                                <label class="form-check-label datosUsuario-text" for="mySwitch">Contenido para adultos</label>
                                             </div>
                                         </div>
                                     </div>

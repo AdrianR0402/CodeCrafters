@@ -1,6 +1,5 @@
 .bannerDatos {
     height: 320px;
-    background-color: red;
 }
 
 .linksMenu {
@@ -31,13 +30,9 @@
 
 .container-border {
     border: 2px solid $azulPrimario;
-    /* Color del borde */
     border-radius: 15px;
-    /* Radio de la esquina del borde */
     padding: 20px;
-    /* Espaciado interno del container */
     margin-bottom: 20px;
-    /* Espaciado inferior del container */
 }
 
 .datosUsuario {
@@ -45,10 +40,12 @@
     .datosUsuario-header {
         color: $primary;
         font-family: $headings-font-family;
+        font-size: $headings-font-size;
     }
     .datosUsuario-text {
         color: $texto;
         font-family: $font-family-sans-serif;
+        font-size: $font-size-base;
     }
 
     .datosUsuario-item {
