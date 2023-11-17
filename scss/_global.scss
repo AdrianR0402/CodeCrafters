@@ -23,7 +23,7 @@ html {
         color: $primary;
     }
 
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(md) {
         .page-section-heading {
             font-size: 3rem;
             line-height: 2.5rem;

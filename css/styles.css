@@ -1942,12 +1942,7 @@ progress {
 .col-form-label-lg {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
-  font-size: calc(1.3rem + 0.6vw);
-}
-@media (min-width: 1200px) {
-  .col-form-label-lg {
-    font-size: 1.75rem;
-  }
+  font-size: 1.25rem;
 }
 
 .col-form-label-sm {
@@ -2087,13 +2082,8 @@ progress {
 .form-control-lg {
   min-height: calc(1.5em + 1.25rem);
   padding: 0.5rem 1rem;
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: 1.25rem;
   border-radius: 0.75rem;
-}
-@media (min-width: 1200px) {
-  .form-control-lg {
-    font-size: 1.75rem;
-  }
 }
 .form-control-lg::file-selector-button {
   padding: 0.5rem 1rem;
@@ -2186,13 +2176,8 @@ textarea.form-control-lg {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: 1.25rem;
   border-radius: 0.75rem;
-}
-@media (min-width: 1200px) {
-  .form-select-lg {
-    font-size: 1.75rem;
-  }
 }
 
 .form-check {
@@ -2478,16 +2463,8 @@ textarea.form-control-lg {
 .input-group-lg > .input-group-text,
 .input-group-lg > .btn {
   padding: 0.5rem 1rem;
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: 1.25rem;
   border-radius: 0.75rem;
-}
-@media (min-width: 1200px) {
-  .input-group-lg > .form-control,
-  .input-group-lg > .form-select,
-  .input-group-lg > .input-group-text,
-  .input-group-lg > .btn {
-    font-size: 1.75rem;
-  }
 }
 
 .input-group-sm > .form-control,
@@ -3186,13 +3163,8 @@ textarea.form-control-lg {
 
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: 1.25rem;
   border-radius: 0.75rem;
-}
-@media (min-width: 1200px) {
-  .btn-lg, .btn-group-lg > .btn {
-    font-size: 1.75rem;
-  }
 }
 
 .btn-sm, .btn-group-sm > .btn {
@@ -3753,17 +3725,12 @@ textarea.form-control-lg {
   justify-content: space-between;
 }
 .navbar-brand {
-  padding-top: -0.0625rem;
-  padding-bottom: -0.0625rem;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
-}
-@media (min-width: 1200px) {
-  .navbar-brand {
-    font-size: 1.75rem;
-  }
 }
 .navbar-nav {
   display: flex;
@@ -3793,17 +3760,12 @@ textarea.form-control-lg {
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
   border: 0.125rem solid transparent;
   border-radius: 0rem;
   transition: box-shadow 0.15s ease-in-out;
-}
-@media (min-width: 1200px) {
-  .navbar-toggler {
-    font-size: 1.75rem;
-  }
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
@@ -4573,12 +4535,7 @@ textarea.form-control-lg {
 
 .pagination-lg .page-link {
   padding: 0.75rem 1.5rem;
-  font-size: calc(1.3rem + 0.6vw);
-}
-@media (min-width: 1200px) {
-  .pagination-lg .page-link {
-    font-size: 1.75rem;
-  }
+  font-size: 1.25rem;
 }
 .pagination-lg .page-item:first-child .page-link {
   border-top-left-radius: 0.75rem;
@@ -10163,7 +10120,7 @@ html {
   line-height: 2rem;
   color: #40A2E2;
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .page-section .page-section-heading {
     font-size: 3rem;
     line-height: 2.5rem;
@@ -10255,15 +10212,14 @@ html {
   padding: 0.8rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
-    font-size: 1.75em;
-    transition: font-size 0.3s;
+    font-size: 2rem;
   }
   #mainNav .navbar-nav {
     margin-top: 0;
@@ -10281,7 +10237,7 @@ html {
     padding-bottom: 0.5rem;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    font-size: 1.5em;
+    font-size: 2rem;
   }
 }
 #logoNav {
@@ -10588,6 +10544,7 @@ a:hover {
 .series-Peliculas .series-Peliculas-header {
   color: #ffffff;
   font-family: "roboto condensed";
+  font-size: 2rem;
 }
 .series-Peliculas .series-Peliculas-text {
   color: #ffffff;
@@ -10620,7 +10577,6 @@ a:hover {
 .container-fluid::-webkit-scrollbar, .container-sm::-webkit-scrollbar, .container-md::-webkit-scrollbar, .container-lg::-webkit-scrollbar, .container-xl::-webkit-scrollbar, .container-xxl::-webkit-scrollbar {
   width: 5px; /* Ancho del scrollbar */
   height: 5px; /* Altura del scrollbar */
-  margin-left: 20px;
 }
 
 .container-fluid::-webkit-scrollbar-track, .container-sm::-webkit-scrollbar-track, .container-md::-webkit-scrollbar-track, .container-lg::-webkit-scrollbar-track, .container-xl::-webkit-scrollbar-track, .container-xxl::-webkit-scrollbar-track {
