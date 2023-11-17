@@ -6,7 +6,8 @@
     <?php include("includes/head-tag-contents.php"); ?>
 </head>
 
-<body class="series-Peliculas">
+<body class="series-Peliculas ">
+<section class="page-section">
     <?php include("includes/navigation.php"); ?>
     <header>
         <div id="carouselExampleRide" class="carousel slide mx-auto text-center " data-bs-ride="carousel" data-bs-interval="3000">
@@ -39,7 +40,7 @@
     <main>
         <section class="series-Peliculas " id="series-Peliculas">
             <!-- Recomendaciones -->
-            <div class="container-fluid mt-5 ">
+            <div class="container-fluid mt-5 " style="overflow-x: auto">
 
                 <h2 class="mb-4 colorTitulo">Recomendaciones</h2>
 
@@ -142,7 +143,7 @@
 
 
             <!-- Novedades -->
-            <div class="container-fluid mt-5 ">
+            <div class="container-fluid mt-5 "style="overflow-x: auto">
 
                 <h2 class="mb-4 colorTitulo">Novedades</h2>
 
@@ -245,12 +246,12 @@
 
 
             <!-- Por tus anteriores Vistas -->
-            <div class="container-fluid mt-5 ">
+            <div class="container-fluid mt-5 " style="overflow-x: auto">
 
                 <h2 class="mb-4 colorTitulo">Por tus anteriores Vistas</h2>
 
                 <div class="d-flex " style="white-space: nowrap;">
-                    <div>
+                    <div class="">
                         <div class="col-md-6" style="margin-right: 20px;">
                             <img src="assets/img/background-color4@2x.png" class="img-thumbnail"
                                 alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
@@ -349,7 +350,8 @@
 
 
         </section>
-    </main>
+        </main>
+    </section>
     <?php include("includes/footer.php"); ?>
 
 
