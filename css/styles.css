@@ -10563,6 +10563,11 @@ a:hover {
   align-items: center;
 }
 
+.inicioSesion label {
+  color: #ffffff;
+  font-weight: bold;
+}
+
 .bannerDatos {
   height: 320px;
 }

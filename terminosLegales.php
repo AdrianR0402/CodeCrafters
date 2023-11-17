@@ -41,7 +41,7 @@
                 <h2>3. Privacidad:</h2>
                 <p>
                     3.1 Al utilizar nuestro sitio web, aceptas nuestra política de privacidad, que puedes revisar
-                    [aquí](enlace a tu política de privacidad).
+                    [aquí](aun no).
                 </p>
                 <p>
                     3.2 Recopilamos y procesamos información personal de acuerdo con las leyes de privacidad

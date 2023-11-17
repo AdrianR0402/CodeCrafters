@@ -25,7 +25,7 @@
                                         <!-- Usuario -->
                                         <div class="form-group row mb-3">
                                             <label for="usuario"
-                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white letraInicioSesion">Usuario:</label>
+                                                class="col-sm-3 col-form-label text-right letraInicioSesion">Usuario:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control font-weight-bold" id="usuario">
                                             </div>
@@ -34,7 +34,7 @@
                                         <!-- Contraseña -->
                                         <div class="form-group row mb-4">
                                             <label for="contrasena"
-                                                class="col-sm-3 col-form-label text-right font-weight-bold text-white letraInicioSesion">Contraseña:</label>
+                                                class="col-sm-3 col-form-label text-right letraInicioSesion">Contraseña:</label>
                                             <div class="col-sm-9">
                                                 <input type="password" class="form-control font-weight-bold"
                                                     id="contrasena">
@@ -44,8 +44,7 @@
                                         <!-- ¿OLVIDASTE TU CONTRASEÑA? -->
                                         <div class="form-group row">
                                             <div class="col-sm-9 offset-sm-3">
-                                                <b
-                                                    class="olvidaste-tu-contrasea font-weight-bold text-white letraInicioSesion">
+                                                <b class="olvidaste-tu-contrasea letraInicioSesion">
                                                     <a href="password.php" class="crear-cuenta">¿OLVIDASTE LA
                                                         CONTRASEÑA?
                                                     </a></b>
