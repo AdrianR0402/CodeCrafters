@@ -30,7 +30,7 @@
 
             <!-- Primera Imagen con Texto -->
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 img1">
                         <img src="assets/img/portfolio/home/1.jpg" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Tercera Imagen">
                     </div>
@@ -86,7 +86,7 @@
 
             <!-- Segunda Imagen con Texto -->
                 <div class="row">
-                    <div class="col-md">
+                    <div class="col-md img1">
                         <img src="assets/img/portfolio/home/2.jpg" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Tercera Imagen">
                     </div>
@@ -140,7 +140,7 @@
 
             <!-- Tercera Imagen con Texto -->
                 <div class="row">
-                    <div class="col-md">
+                    <div class="col-md img1">
                         <img src="assets/img/portfolio/home/5.jpg" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Tercera Imagen">
                     </div>
@@ -196,7 +196,7 @@
             <!-- Cuarta Imagen con Texto -->
                 <div class="row">
                     
-                    <div class="col-md">
+                    <div class="col-md img1">
                         <img src="assets/img/portfolio/home/4.jpg" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Tercera Imagen">
                     </div>
