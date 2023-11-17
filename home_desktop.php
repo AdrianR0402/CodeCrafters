@@ -22,60 +22,150 @@
 
     <?php include("includes/navigation.php"); ?>
     <main>
-        <section class="page-section" id="inicioSesion">
+        <section class="page-section home" id="inicioSesion">
+
             <div class="container-fluid py-4 text-left">
-                <p class="text-white text-bold">RECOMENDACIONES</p>
+                <h3>RECOMENDACIONES</h3>
             </div>
 
-            <!-- Texto sobre la página -->
-            <div class="container mt-4">
-                <p class="text-center text-white" style="font-size: 24px;">Bienvenido a Lucecine, el lugar perfecto para
-                    disfrutar de tus
-                    <span class="text-bold">películas</span> y <span class="text-bold">series</span>
-                    favoritas. Explora nuestro amplio catálogo y sumérgete en el emocionante mundo del cine y la
-                    televisión.
-                </p>
-            </div>
-
-            <!-- Sección de Imágenes con Texto -->
-            <div class="container mt-4">
+            <!-- Primera Imagen con Texto -->
                 <div class="row">
-                    <!-- Primera Imagen con Texto -->
                     <div class="col-md-6">
                         <img src="assets/img/portfolio/home/1.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                            alt="Primera Imagen">
-                        <p class="mt-2 text-center text-white" style="font-size: 60px;">
-                            <span class="text-bold">Peliculas</span>
-                        </p>
-                    </div>
-                    <!-- Segunda Imagen con Texto -->
-                    <div class="col-md-6">
-                        <img src="assets/img/portfolio/series.png" class="img-fluid img-thumbnail d-block mx-auto"
-                            alt="Segunda Imagen">
-                        <p class="mt-2 text-center text-white" style="font-size: 60px;">
-                            <span class="text-bold">Series</span>
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- Tercera Imagen con Texto -->
-                    <div class="col-md-6">
-                        <img src="assets/img/portfolio/animes.png" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Tercera Imagen">
-                        <p class="mt-2 text-center text-white" style="font-size: 60px;">
-                            <span class="text-bold">Animes</span>
-                        </p>
                     </div>
-                    <!-- Cuarta Imagen con Texto -->
                     <div class="col-md-6">
-                        <img src="assets/img/portfolio/trailers.png" class="img-fluid img-thumbnail d-block mx-auto"
-                            alt="Cuarta Imagen">
-                        <p class="mt-2 text-center text-white" style="font-size: 60px;">
-                            <span class="text-bold">Trailers</span>
-                        </p>
+                        <p class="mt-2 text-center text-white text-bold" style="font-size: 20px;">Lorem ipsum</p>
+                        <p class="mt-2 text-center text-white" style="font-size: 14px;">
+                        dolor sit amet, consectetur adipiscing elit. Nullam eu leo
+                  dignissim, rutrum ante sagittis, hendrerit lorem. Phasellus
+                  sed pellentesque augue. Nunc iaculis tellus eget velit dapibus
+                  suscipit. Nam eget vestibulum libero, ut consequat tortor.
+                  Morbi convallis mattis tortor, eu scelerisque nisl rutrum a.
+                  Nullam molestie nisi id suscipit gravida. Quisque pulvinar
+                  sapien vitae faucibus porta. Nullam sit amet luctus eros. Duis
+                  vehicula mollis vestibulum. Nullam tristique magna nec
+                  accumsan sodales. Curabitur tellus est, luctus at sapien eget,
+                  venenatis tincidunt lacus. Sed non erat gravida, consequat
+                  nibh dignissim, vehicula nulla. Mauris purus diam, pharetra id
+                  risus eu, pulvinar lobortis neque. Vivamus facilisis et quam
+                  et elementum.
+                </p>
                     </div>
-                </div>
+                    <div class="row">
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/1.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/6.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/7.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/8.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/9.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/10.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                    </div>
+
+
+                    <div class="container-fluid py-4 text-left">
+                <h3>PELICULAS</h3>
             </div>
+
+            <!-- Segunda Imagen con Texto -->
+                <div class="row">
+                    <div class="col-md">
+                        <img src="assets/img/portfolio/home/2.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                    </div>
+                    <div class="col-md">
+                    <p class="mt-2 text-center text-white text-bold" style="font-size: 20px;">Lorem ipsum</p>
+                        <p class="mt-2 text-center text-white" style="font-size: 14px;">
+                        dolor sit amet, consectetur adipiscing elit. Nullam eu leo
+                  dignissim, rutrum ante sagittis, hendrerit lorem. Phasellus
+                  sed pellentesque augue. Nunc iaculis tellus eget velit dapibus
+                  suscipit. Nam eget vestibulum libero, ut consequat tortor.
+                  Morbi convallis mattis tortor, eu scelerisque nisl rutrum a.
+                  Nullam molestie nisi id suscipit gravida. Quisque pulvinar
+                  sapien vitae faucibus porta. Nullam sit amet luctus eros. Duis
+                  vehicula mollis vestibulum. Nullam tristique magna nec
+                  accumsan sodales. Curabitur tellus est, luctus at sapien eget,
+                  venenatis tincidunt lacus. Sed non erat gravida, consequat
+                  nibh dignissim, vehicula nulla. Mauris purus diam, pharetra id
+                  risus eu, pulvinar lobortis neque. Vivamus facilisis et quam
+                  et elementum.
+                </p>
+                    </div>
+
+            <div class="container-fluid py-4 text-left">
+            <h3>SERIES</h3>
+            </div>
+
+            <!-- Tercera Imagen con Texto -->
+                <div class="row">
+                    <div class="col-md">
+                        <img src="assets/img/portfolio/home/5.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                    </div>
+                    <div class="col-md">
+                    <p class="mt-2 text-center text-white text-bold" style="font-size: 20px;">Lorem ipsum</p>
+                        <p class="mt-2 text-center text-white" style="font-size: 14px;">
+                        dolor sit amet, consectetur adipiscing elit. Nullam eu leo
+                  dignissim, rutrum ante sagittis, hendrerit lorem. Phasellus
+                  sed pellentesque augue. Nunc iaculis tellus eget velit dapibus
+                  suscipit. Nam eget vestibulum libero, ut consequat tortor.
+                  Morbi convallis mattis tortor, eu scelerisque nisl rutrum a.
+                  Nullam molestie nisi id suscipit gravida. Quisque pulvinar
+                  sapien vitae faucibus porta. Nullam sit amet luctus eros. Duis
+                  vehicula mollis vestibulum. Nullam tristique magna nec
+                  accumsan sodales. Curabitur tellus est, luctus at sapien eget,
+                  venenatis tincidunt lacus. Sed non erat gravida, consequat
+                  nibh dignissim, vehicula nulla. Mauris purus diam, pharetra id
+                  risus eu, pulvinar lobortis neque. Vivamus facilisis et quam
+                  et elementum.
+                </p>
+                    </div>
+             <div class="container-fluid py-4 text-left">
+             <h3>ANIMES</h3>
+            </div>
+
+            <!-- Cuarta Imagen con Texto -->
+                <div class="row">
+                    
+                    <div class="col-md">
+                        <img src="assets/img/portfolio/home/4.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                    </div>
+                    <div class="col-md">
+                    <p class="mt-2 text-center text-white text-bold" style="font-size: 20px;">Lorem ipsum</p>
+                        <p class="mt-2 text-center text-white" style="font-size: 14px;">
+                        dolor sit amet, consectetur adipiscing elit. Nullam eu leo
+                  dignissim, rutrum ante sagittis, hendrerit lorem. Phasellus
+                  sed pellentesque augue. Nunc iaculis tellus eget velit dapibus
+                  suscipit. Nam eget vestibulum libero, ut consequat tortor.
+                  Morbi convallis mattis tortor, eu scelerisque nisl rutrum a.
+                  Nullam molestie nisi id suscipit gravida. Quisque pulvinar
+                  sapien vitae faucibus porta. Nullam sit amet luctus eros. Duis
+                  vehicula mollis vestibulum. Nullam tristique magna nec
+                  accumsan sodales. Curabitur tellus est, luctus at sapien eget,
+                  venenatis tincidunt lacus. Sed non erat gravida, consequat
+                  nibh dignissim, vehicula nulla. Mauris purus diam, pharetra id
+                  risus eu, pulvinar lobortis neque. Vivamus facilisis et quam
+                  et elementum.
+                </p>
+                    </div>
 
         </section>
     </main>
