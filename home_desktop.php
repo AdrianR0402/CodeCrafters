@@ -54,7 +54,7 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                        <img src="assets/img/portfolio/home/1.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                        <img src="assets/img/portfolio/home/11.jpg" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Tercera Imagen">
                         </div>
                         <div class="col">
@@ -108,7 +108,32 @@
                   et elementum.
                 </p>
                     </div>
-
+                    <div class="row">
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/12.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/13.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/14.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/15.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/16.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/17.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                    </div>
             <div class="container-fluid py-4 text-left">
             <h3>SERIES</h3>
             </div>
@@ -137,7 +162,34 @@
                   et elementum.
                 </p>
                     </div>
-             <div class="container-fluid py-4 text-left">
+                    <div class="row">
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/18.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/19.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/20.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/21.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/22.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/23.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                    </div>        
+            
+            <div class="container-fluid py-4 text-left">
              <h3>ANIMES</h3>
             </div>
 
@@ -165,6 +217,33 @@
                   risus eu, pulvinar lobortis neque. Vivamus facilisis et quam
                   et elementum.
                 </p>
+                    </div>
+                
+                    <div class="row">
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/15.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/20.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/7.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/12.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/6.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
+                        <div class="col">
+                        <img src="assets/img/portfolio/home/10.jpg" class="img-fluid img-thumbnail d-block mx-auto"
+                            alt="Tercera Imagen">
+                        </div>
                     </div>
 
         </section>
