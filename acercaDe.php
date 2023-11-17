@@ -55,7 +55,7 @@
                             <span class="text-bold">Animes</span>
                         </p>
                     </div>
-                    <!-- Cuarta Imagen con Texto -->
+                    <!-- Cuarta Imagen con Texto. -->
                     <div class="col-md-6">
                         <img src="assets/img/portfolio/trailers.png" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Cuarta Imagen">
