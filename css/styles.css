@@ -10577,6 +10577,10 @@ a:hover {
   color: #40A2E2;
 }
 
+.colorTitulo {
+  color: #c8c8f7;
+}
+
 .series-Peliculas {
   background-color: #34416A;
 }
@@ -10666,6 +10670,21 @@ a:hover {
 
 .letrasImg {
   font-size: 60px;
+}
+
+.terminosLegales .terminosLegales-body {
+  color: #ffffff;
+}
+.terminosLegales .terminosLegales-main {
+  padding: 20px;
+}
+
+.terminosLegales p {
+  color: #ffffff;
+}
+
+.terminosLegales h2, .terminosLegales .h2 {
+  color: #40A2E2;
 }
 
 /*# sourceMappingURL=styles.css.map */
