@@ -10531,7 +10531,7 @@ a:hover {
   border: 2px solid #40A2E2;
   /* Color del borde */
   border-radius: 15px;
-  /* Radio de la esquina del borde */
+  /* Radio de la esquina del borde ola*/
   padding: 20px;
   /* Espaciado interno del container */
   margin-bottom: 20px;
@@ -10583,9 +10583,6 @@ a:hover {
   color: #c8c8f7;
 }
 
-.series-Peliculas {
-  background-color: #34416A;
-}
 .series-Peliculas .series-Peliculas-header {
   color: #ffffff;
   font-family: "roboto condensed bold 700 italic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10616,6 +10613,21 @@ a:hover {
 }
 .series-Peliculas .series-Peliculas-item .series-Peliculas-item .series-Peliculas-item-content {
   font-size: 1.5rem;
+}
+
+.container-fluid::-webkit-scrollbar, .container-sm::-webkit-scrollbar, .container-md::-webkit-scrollbar, .container-lg::-webkit-scrollbar, .container-xl::-webkit-scrollbar, .container-xxl::-webkit-scrollbar {
+  width: 5px; /* Ancho del scrollbar */
+  height: 5px; /* Altura del scrollbar */
+  margin-left: 20px;
+}
+
+.container-fluid::-webkit-scrollbar-track, .container-sm::-webkit-scrollbar-track, .container-md::-webkit-scrollbar-track, .container-lg::-webkit-scrollbar-track, .container-xl::-webkit-scrollbar-track, .container-xxl::-webkit-scrollbar-track {
+  background: transparent; /* Fondo del scrollbar */
+}
+
+.container-fluid::-webkit-scrollbar-thumb, .container-sm::-webkit-scrollbar-thumb, .container-md::-webkit-scrollbar-thumb, .container-lg::-webkit-scrollbar-thumb, .container-xl::-webkit-scrollbar-thumb, .container-xxl::-webkit-scrollbar-thumb {
+  background-color: #40A2E2; /* Color del scrollbar */
+  border-radius: 2px; /* Borde del scrollbar */
 }
 
 .acercaDe-header {
