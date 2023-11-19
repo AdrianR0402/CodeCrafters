@@ -51,7 +51,7 @@
                                 alt="Primera Imagen " >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">One Piece</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Billy the Kid</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Pesadillas</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Kraven</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -94,47 +94,47 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Hunger Games</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
                         <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                            <img src="/assets/img/background-color10@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold ">Old</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
                         <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                            <img src="/assets/img/background-color11@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
-                                <span class="text-bold">Titulo Pelicula 1</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <span class="text-bold">Objetos</span>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
                         <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                            <img src="/assets/img/background-color12@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
-                                <span class="text-bold">Titulo Pelicula 1</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <span class="text-bold">Oblivion</span>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
                         <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                            <img src="/assets/img/background-color18@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
-                                <span class="text-bold">Titulo Pelicula 1</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <span class="text-bold">Patrulla Canina</span>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">One Piece</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Billy the Kid</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -177,7 +177,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Pesadillas</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -187,7 +187,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Kraven</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -197,47 +197,47 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Hunger Games</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
                         <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                            <img src="/assets/img/background-color10@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold ">Old</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
                         <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                            <img src="/assets/img/background-color11@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
-                                <span class="text-bold">Titulo Pelicula 1</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <span class="text-bold">Objetos</span>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
                         <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                            <img src="/assets/img/background-color12@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
-                                <span class="text-bold">Titulo Pelicula 1</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <span class="text-bold">Oblivion</span>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
                         <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                            <img src="/assets/img/background-color18@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
-                                <span class="text-bold">Titulo Pelicula 1</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <span class="text-bold">Patrulla Canina</span>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -257,7 +257,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">One Piece</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -269,7 +269,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Billy the Kid</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -280,7 +280,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Pesadillas</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -290,7 +290,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Kraven</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -300,47 +300,47 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Hunger Games</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
                         <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                            <img src="/assets/img/background-color10@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold ">Old</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
                         <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                            <img src="/assets/img/background-color11@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
-                                <span class="text-bold">Titulo Pelicula 1</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <span class="text-bold">Objetos</span>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
                         <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                            <img src="/assets/img/background-color12@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
-                                <span class="text-bold">Titulo Pelicula 1</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <span class="text-bold">Oblivion</span>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
                         <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                            <img src="/assets/img/background-color18@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre">
-                                <span class="text-bold">Titulo Pelicula 1</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <span class="text-bold">Patrulla Canina</span>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
