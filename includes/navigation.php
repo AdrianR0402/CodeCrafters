@@ -17,7 +17,6 @@
                         </a>
                         <div class="dropdown-menu bg-secondary text-uppercase border-0 "
                             aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-white" href="peliculas-series.php">Inicio</a>
                             <a class="dropdown-item text-white" href="series.php">Series</a>
                             <a class="dropdown-item text-white" href="peliculas.php">Peliculas</a>
                             <a class="dropdown-item text-white" href="anime.php">Anime</a>
