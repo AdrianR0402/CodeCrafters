@@ -14,15 +14,15 @@
             <div class="carousel-inner">
                 <div class="carousel-item active ">
                     <img src="/assets/img/banner1.jpg"
-                        class="d-block w-100 fixed-size-image" style="height: 800px" alt="imagen1">
+                        class="d-block w-100 fixed-size-image imagencarusel"  alt="imagen1">
                 </div>
                 <div class="carousel-item ">
                     <img src="/assets/img/banner2.webp"
-                        class="d-block w-100 fixed-size-image" style="height: 800px" alt="imagen2">
+                        class="d-block w-100 fixed-size-image imagencarusel"  alt="imagen2">
                 </div>
                 <div class="carousel-item ">
                     <img src="/assets/img/banner3.jpg"
-                        class="d-block w-100 fixed-size-image" style="height: 800px" alt="imagen3">
+                        class="d-block w-100 fixed-size-image imagencarusel" alt="imagen3">
                 </div>
             </div>
             <button class="carousel-control-prev visually-hidden" type="button" data-bs-target="#carouselExampleRide"
@@ -40,16 +40,16 @@
     <main>
         <section class="series-Peliculas " id="series-Peliculas">
             <!-- Recomendaciones -->
-            <div class="container-fluid mt-5 " style="overflow-x: auto" id="recomendaciones">
+            <div class="container-fluid mt-5 containerfila">
 
                 <h2 class="mb-4 colorTitulo">Recomendaciones</h2>
 
-                <div class="d-flex " style="white-space: nowrap;">
+                <div class="d-flex containerfila2" >
                     <div>
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color4@2x.png" class="img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta">
+                            <img src="/assets/img/background-color4@2x.png" class="float-left  mx-auto img-thumbnail imagentarjeta"
+                                alt="Primera Imagen " >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">One Piece</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
@@ -58,10 +58,10 @@
 
 
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color3@2x.png" class="img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color3@2x.png" class=" float-left  mx-auto img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Billy the Kid</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
@@ -69,70 +69,70 @@
                     </div>
 
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color5@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color5@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Pesadillas</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color7@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color7@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Kraven</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color8@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color8@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Hunger Games</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white " style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold ">Old</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Titulo Pelicula 1</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Titulo Pelicula 1</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Titulo Pelicula 1</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
@@ -143,16 +143,16 @@
 
 
             <!-- Novedades -->
-            <div class="container-fluid mt-5 "style="overflow-x: auto" id="novedades">
+            <div class="container-fluid mt-5 containerfila" >
 
                 <h2 class="mb-4 colorTitulo">Novedades</h2>
 
-                <div class="d-flex " style="white-space: nowrap;">
+                <div class="d-flex containerfila2" >
                     <div>
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color4@2x.png" class="img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color4@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">One Piece</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
@@ -161,10 +161,10 @@
 
 
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color3@2x.png" class="img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color3@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Billy the Kid</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
@@ -172,70 +172,70 @@
                     </div>
 
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color5@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color5@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Pesadillas</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color7@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color7@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Kraven</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color8@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color8@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Hunger Games</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white " style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold ">Old</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Titulo Pelicula 1</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Titulo Pelicula 1</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Titulo Pelicula 1</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
@@ -246,16 +246,16 @@
 
 
             <!-- Por tus anteriores Vistas -->
-            <div class="container-fluid mt-5 " style="overflow-x: auto">
+            <div class="container-fluid mt-5 containerfila" >
 
                 <h2 class="mb-4 colorTitulo">Por tus anteriores Vistas</h2>
 
-                <div class="d-flex " style="white-space: nowrap;">
+                <div class="d-flex containerfila2" >
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color4@2x.png" class="img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color4@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">One Piece</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
@@ -264,10 +264,10 @@
 
 
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color3@2x.png" class="img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color3@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Billy the Kid</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
@@ -275,70 +275,70 @@
                     </div>
 
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color5@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color5@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Pesadillas</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color7@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color7@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Kraven</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color8@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color8@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Hunger Games</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white " style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold ">Old</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Titulo Pelicula 1</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Titulo Pelicula 1</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>
                         </div>
                     </div>
                     <div class="">
-                        <div class="col-md-6" style="margin-right: 20px;">
-                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail"
-                                alt="Primera Imagen" style="max-width: none; height: auto;width: 300px; margin-right: 10px; ">
-                            <p class="mt-2 text-white" style="font-size: 30px;">
+                        <div class="col-md-6 containertarjeta" >
+                            <img src="/assets/img/background-color9@2x.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                                alt="Primera Imagen" >
+                            <p class="mt-2 text-white nombre">
                                 <span class="text-bold">Titulo Pelicula 1</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('One Piece','Anime','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
                             </p>

@@ -16,7 +16,27 @@
 .colorTitulo{
     color: $titulo;
 }
-
+.containerfila{
+    overflow-x: auto;
+}
+.containerfila2{
+    white-space: nowrap;
+}
+.containertarjeta{
+    margin-right: 20px;
+}
+.imagencarusel{
+    height: 800px;
+}
+.imagentarjeta{
+    max-width: none; 
+    height: auto;
+    width: 300px; 
+    margin-right: 10px; 
+}
+.nombre{
+    font-size: 30px;
+}
 
 .series-Peliculas {
 
