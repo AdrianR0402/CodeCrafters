@@ -92,3 +92,8 @@
     border-radius: 2px; /* Borde del scrollbar */
     
 }
+@include media-breakpoint-down(md) {
+    header, footer {
+        display: none;
+    }
+}
