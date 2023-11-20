@@ -11,7 +11,7 @@
     <?php include("includes/navigation.php"); ?>
     <main>
         <section class="page-section" id="acercaDe">
-            <div class="container-fluid py-4 text-center">
+            <div class="container-fluid py-5 text-center">
                 <h1 class="display-1 text-primary text-bold">Lucecine</h1>
                 <p class="lead text-white">Tu sitio de películas y series favorito</p>
             </div>
