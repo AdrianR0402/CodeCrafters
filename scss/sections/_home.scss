@@ -1,13 +1,14 @@
 .home {
 
-    
+
 
     .home-header {
         font-family: $headings-font-family;
     }
+
     .home-text {
         font-family: $font-family-sans-serif;
-    }    
+    }
 }
 
 .home h3 {
@@ -21,7 +22,15 @@
     margin-bottom: 20px;
 }
 
-.img2 img{
+.img2 img {
     width: auto;
-    
+
+}
+
+.letra20 {
+    font-size: 20px;
+}
+
+.letra14 {
+    font-size: 14px;
 }
