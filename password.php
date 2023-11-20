@@ -8,12 +8,14 @@
     <?php include("includes/navigation.php"); ?>
     <main>
         <section class="page-section">
+            <!-- Banner personalizable del perfil -->
             <div class="container-fluid mt-4 mx-0 px-0">
                 <div class="container-fluid m-0 p-0">
                     <img class="img-fluid bannerDatos" src="/assets/img/bannerPlaceholder1.png" alt="">
                 </div>
                 <div class="container-fluid mt-5 px-5">
                     <div class="row">
+                        <!-- List group conteniendo los distintos apartados para navegar en los datos de usuario -->
                         <div class="col-md-3 text-center">
                             <h2 class="page-section-heading mb-4">Datos de usuario</h2>
                             <div class="container">
@@ -30,16 +32,17 @@
                                 </ul>
                             </div>
                         </div>
+                        <!-- Contenido especifico de cambiar contraseña -->
                         <div class="col-sm-12 col-md-9 px-3 px-md-5">
                             <div class="datosUsuario container-border">
                                 <div class="container-fluid p-2 text-center">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <h2 class="datosUsuario-header">Cambiar contraseña</h2>
-                                            <p class="datosUsuario-text">Escoge una contraseña única para mantener
-                                                segura tu cuenta</p>
+                                            <p class="datosUsuario-text">Escoge una contraseña única para mantener segura tu cuenta</p>
                                         </div>
                                         <div class="col-md-6 text-center mx-auto">
+                                            <!-- formulario de cambiar contraseña -->
                                             <form action="">
                                                 <div class="mb-3 mt-3">
                                                     <label class="datosUsuario-text mb-1">Contraseña actual</label><input type="password" class="form-control" id="passAct"

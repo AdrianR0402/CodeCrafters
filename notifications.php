@@ -8,12 +8,14 @@
     <?php include("includes/navigation.php"); ?>
     <main>
         <section class="page-section">
+            <!-- Banner personalizable del perfil -->
             <div class="container-fluid mt-4 mx-0 px-0">
                 <div class="container-fluid m-0 p-0">
                     <img class="img-fluid bannerDatos" src="/assets/img/bannerPlaceholder1.png" alt="">
                 </div>
                 <div class="container-fluid mt-5 px-5">
                     <div class="row">
+                        <!-- List group conteniendo los distintos apartados para navegar en los datos de usuario -->
                         <div class="col-md-3 text-center">
                             <h2 class="page-section-heading mb-4">Datos de usuario</h2>
                             <div class="container">
@@ -30,6 +32,7 @@
                                 </ul>
                             </div>
                         </div>
+                        <!-- Contenido especifico de notificaciones -->
                         <div class="col-sm-12 col-md-9 px-3 px-md-5">
                             <div class="datosUsuario container-border">
                                 <div class="container-fluid p-2 text-center">
@@ -38,6 +41,7 @@
                                             <h2 class="datosUsuario-header">Notificaciones por correo</h2>
                                             <p class="datosUsuario-text">Configura qué notificaciones quieres recibir en tu correo</p>
                                         </div>
+                                        <!-- checkboxes para configurar las notificaciones -->
                                         <div class="col-md-6 text-center mx-auto">
                                             <div class="form-check form-switch mt-2">
                                                 <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>

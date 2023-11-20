@@ -7,6 +7,7 @@
 <body>
     <?php include("includes/navigation.php"); ?>
     <main>
+        <!-- Banner personalizable del perfil -->
         <section class="page-section">
             <div class="container-fluid mt-4 mx-0 px-0">
                 <div class="container-fluid m-0 p-0">
@@ -14,6 +15,7 @@
                 </div>
                 <div class="container-fluid mt-5 px-5">
                     <div class="row">
+                        <!-- List group conteniendo los distintos apartados para navegar en los datos de usuario -->
                         <div class="col-md-3 text-center">
                             <h2 class="page-section-heading mb-4">Datos de usuario</h2>
                             <div class="container">
@@ -30,10 +32,12 @@
                                 </ul>
                             </div>
                         </div>
+                        <!-- Contenido especifico de cambiar correo -->
                         <div class="col-sm-12 col-md-9 px-3 px-md-5">
                             <div class="datosUsuario container-border">
                                 <div class="container-fluid p-2 text-center">
                                     <div class="row">
+                                        <!-- Boton para mandar un enlace con instrucciones al correo actual -->
                                         <div class="col-md-12">
                                             <h2 class="datosUsuario-header">Cambiar correo</h2>
                                             <p class="datosUsuario-text">Cambia la dirección de correo que utilizas para acceder y recibir información de Lucecine</p>
