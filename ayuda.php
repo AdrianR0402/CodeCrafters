@@ -46,7 +46,7 @@
                                             <div class="col-sm-9 offset-sm-3">
                                                 <b
                                                     class="olvidaste-tu-contrasea font-weight-bold text-white letraInicioSesion">
-                                                    <a href="password.php" class="crear-cuenta">
+                                                    <p class="crear-cuenta">
                                                         ¿Necesitas ayuda?
                                                         Contáctanos al:
                                                         <br>
@@ -54,7 +54,8 @@
                                                             6-8789-9799</span>
                                                         <br>
                                                         Disponible las 24 horas.
-                                                    </a></b>
+                                                    </p>
+                                                </b>
                                             </div>
                                         </div>
                                     </form>

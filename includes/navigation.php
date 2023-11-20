@@ -28,7 +28,7 @@
                             href="index.php">Inicio</a></li>
                     <li class="nav-item mx-0 mx-md-1"><a
                             class="nav-link <?php if ($CURRENT_PAGE == "acercaDe") { ?>active<?php } ?> py-3 px-0 px-md-3 rounded"
-                            href="acercaDe.php">Acerca de</a></li>
+                            href="acercaDe.php">Acerca~DE</a></li>
                     <!--esta parte se utiliza para que salga marcada la pagina en la que estas  -->
                     <li class="nav-item mx-0 mx-md-1"><a
                             class="nav-link <?php if ($CURRENT_PAGE == "Contact") { ?>active<?php } ?> py-3 px-0 px-md-3 rounded"
