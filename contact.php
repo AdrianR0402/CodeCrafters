@@ -19,7 +19,7 @@
                                 CONTACTO</h2>
                             <p>Mándanos tu feedback</p>
                         </div>
-                        <div class="text-center">
+                        <div class="text-center"><!--diferentes divs para los datos de contacto -->
                             <h5>USUARIO</h5>
                             <form id="contactForm">
                                 <div class="form-floating mb-3">
