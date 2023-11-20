@@ -46,7 +46,7 @@
                                             <p class="datosUsuario-header">Correo actual</p>
                                             <p class="datosUsuario-text">correoejemplo@gmail.com</p>
                                             <button type="submit" class="btn btn-primary my-3">ENVIAR ENLACE PARA CAMBIAR DE CORREO</button>
-                                            <p class="datosUsuario-text">¿Tienes problemas? Ponte en contacto con nosotros en<a href="#" class="linksContenido">Soporte al cliente</a>.</p>
+                                            <p class="datosUsuario-text">¿Tienes problemas? Ponte en contacto con nosotros en<a href="ayuda.php" class="linksContenido">Soporte al cliente</a>.</p>
                                             
                                         </div>
                                     </div>
