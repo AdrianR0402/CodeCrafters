@@ -11,14 +11,15 @@
 
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link py-3 px-0 px-md-6  dropdown-toggle" href="" id="navbarDropdown"
-                            role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link py-3 px-0 px-md-6  dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Catálogo
                         </a>
                         <div class="dropdown-menu bg-secondary text-uppercase border-0 "
                             aria-labelledby="navbarDropdown">
                             <a class="dropdown-item text-white" href="series.php">Series</a>
-                            <a class="dropdown-item text-white" href="peliculas.php">Peliculas</a>
+                            <a class="dropdown-item text-white"
+                                href="peliculas.php">Peliculas</a><!--dropnow para las diferentes tipos de peliculas  -->
                             <a class="dropdown-item text-white" href="anime.php">Anime</a>
                         </div>
                     </li>
