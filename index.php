@@ -11,7 +11,7 @@
     <main>
         <section class="page-section home" id="inicioSesion">
 
-            <div class="container-fluid py-4 text-left">
+            <div class="container-fluid py-5 text-left">
                 <h3>RECOMENDACIONES</h3>
             </div>
 
