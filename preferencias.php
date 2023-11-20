@@ -75,6 +75,10 @@
                                                 <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" checked>
                                                 <label class="form-check-label datosUsuario-text" for="mySwitch">Contenido para adultos</label>
                                             </div>
+                                            <div class="container mt-4">
+                                                <p class="datosUsuario-text"><a href="" class="linksContenido">Cambiar foto de perfil</a></p>
+                                                <p class="datosUsuario-text"><a href="" class="linksContenido">Cambiar banner de perfil</a></p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
