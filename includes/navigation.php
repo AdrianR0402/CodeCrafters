@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="col md-3">
             <img src="/assets/img/image" class="img-fluid" alt="" id="UserNav">
-            <a class="navbar-brand" href="infoSuscripcion.php">Usuario </a>
+            <a class="navbar-brand" href="infoSuscripcion.php">Usuario </a><!--nombre de usuario -->
 
 
         </div>
@@ -41,13 +41,13 @@
         </div>
         <div class="col md-3">
             <a class="navbar-brand" href="index.php"><img class="float-end" id="logoNav"
-                    src="/assets/img/portfolio/portada.jpg" alt="..."></a>
+                    src="/assets/img/portfolio/portada.jpg" alt="..."></a><!--logo -->
 
         </div>
         <div>
             <button class="navbar-toggler text-uppercase font-weight-bold text-white rounded text-end" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">
+                aria-expanded="false" aria-label="Toggle navigation"><!--la funcionalidad de el navbar responsivo-->
                 <i class="fas fa-bars fa-2x"></i>
             </button>
         </div>
