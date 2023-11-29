@@ -1,12 +1,6 @@
 .terminosLegales {
 
-    .terminosLegales-body {
-        color: $texto;
-    }
-
-    .terminosLegales-main {
-        padding: 20px;
-    }
+    padding: 120px;
 
 }
 
@@ -14,6 +8,14 @@
     color: $texto;
 }
 
-.terminosLegales h2 {
+.terminosLegales h2, h1, h3, h4, h5 {
+    color: $primary;
+}
+
+.terminosLegales ul {
+    color: $texto;
+}
+
+.terminosLegales a {
     color: $primary;
 }
