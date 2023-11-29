@@ -54,7 +54,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Malefica</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/KyoDGNYUimM')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -68,7 +68,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">DeadPool</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('DeadPool','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/QyU7glpHg-c')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -81,7 +81,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Soy Leyenda</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Soy Leyenda','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/TXQ7kRnFXS4')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -93,7 +93,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Justice League</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/3cxixDgHUYw')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -105,7 +105,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Fallaout</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/wb49-oV0F78')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -117,7 +117,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold ">Busqueda </span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/mce-GkAuq20')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -129,7 +129,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Avengers</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/HQIiYqOVTWo')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -141,7 +141,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Rocky</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/3VUblDwa648')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -153,7 +153,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Scarface</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/7pQQHnqBa2E')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -165,17 +165,17 @@
                 <!-- Novedades -->
                 <div class="container-fluid mt-5 containerfila">
 
-                    <h2 class="mb-4 colorTitulo">Novedades</h2>
+                    <h2 class="mb-4 colorTitulo">Recomendaciones</h2>
 
                     <div class="d-flex containerfila2">
                         <div>
                             <div class="col-md-6 containertarjeta">
                                 <img src="/assets/img/portfolio/imagenesPeliculas/1.png"
-                                    class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
+                                    class="float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen ">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Malefica</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/KyoDGNYUimM')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -185,11 +185,11 @@
                         <div class="">
                             <div class="col-md-6 containertarjeta">
                                 <img src="/assets/img/portfolio/imagenesPeliculas/2.jpg"
-                                    class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
+                                    class=" float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">DeadPool</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('DeadPool','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/QyU7glpHg-c')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -202,7 +202,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Soy Leyenda</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Soy Leyenda','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/TXQ7kRnFXS4')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -214,7 +214,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Justice League</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/3cxixDgHUYw')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -226,7 +226,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Fallaout</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/wb49-oV0F78')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -236,9 +236,9 @@
                                 <img src="/assets/img/portfolio/imagenesPeliculas/6.jpg"
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
-                                    <span class="text-bold ">Busqueda</span>
+                                    <span class="text-bold ">Busqueda </span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/mce-GkAuq20')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -250,7 +250,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Avengers</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/HQIiYqOVTWo')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -262,7 +262,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Rocky</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/3VUblDwa648')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -274,7 +274,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Scarface</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/7pQQHnqBa2E')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -286,17 +286,17 @@
                 <!-- Por tus anteriores Vistas -->
                 <div class="container-fluid mt-5 containerfila">
 
-                    <h2 class="mb-4 colorTitulo">Por tus anteriores Vistas</h2>
+                    <h2 class="mb-4 colorTitulo">Recomendaciones</h2>
 
                     <div class="d-flex containerfila2">
-                        <div class="">
+                        <div>
                             <div class="col-md-6 containertarjeta">
                                 <img src="/assets/img/portfolio/imagenesPeliculas/1.png"
-                                    class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
+                                    class="float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen ">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Malefica</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/KyoDGNYUimM')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -306,11 +306,11 @@
                         <div class="">
                             <div class="col-md-6 containertarjeta">
                                 <img src="/assets/img/portfolio/imagenesPeliculas/2.jpg"
-                                    class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
+                                    class=" float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">DeadPool</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('DeadPool','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/QyU7glpHg-c')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -323,7 +323,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Soy Leyenda</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Soy Leyenda','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/TXQ7kRnFXS4')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -335,7 +335,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Justice League</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/3cxixDgHUYw')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -347,7 +347,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Fallaout</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/wb49-oV0F78')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -357,9 +357,9 @@
                                 <img src="/assets/img/portfolio/imagenesPeliculas/6.jpg"
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
-                                    <span class="text-bold ">Busqueda</span>
+                                    <span class="text-bold ">Busqueda </span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/mce-GkAuq20')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -371,7 +371,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Avengers</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/HQIiYqOVTWo')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -383,7 +383,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Rocky</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/3VUblDwa648')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -395,7 +395,7 @@
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Scarface</span>
                                     <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver
+                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/7pQQHnqBa2E')">Ver
                                         más</button>
                                 </p>
                             </div>
@@ -429,11 +429,13 @@
                     <p id="texto3"></p>
                     <h4>Descripcion</h4>
                     <p id="texto4"></p>
+                    <h4>Trailer</h4>
                 </div>
-
+                
                 <div class="d-flex justify-content-center">
+                    
                     <div class="ratio ratio-16x9 w-50">
-                        <iframe src="https://www.youtube.com/embed/KyoDGNYUimM" title="Frog" allowfullscreen></iframe>
+                        <iframe  title="Frog" allowfullscreen id="videoFrame"></iframe>
                     </div>
                 </div>
 
@@ -446,11 +448,12 @@
     </div>
     <!-- Scrip para que el boton muestre la ventana emergente -->
     <script>
-        function mostrarVentanaEmergente(texto1, texto2, texto3, texto4) {
+        function mostrarVentanaEmergente(texto1, texto2, texto3, texto4,enlaceVideo) {
             document.getElementById('texto1').innerText = texto1;
             document.getElementById('texto2').innerText = texto2;
             document.getElementById('texto3').innerText = texto3;
             document.getElementById('texto4').innerText = texto4;
+            document.getElementById('videoFrame').src = enlaceVideo;
             var ventanaEmergente = new bootstrap.Modal(document.getElementById('ventanaEmergente'));
             ventanaEmergente.show();
         }
