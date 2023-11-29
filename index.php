@@ -11,7 +11,28 @@
     <main>
         <section class="page-section home" id="inicioSesion">
 
-            <div class="container-fluid py-4 text-left">
+            <div class="container-fluid py-5 text-left">
+                <h3>PELICULA DESTACADA DEL MES</h3>
+            </div>
+            <div class="row">
+                <div class="col md-6 d-flex justify-content-center">
+                    <div class="ratio ratio-16x9 mx-4">
+                        <iframe src="videos/mikethefrog.mp4" title="Frog" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <h3>Título de la Película Destacada</h3>
+                    <p class="mt-2 letra14 text-center text-white">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, alias. Quia similique recusandae
+                        sint debitis. Obcaecati, assumenda! Architecto autem totam nihil alias voluptatum ipsam culpa in
+                        voluptatem, suscipit quo non.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="container-fluid py-5 text-left">
                 <h3>RECOMENDACIONES</h3>
             </div>
 

@@ -51,7 +51,7 @@
                                 alt="Primera Imagen " >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">JuJutsu Kaisen</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/aPBUUJbrAWo')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Death Note</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/NlJZ-YgAt-c')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Full Metal</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/kx0nBaS_q50')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Kimetsu</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/VQGCKyvzIM4')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -94,7 +94,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Steins Gate</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/uMYhjVwp0Fk')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold ">One Punch Man </span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/Poo5lqoWSGw')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -114,7 +114,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Black Clover</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/TiIZ2NZxjMI')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">HunterXHunter</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/d6kBeJjTGnY')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -134,7 +134,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Dragon Ball</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/CYcrmsdZuyw')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -143,18 +143,18 @@
 
 
             <!-- Novedades -->
-            <div class="container-fluid mt-5 containerfila" >
+            <div class="container-fluid mt-5 containerfila">
 
-                <h2 class="mb-4 colorTitulo">Novedades</h2>
+                <h2 class="mb-4 colorTitulo">Recomendaciones</h2>
 
                 <div class="d-flex containerfila2" >
                     <div>
-                        <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/portfolio/imagenesAnime/1.jpg" class="float-left  mx-auto  img-thumbnail imagentarjeta"
-                                alt="Primera Imagen" >
+                        <div class="col-md-6 containertarjeta">
+                            <img src="/assets/img/portfolio/imagenesAnime/1.jpg" class="float-left  mx-auto img-thumbnail imagentarjeta"
+                                alt="Primera Imagen " >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">JuJutsu Kaisen</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/aPBUUJbrAWo')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -162,11 +162,11 @@
 
                     <div class="">
                         <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/portfolio/imagenesAnime/2.jpg" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                            <img src="/assets/img/portfolio/imagenesAnime/2.jpg" class=" float-left  mx-auto img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Death Note</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/NlJZ-YgAt-c')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -177,7 +177,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Full Metal</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/kx0nBaS_q50')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -187,7 +187,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Kimetsu</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/VQGCKyvzIM4')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -197,7 +197,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Steins Gate</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/uMYhjVwp0Fk')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -206,8 +206,8 @@
                             <img src="/assets/img/portfolio/imagenesAnime/6.jpg" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
-                                <span class="text-bold ">One Punch Man</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <span class="text-bold ">One Punch Man </span>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/Poo5lqoWSGw')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -217,7 +217,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Black Clover</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/TiIZ2NZxjMI')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -227,7 +227,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">HunterXHunter</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/d6kBeJjTGnY')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -237,7 +237,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Dragon Ball</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/CYcrmsdZuyw')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -246,18 +246,18 @@
 
 
             <!-- Por tus anteriores Vistas -->
-            <div class="container-fluid mt-5 containerfila" >
+            <div class="container-fluid mt-5 containerfila">
 
-                <h2 class="mb-4 colorTitulo">Por tus anteriores Vistas</h2>
+                <h2 class="mb-4 colorTitulo">Recomendaciones</h2>
 
                 <div class="d-flex containerfila2" >
-                    <div class="">
-                        <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/portfolio/imagenesAnime/1.jpg" class="float-left  mx-auto  img-thumbnail imagentarjeta"
-                                alt="Primera Imagen" >
+                    <div>
+                        <div class="col-md-6 containertarjeta">
+                            <img src="/assets/img/portfolio/imagenesAnime/1.jpg" class="float-left  mx-auto img-thumbnail imagentarjeta"
+                                alt="Primera Imagen " >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">JuJutsu Kaisen</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/aPBUUJbrAWo')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -265,11 +265,11 @@
 
                     <div class="">
                         <div class="col-md-6 containertarjeta" >
-                            <img src="/assets/img/portfolio/imagenesAnime/2.jpg" class="float-left  mx-auto  img-thumbnail imagentarjeta"
+                            <img src="/assets/img/portfolio/imagenesAnime/2.jpg" class=" float-left  mx-auto img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Death Note</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/NlJZ-YgAt-c')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -280,7 +280,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Full Metal</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/kx0nBaS_q50')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -290,7 +290,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Kimetsu</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/VQGCKyvzIM4')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -300,7 +300,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Steins Gate</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/uMYhjVwp0Fk')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -309,8 +309,8 @@
                             <img src="/assets/img/portfolio/imagenesAnime/6.jpg" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
-                                <span class="text-bold ">One Punch Man</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <span class="text-bold ">One Punch Man </span>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/Poo5lqoWSGw')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -320,7 +320,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Black Clover</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/TiIZ2NZxjMI')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -330,7 +330,7 @@
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">HunterXHunter</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/d6kBeJjTGnY')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -338,9 +338,9 @@
                         <div class="col-md-6 containertarjeta" >
                             <img src="/assets/img/portfolio/imagenesAnime/9.jpg" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
-                            <p class="mt-2 text-white nombre">
+                            <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Dragon Ball</span>
-                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
+                                <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/CYcrmsdZuyw')">Ver más</button>
                             </p>
                         </div>
                     </div>
@@ -373,20 +373,31 @@
                     <p id="texto3"></p>
                     <h4>Descripcion</h4>
                     <p id="texto4"></p>
+                    <h4>Trailer</h4>
                 </div>
+                
+                <div class="d-flex justify-content-center">
+                    
+                    <div class="ratio ratio-16x9 w-50">
+                        <iframe  title="Frog" allowfullscreen id="videoFrame"></iframe>
+                    </div>
+                </div>
+
+
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                 </div>
             </div>
         </div>
     </div>
-<!-- Scrip para que el boton muestre la ventana emergente -->
+    <!-- Scrip para que el boton muestre la ventana emergente -->
     <script>
-        function mostrarVentanaEmergente(texto1,texto2,texto3,texto4) {
+        function mostrarVentanaEmergente(texto1, texto2, texto3, texto4,enlaceVideo) {
             document.getElementById('texto1').innerText = texto1;
             document.getElementById('texto2').innerText = texto2;
             document.getElementById('texto3').innerText = texto3;
             document.getElementById('texto4').innerText = texto4;
+            document.getElementById('videoFrame').src = enlaceVideo;
             var ventanaEmergente = new bootstrap.Modal(document.getElementById('ventanaEmergente'));
             ventanaEmergente.show();
         }

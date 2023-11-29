@@ -14,7 +14,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8 col-xl-7">
-                        <div class="text-center my-5">
+                        <div class="text-center my-5 py-5">
                             <h2 class="page-section-heading display-2 text-white mb-0 ">
                                 CONTACTO</h2>
                             <p>Mándanos tu feedback</p>
