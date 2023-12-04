@@ -343,6 +343,35 @@
     <p>El Usuario puede deshabilitar, rechazar y eliminar las cookies &mdash;total o parcialmente&mdash; instaladas en su dispositivo mediante la configuraci&oacute;n de su navegador (entre los que se encuentran, por ejemplo, Chrome, Firefox, Safari, Explorer). En este sentido, los procedimientos para rechazar y eliminar las cookies pueden diferir de un navegador de Internet a otro. En consecuencia, el Usuario debe acudir a las instrucciones facilitadas por el propio navegador de Internet que est&eacute; utilizando. En el supuesto de que rechace el uso de cookies &mdash;total o parcialmente&mdash; podr&aacute; seguir usando el Sitio Web, si bien podr&aacute; tener limitada la utilizaci&oacute;n de algunas de las prestaciones del mismo.</p>
     <p>Este documento de Pol&iacute;tica de Cookies ha sido creado mediante el generador de <a href="https://textos-legales.edgartamarit.com/" style="color: rgba(var(--bs-body-color-rgb),var(--bs-text-opacity)) !important;">plantilla de pol&iacute;tica de cookies web gratis</a> online el d&iacute;a 29/11/2023.</p>
 </div>
+<div>
+<header style="text-align: center !important;color: rgb(33, 37, 41);font-size: 16px;"><strong>
+        <h2 style="font-size: 2rem;">LICENCIA CREATIVE COMMONS</h2>
+    </strong><strong>
+        <h4 style="font-size: 1.5rem;"><span style="border-bottom: 1px solid rgb(0, 0, 0);">www.lucecine.com</span></h4>
+    </strong></header>
+    <p>This work is licensed under CC BY-NC-ND 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/</p>
+    <p>Attribution-NonCommercial-NoDerivatives 4.0 International
+This license requires that reusers give credit to the creator. It allows reusers to copy and distribute the material in any medium or format in unadapted form and for noncommercial purposes only.
+<ul>
+    <li>BY: Credit must be given to you, the creator.</li>
+    <li>NC: Only noncommercial use of your work is permitted.
+Noncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation.</li>
+    <li>ND: No derivatives or adaptations of your work are permitted.</li>
+</ul>
+</p>
+</div>
+<div>
+<header style="text-align: center !important;color: rgb(33, 37, 41);font-size: 16px;"><strong>
+        <h2 style="font-size: 2rem;">CONTENIDO GENERADO POR IA</h2>
+    </strong><strong>
+        <h4 style="font-size: 1.5rem;"><span style="border-bottom: 1px solid rgb(0, 0, 0);">www.lucecine.com</span></h4>
+    </strong></header>
+    <p>Dicho contenido no está sujeto a la normativa sobre la propiedad intelectual. El contenido generado por IA de este sitio web es el siguiente: </p>
+    <ul>
+        <li>Logotipo de la página</li>
+        <li>Imagenes de la página Acerca De</li>
+    </ul>
+</div>
 
 
 
