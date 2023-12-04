@@ -18,7 +18,7 @@ $default-bg-progress-bar-dark: #999;
     }
 
     .controls {
-        position: absolute;
+        position: relative;
         bottom: 0;
         display: flex;
         width: 100%;
@@ -111,7 +111,7 @@ $default-bg-progress-bar-dark: #999;
 #video-container {
     width: 640px;
     height: 365px;
-    position: relative;
+    position: absolute;
 }
 
 #video-controls {
