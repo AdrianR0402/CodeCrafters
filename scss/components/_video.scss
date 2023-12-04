@@ -107,3 +107,55 @@ $default-bg-progress-bar-dark: #999;
 .tooltip {
     z-index: 1400;
 }
+
+#video-container {
+    width: 640px;
+    height: 365px;
+    position: relative;
+}
+
+#video-controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    opacity: 0;
+    transition: opacity .3s;
+    background-color: $secondary;
+}
+
+#video-container:hover #video-controls {
+    opacity: .9;
+}
+
+button {
+    background: rgba(0, 0, 0, .5);
+    border: 0;
+    color: #EEE;
+    border-radius: 3px;
+    padding-top: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#seek-bar {
+    width: 360px;
+    background-color: red;
+}
+
+#volume-bar {
+    width: 60px;
+}
+
+#play-pause.paused {
+    color: green;
+    /* Cambia a verde cuando está pausado */
+}
+
+#play-pause {
+    color: red;
+    /* Color por defecto cuando está reproduciéndose */
+}
