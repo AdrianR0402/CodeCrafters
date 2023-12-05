@@ -9,15 +9,19 @@
     <main>
         <section class="page-section">
             <!-- Banner personalizable del perfil -->
+            <!-- CF2: ¿Por qué en algunas páginas usáis container-fluid y en otras container?-->
             <div class="container-fluid mt-4 mx-0 px-0">
                 <div class="container-fluid m-0 p-0">
                     <img class="img-fluid bannerDatos" src="/assets/img/bannerPlaceholder1.png" alt="">
                 </div>
+                <!-- CF2: Ya has puesto el container!-->
                 <div class="container-fluid mt-5 px-5">
                     <div class="row">
                         <!-- List group conteniendo los distintos apartados para navegar en los datos de usuario -->
                         <div class="col-md-3 text-center">
+                            <!-- CF2: ¿Dónde está el h1?-->
                             <h2 class="page-section-heading mb-4">Datos de usuario</h2>
+                            <!-- CF2:Lo siguiente debe ser un elemento <nav>-->
                             <div class="container">
                                 <ul class="list-group">
                                 <li class="list-group-item"><a href="infoSuscripcion.php" class="linksMenu">Información de
@@ -33,10 +37,12 @@
                             </div>
                         </div>
                         <!-- Contenido especifico de preferencias de usuario -->
+                        <!-- CF2: No tiene sentido usar dos breakpoints si en la guía de estilos sólo habéis definido dos layouts-->
                         <div class="col-sm-12 col-md-9 px-3 px-md-5">
                             <div class="datosUsuario container-border">
                                 <div class="container-fluid p-2 text-center">
                                     <div class="row">
+                                        <!-- CF2: Las columnas deben sumar 12, aquí suman 18!-->
                                         <div class="col-md-12">
                                             <h2 class="datosUsuario-header">Preferencias</h2>
                                             <p class="datosUsuario-text">Configura tus preferencias de idioma y video</p>

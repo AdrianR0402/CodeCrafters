@@ -41,11 +41,14 @@
         <section class="series-Peliculas " id="series-Peliculas">
             <!-- Recomendaciones -->
             <div class="container-fluid mt-5 containerfila">
-
+                <!-- CF2:¿Dónde está el row?-->
+                <!-- CF2:¿Dónde está h1?-->
                 <h2 class="mb-4 colorTitulo">Recomendaciones</h2>
 
                 <div class="d-flex containerfila2" >
+                    <!-- CF2:Para qué es este div vacío?-->
                     <div>
+                        <!-- CF2:¿Porqué no habéis usado card de Bootstrap-->
                         <div class="col-md-6 containertarjeta">
                             <img src="/assets/img/portfolio/imagenesPeliculas/1.png" class="float-left  mx-auto img-thumbnail imagentarjeta"
                                 alt="Primera Imagen " >
@@ -72,6 +75,7 @@
                         <div class="col-md-6 containertarjeta" >
                             <img src="/assets/img/portfolio/imagenesPeliculas/3.jpg" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
+                            <!-- CF2: ¿Qué hace la clase nombre?-->    
                             <p class="mt-2 text-white nombre" >
                                 <span class="text-bold">Soy Leyenda</span>
                                 <button class="btn btn-link btn-sm" onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.')">Ver más</button>
@@ -149,6 +153,7 @@
 
                 <div class="d-flex containerfila2" >
                     <div>
+
                         <div class="col-md-6 containertarjeta" >
                             <img src="/assets/img/portfolio/imagenesPeliculas/1.png" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
@@ -162,6 +167,7 @@
 
                     <div class="">
                         <div class="col-md-6 containertarjeta" >
+                            
                             <img src="/assets/img/portfolio/imagenesPeliculas/2.jpg" class="float-left  mx-auto  img-thumbnail imagentarjeta"
                                 alt="Primera Imagen" >
                             <p class="mt-2 text-white nombre" >

@@ -12,7 +12,8 @@
         <section class="page-section home" id="inicioSesion">
 
             <div class="container-fluid py-5 text-left">
-                <h3>RECOMENDACIONES</h3>
+            <!--CF2: ¿Dónde están h1 y h2?-->  
+            <h3>RECOMENDACIONES</h3>
             </div>
 
             <!-- Primera Imagen con Texto -->
@@ -39,6 +40,7 @@
                         et elementum.
                     </p>
                 </div>
+                <!--CF2: Estos col deberían apilarse en móvil, hay que usar la clase col-md-->
                 <div class="row">
                     <div class="col">
                         <img src="assets/img/portfolio/home/11.jpg" class="img-fluid img-thumbnail d-block mx-auto"
@@ -66,7 +68,8 @@
                     </div>
                 </div>
 
-
+                <!--CF2: Esto no debe ser un container-fluid, sino un row con un col dentro-->
+                <!--CF2: Estaría justificado el uso del elemento semántico section--> 
                 <div class="container-fluid py-4 text-left">
                     <h3>PELICULAS</h3>
                 </div>
@@ -77,6 +80,7 @@
                         <img src="assets/img/portfolio/home/2.jpg" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Tercera Imagen">
                     </div>
+                    <!--Para los contenidos debes usar el elemento semántico <article>-->
                     <div class="col-md">
                         <p class="mt-2 letra20 text-center text-white text-bold">Título</p>
                         <p class="mt-2 letra14 text-center text-white">

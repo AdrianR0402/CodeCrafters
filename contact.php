@@ -15,11 +15,13 @@
                 <div class="row justify-content-center">
                     <div class="col-md-8 col-xl-7">
                         <div class="text-center my-5 py-5">
+                            <!-- CF2:¿Dónde está el h1?-->
                             <h2 class="page-section-heading display-2 text-white mb-0 ">
                                 CONTACTO</h2>
                             <p>Mándanos tu feedback</p>
                         </div>
                         <div class="text-center"><!--diferentes divs para los datos de contacto -->
+                            <!-- CF2: ¿Porqué h5? esto tiene que ser un <label>-->
                             <h5>USUARIO</h5>
                             <form id="contactForm">
                                 <div class="form-floating mb-3">
