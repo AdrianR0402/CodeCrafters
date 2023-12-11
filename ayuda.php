@@ -10,12 +10,15 @@
 
     <?php include("includes/navigation.php"); ?>
     <main>
-
+         <!-- CF2: has usado tres breakpoints en el documento !!!, no tienes cuatro layout en figma, solo dos,
+         por tanto solo puedes usar un breakpoint-->
         <section class="page-section" id="inicioSesion">
             <div class="container-fluid my-5">
                 <div class="col-md-6 mx-auto">
+                    <!-- CF2: No debes meter un container dentro de otro-->
                     <div class="container">
                         <div class="row">
+                            <!-- CF2: ¿Dónde está el col?-->
                             <div class="text-center inicioSesion-header">
                                 <h1 class="display-2">AYUDA</h1>
                             </div>
@@ -64,6 +67,7 @@
 
                             <!-- Botón ACCEDER fuera del contenedor -->
                             <div class="row mt-4">
+                                <!-- CF2:¿Donde están las 4 columnas restantes? Si sólo hay una columna, usa la clase col-->
                                 <div class="col-md-8 offset-md-2">
                                     <div class="text-center">
                                         <button type="button"

@@ -3,7 +3,9 @@
         <div class="row">
 
             <!-- Footer Social Icons-->
+            <!-- CF2: Si sólo hay un columna en el row, debe ser col-->
             <div class="col-lg-6 mb-5 mb-lg-0 mx-auto">
+                <!--CF2: ¿Por qué h4?-->
                 <h4 class="text-uppercase mb-4">Siguenos en nuestras redes</h4>
                 <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
                 <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
@@ -13,6 +15,7 @@
             </div>
         </div>
         <div class="row">
+            <!--CF2: Esto deve ser un <nav>-->
             <div class="col-lg-10 mb-0 mb-lg-0 mx-auto mt-4">
                 <a href="acercaDe.php">Sobre Nosotros</a>
                 <a href="contact.php">Contacto</a>

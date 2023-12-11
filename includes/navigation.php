@@ -1,5 +1,8 @@
+<!--CF2: En versión móvil el navbar no se parece a lo que habéis definido en la guía de estilos-->
 <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container-fluid">
+        
+        <!--CF2: ¿Quieres decir col-md-3? ¿Donde está el row?-->
         <div class="col md-3">
             <img src="/assets/img/image" class="img-fluid" alt="" id="UserNav">
             <a class="navbar-brand" href="infoSuscripcion.php">Usuario </a><!--nombre de usuario -->
