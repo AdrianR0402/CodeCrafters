@@ -1,10 +1,8 @@
+<?php include("/includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Smash Movie</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <?php include("/includes/head-tag-contents.php"); ?>
   <style>
     .custom-grid {
       display: grid;
@@ -39,35 +37,37 @@
 </head>
 
 <body>
-  <div class="container">
-    <h1>Dale a Todas las Películas que puedas</h1>
-    <div class="d-flex justify-content-center mb-4">
-      <div class="col-4">
-        <h2>Tu marcador:</h2>
-        <h2 id="score">0</h2>
+  <?php include("/includes/navigation.php"); ?>
+  <main>
+    <div class="container">
+      <h1>Dale a Todas las Películas que puedas</h1>
+      <div class="d-flex justify-content-center mb-4">
+        <div class="col-4">
+          <h2>Tu marcador:</h2>
+          <h2 id="score">0</h2>
+        </div>
+        <div class="col-4">
+          <h2>Tiempo Restante :</h2>
+          <h2 id="time-left">60</h2>
+        </div>
       </div>
-      <div class="col-4">
-        <h2>Tiempo Restante :</h2>
-        <h2 id="time-left">60</h2>
-      </div>
-    </div>
 
-    <div class="d-flex justify-content-center"></div>
-      <div class="custom-grid ">
-        <div class="square" id="1"></div>
-        <div class="square" id="2"></div>
-        <div class="square" id="3"></div>
-        <div class="square" id="4"></div>
-        <div class="square" id="5"></div>
-        <div class="square" id="6"></div>
-        <div class="square" id="7"></div>
-        <div class="square" id="8"></div>
-        <div class="square" id="9"></div>
+      <div class="d-flex justify-content-center"></div>
+        <div class="custom-grid ">
+          <div class="square" id="1"></div>
+          <div class="square" id="2"></div>
+          <div class="square" id="3"></div>
+          <div class="square" id="4"></div>
+          <div class="square" id="5"></div>
+          <div class="square" id="6"></div>
+          <div class="square" id="7"></div>
+          <div class="square" id="8"></div>
+          <div class="square" id="9"></div>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </main>
+  <?php include("/includes/footer.php"); ?>
   <script src="app.js"></script>
 </body>
 
