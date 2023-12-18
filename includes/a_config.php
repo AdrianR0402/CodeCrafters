@@ -40,10 +40,6 @@ switch ($_SERVER["SCRIPT_NAME"]) {
 		$CURRENT_PAGE = "ayuda";
 		$PAGE_TITLE = "Ayuda";
 		break;
-	case "/juegos.php";
-		$CURRENT_PAGE = "juegos";
-		$PAGE_TITLE = "Juegos";
-		break;
 	default:
 		$CURRENT_PAGE = "";
 		$PAGE_TITLE = "Lucecine";
