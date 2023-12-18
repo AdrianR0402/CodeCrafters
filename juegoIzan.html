@@ -27,6 +27,20 @@
             animation: slideIn 1s ease-in-out forwards;
         }
 
+        #image-container img {
+            width: 100px;
+            height: 150px;
+            margin: 5px;
+            cursor: pointer;
+            user-drag: none;
+            user-select: none;
+            transition: transform 0.3s;
+        }
+
+        #image-container img:hover {
+            transform: scale(1.1);
+        }
+
         #drop-container {
             border: 2px dashed #aaa;
             padding: 20px;
@@ -75,6 +89,11 @@
                 transform: scale(1);
             }
         }
+
+        .dragging {
+            cursor: grabbing !important;
+            transform-origin: center center !important;
+        }
     </style>
 </head>
 
@@ -93,15 +112,18 @@
         const questions = [
             {
                 question: "Arrastra y suelta la imagen de la película 'Inception'",
-                correctAnswer: "inception.jpg"
+                correctAnswer: "assets/img/inception.jpg",
+                incorrectAnswers: ["assets/img/banner3.jpg", "assets/img/imagen1.png"]
             },
             {
                 question: "Arrastra y suelta la imagen de la película 'The Shawshank Redemption'",
-                correctAnswer: "shawshank.jpg"
+                correctAnswer: "assets/img/shawshank.jpg",
+                incorrectAnswers: ["inception.jpg", "titanic.jpg"]
             },
             {
                 question: "Arrastra y suelta la imagen de la película 'Titanic'",
-                correctAnswer: "titanic.jpg"
+                correctAnswer: "assets/img/titanic.jpg",
+                incorrectAnswers: ["inception.jpg", "shawshank.jpg"]
             }
         ];
 
@@ -118,20 +140,81 @@
             questionElement.textContent = question.question;
 
             imageContainer.innerHTML = '';
-            const image = new Image();
-            image.src = question.correctAnswer;
-            image.alt = "Movie Image";
-            image.draggable = true;
-            image.ondragstart = (event) => {
-                dragStart(event);
-            };
-            imageContainer.appendChild(image);
+            const correctImage = createImage(question.correctAnswer, true);
+            imageContainer.appendChild(correctImage);
+
+            question.incorrectAnswers.forEach(incorrectAnswer => {
+                const incorrectImage = createImage(incorrectAnswer, false);
+                imageContainer.appendChild(incorrectImage);
+            });
 
             dropContainer.style.display = 'block';
         }
 
-        function dragStart(event) {
-            event.dataTransfer.setData("text", event.target.src);
+        function createImage(src, isCorrect) {
+            const image = new Image();
+            image.src = src;
+            image.alt = "Movie Image";
+            image.draggable = true;
+
+            if (isCorrect) {
+                image.setAttribute("data-correct", "true");
+            }
+
+            image.addEventListener('mousedown', handleImageMouseDown);
+            return image;
+        }
+
+        function handleImageMouseDown(event) {
+            const image = event.target;
+
+            let shiftX = event.clientX - image.getBoundingClientRect().left;
+            let shiftY = event.clientY - image.getBoundingClientRect().top;
+
+            image.style.position = 'absolute';
+            image.style.zIndex = 1000;
+            image.classList.add('dragging');
+            image.style.transform = 'scale(0.8)'; // Escala inicial
+
+            document.body.append(image);
+
+            moveAt(event.pageX, event.pageY);
+
+            function moveAt(pageX, pageY) {
+                image.style.left = pageX - shiftX + 'px';
+                image.style.top = pageY - shiftY + 'px';
+            }
+
+            function onMouseMove(event) {
+                moveAt(event.pageX, event.pageY);
+            }
+
+            document.addEventListener('mousemove', onMouseMove);
+
+            image.addEventListener('mouseup', function () {
+                document.removeEventListener('mousemove', onMouseMove);
+                image.style.zIndex = 0;
+                image.classList.remove('dragging');
+                image.style.transform = ''; // Restaura la escala original
+
+                const question = questions[currentQuestion];
+
+                const rect = dropContainer.getBoundingClientRect();
+                const isInDropContainer = (
+                    event.clientX >= rect.left &&
+                    event.clientX <= rect.right &&
+                    event.clientY >= rect.top &&
+                    event.clientY <= rect.bottom
+                );
+
+                if (isInDropContainer && image.getAttribute("data-correct") === "true" && image.src.includes(question.correctAnswer)) {
+                    handleDrop(true);
+                } else {
+                    handleDrop(false);
+                }
+
+                image.remove();
+            });
         }
 
         function allowDrop(event) {
@@ -143,7 +226,17 @@
             const data = event.dataTransfer.getData("text");
             const question = questions[currentQuestion];
 
-            if (data.includes(question.correctAnswer)) {
+            if (event.target.getAttribute("data-correct") === "true" && data.includes(question.correctAnswer)) {
+                handleDrop(true);
+            } else {
+                handleDrop(false);
+            }
+        }
+
+        function handleDrop(isCorrect) {
+            const question = questions[currentQuestion];
+
+            if (isCorrect) {
                 score++;
             }
 
