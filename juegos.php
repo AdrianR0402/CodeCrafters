@@ -18,10 +18,10 @@
                 <div class="row">
                     <!-- Primera Imagen con Texto -->
                     <div class="col-md-6">
-                        <img src="assets/img/portfolio/juego1.png" class="img-fluid img-thumbnail d-block mx-auto"
+                        <img src="assets/img/portfolio/juego1.jpeg" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Primera Imagen">
                         <p class="mt-2 text-center text-white letrasImg">
-                            <a href="/juegos/juegoJuan/index.php" class="text-bold">Juego 1</a>
+                            <a href="/juegos/juegoJuan/index.php" class="text-bold">Smash Movie</a>
                         </p>
                     </div>
                     <!-- Segunda Imagen con Texto -->

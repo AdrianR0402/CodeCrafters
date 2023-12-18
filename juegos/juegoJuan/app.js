@@ -1,22 +1,23 @@
-// Selecciona todos los elementos con la clase 'square' y los almacena en 'cuadrados'
+// Selecciona todos los elementos con la clase square y los almacena en cuadrados
 const cuadrados = document.querySelectorAll('.square');
 
-// Selecciona el elemento con el ID 'time-left' y lo almacena en 'tiempoRestante'
+// Selecciona el elemento con el ID time-left y lo almacena en tiempoRestante
 const tiempoRestante = document.querySelector('#time-left');
 
-// Selecciona el elemento con el ID 'score' y lo almacena en 'puntuacion'
+// Selecciona el elemento con el ID score y lo almacena en puntuacion
 const puntuacion = document.querySelector('#score');
 
-// Variables para almacenar información del juego
+
 let resultado = 0; // Almacena la puntuación del jugador
 let posicionGolpe; // Almacena la posición del topo que debe ser golpeada
 let tiempoActual = 60; // Almacena el tiempo inicial del juego (en segundos)
 let temporizadorId = null; // Almacena el ID del temporizador para el movimiento del topo
 
-// Función para mostrar el topo en un cuadrado aleatorio
+
 const imagenesTopo = ['peli1juego.jpg', 'peli2juego.jpg', 'peli3juego.jpg','peli4juego.jpg','peli5juego.jpg']; // Rutas de las imágenes
 let imagenActual = '';
 
+// Función para mostrar el topo en un cuadrado aleatorio
 function cuadradoAleatorio() {
   cuadrados.forEach(cuadrado => {
     cuadrado.style.backgroundImage = 'none'; // Reinicia el estilo de fondo
@@ -39,10 +40,7 @@ cuadrados.forEach(cuadrado => {
       puntuacion.textContent = resultado; // Actualiza la puntuación mostrada en la interfaz
       posicionGolpe = null; // Reinicia la posición del topo
 
-      // Cambiar la imagen del topo solo al ganar un punto
-      const nuevaImagen = imagenesTopo.find(imagen => imagen !== imagenActual);
-      cuadrado.style.backgroundImage = `url('${nuevaImagen}')`;
-      imagenActual = nuevaImagen;
+      
     }
   });
 });
