@@ -63,9 +63,11 @@
                             <span class="text-bold">Trailers</span>
                         </p>
                     </div>
+                    
                 </div>
             </div>
-
+        <h2>Juegos</h2>
+        <a href="/juegos/juegoJuan/index.php">Juego 1</a>
         </section>
     </main>
     <?php include("includes/footer.php"); ?>
