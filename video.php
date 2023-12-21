@@ -1,12 +1,14 @@
+<?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Control de Video</title>
+    <?php include("includes/head-tag-contents.php"); ?>
+</head>
 
 <body>
+    <?php include("includes/navigation.php"); ?>
+
     <div id="video-container">
         <video id="myVideo" controls>
             <source src="./videos/mikethefrog.mp4" type="video/mp4">
@@ -20,6 +22,23 @@
             <button onclick="toggleFullscreen()">⛶</button>
         </div>
     </div>
+
+    <main>
+        <section class="page-section" id="acercaDe">
+            <div class="container-fluid py-5 text-center">
+                <h1 class="display-1 text-primary text-bold">Lucecine</h1>
+                <p class="lead text-white">Tus juegos favoritos</p>
+            </div>
+
+            <!-- Sección de Imágenes con Texto -->
+            <div class="container mt-4">
+                <!-- Resto de tu código HTML para la sección de imágenes con texto -->
+            </div>
+        </section>
+    </main>
+
+    <?php include("includes/footer.php"); ?>
+
     <script>
         var video = document.getElementById("myVideo");
         var volumeControl = document.getElementById("volume");
@@ -53,11 +72,6 @@
             }
         }
     </script>
-
-</body>
-
-</html>
-
 </body>
 
 </html>
