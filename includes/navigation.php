@@ -39,6 +39,9 @@
                     <li class="nav-item mx-0 mx-md-1"><a
                             class="nav-link <?php if ($CURRENT_PAGE == "ayuda") { ?>active<?php } ?> py-3 px-0 px-md-3 rounded"
                             href="ayuda.php">Ayuda</a></li>
+                    <li class="nav-item mx-0 mx-md-1"><a
+                            class="nav-link <?php if ($CURRENT_PAGE == "juegos") { ?>active<?php } ?> py-3 px-0 px-md-3 rounded"
+                            href="juegos.php">Juegos</a></li>
                 </ul>
             </div>
         </div>
