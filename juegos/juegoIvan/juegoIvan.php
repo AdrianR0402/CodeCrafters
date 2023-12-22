@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <?php include("../../includes/head-tag-contents.php"); ?>
     <script src="https://unpkg.com/konva@9.2.3/konva.min.js"></script>
     <meta charset="utf-8" />
     <title>Juego Iván</title>
@@ -10,17 +11,20 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #121728;
       }
-      <?php include("../../includes/head-tag-contents.php"); ?>
     </style>
   </head>
 
   <body>
-    <section class="page-section terminosLegales">
-    <div><h2>Ruleta de Lucecine</h2></div>
-    </section>
+  <?php include("../../includes/navigation.php"); ?>
+  <div class="container mt-4"></div>
+    <section class="page-section">
+    <div class="container mt-4 text-center"><h1>Ruleta de Lucecine</h1></div>
     <div id="container"></div>
+    </section>
+    <?php include("../../includes/footer.php"); ?>
+
+    
     <script>
       var width = window.innerWidth;
       var height = window.innerHeight;

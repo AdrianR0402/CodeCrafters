@@ -83,7 +83,7 @@
                         <img src="assets/img/portfolio/series.png" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Segunda Imagen">
                         <p class="mt-2 text-center text-white letrasImg">
-                            <a href="" class="text-bold">Juego 2</a>
+                            <a href="/juegos/juegoIvan/juegoIvan.php" class="text-bold">Ruleta</a>
                         </p>
                     </div>
                 </div>
