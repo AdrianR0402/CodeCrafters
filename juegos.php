@@ -83,7 +83,11 @@
                         <img src="assets/img/portfolio/series.png" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Segunda Imagen">
                         <p class="mt-2 text-center text-white letrasImg">
+<<<<<<< HEAD
                             <a href="/juegos/juegoIzan/index.php" class="text-bold">trivian loco</a>
+=======
+                            <a href="/juegos/juegoIvan/juegoIvan.php" class="text-bold">Ruleta</a>
+>>>>>>> ee7dfa42128afa022132bcfb21f1d4fdaeef3bbf
                         </p>
                     </div>
                 </div>
