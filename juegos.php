@@ -93,7 +93,7 @@
                         <img src="assets/img/portfolio/animes.png" class="img-fluid img-thumbnail d-block mx-auto"
                             alt="Tercera Imagen">
                         <p class="mt-2 text-center text-white letrasImg">
-                            <a href="" class="text-bold">Juego 3</a>
+                            <a href="/juegos/juegoIzan/index.php" class="text-bold">trivian loco</a>
                         </p>
                     </div>
                     <!-- Cuarta Imagen con Texto. -->
