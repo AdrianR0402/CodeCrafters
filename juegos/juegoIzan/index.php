@@ -16,7 +16,7 @@
 
     <!-- Pantalla inicial -->
     <div id="pantalla-inicial">
-        <p>¿A qué pais pertenece la bandera?</p>
+        <p>¿Que peliculas es?</p>
         <button class="btn" onclick="comenzarJuego()">COMENZAR A JUGAR</button>
     </div>
 
