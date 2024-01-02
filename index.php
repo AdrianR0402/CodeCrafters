@@ -21,11 +21,10 @@
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
-                    <h3>Título de la Película Destacada</h3>
+                    <h3>La rana loca</h3>
                     <p class="mt-2 letra14 text-center text-white">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, alias. Quia similique recusandae
-                        sint debitis. Obcaecati, assumenda! Architecto autem totam nihil alias voluptatum ipsam culpa in
-                        voluptatem, suscipit quo non.
+                        una rana que le gustaba jugar con las tellevisiones cojio una pala y se fue a jugar con sus
+                        amigo, disfrutando el momento
                     </p>
                 </div>
 
@@ -89,7 +88,7 @@
                 </div>
 
                 <!--CF2: Esto no debe ser un container-fluid, sino un row con un col dentro-->
-                <!--CF2: Estaría justificado el uso del elemento semántico section--> 
+                <!--CF2: Estaría justificado el uso del elemento semántico section-->
                 <div class="container-fluid py-4 text-left">
                     <h3>PELICULAS</h3>
                 </div>
