@@ -2,3 +2,4 @@ node_modules/
 css/
 .sass-cache/
 prueba.html
+vendor/
