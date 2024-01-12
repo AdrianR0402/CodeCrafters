@@ -3,12 +3,36 @@
     <div class="container-fluid">
         
         <!--CF2: ¿Quieres decir col-md-3? ¿Donde está el row?-->
-        <div class="col md-3">
+
+            <div class="col md-3">        <!--
             <img src="/assets/img/image" class="img-fluid" alt="" id="UserNav">
-            <a class="navbar-brand" href="infoSuscripcion.php">Usuario </a><!--nombre de usuario -->
+            <a class="navbar-brand" href="infoSuscripcion.php">Usuario </a>
+        -->
 
-
+        <ul>
+        <li>
+    <?php	
+	  if  ($login_button == '')
+      {
+        echo '<img src="'.$_SESSION["user_image"].'" referrerpolicy="no-referrer" class="image-circle" />';
+      }
+       else
+       {
+        echo '<div align="center">'.$login_button . '</div>';
+	   }
+	 ?>
+	</li>
+	<?php	
+	  if  ($login_button == '')
+      {
+   		  echo '<li>'.$_SESSION['user_first_name'].' '.$_SESSION['user_last_name'].'</li>'; 
+        echo '<li>'.'<a href="logout.php">Logout</a>'.'</li>';
+      } 
+	 ?>		
+  </ul>
         </div>
+
+
         <div class="col md-6">
             <div class="collapse navbar-collapse" id="navbarResponsive">
 
