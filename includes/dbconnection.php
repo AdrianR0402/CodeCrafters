@@ -3,9 +3,9 @@
 //La base de datos primero llamando al script createdatabase.php.
 
 $servername = "localhost";
-$database = "googlelogin";
-$username = "root";
-$password = "root";
+$database = "lucecine";
+$username = "dwes";
+$password = "abc123.";
 
 // Create connection
 
