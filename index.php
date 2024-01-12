@@ -1,4 +1,5 @@
-<?php include("includes/a_config.php"); ?>
+<?php include("includes/a_config.php"); 
+include("includes/googleconnect.php")?>
 <!DOCTYPE html>
 <html lang="es">
 
