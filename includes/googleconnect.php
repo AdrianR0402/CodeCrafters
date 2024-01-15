@@ -46,7 +46,7 @@ if (isset($_GET["code"])) {
     //A continuación recuperamos el usuario de la base de datos
     //Su id quedará almacenado en la sesión para uso posterior.
 
-    $sql = "SELECT username FROM usuarios WHERE email = '$email'";
+    $sql = "SELECT username FROM usuario WHERE email = '$email'";
 
     if (!$resultado = $conn->query($sql)) {
       // ¡Oh, no! La consulta falló. 

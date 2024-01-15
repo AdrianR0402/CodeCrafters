@@ -4,9 +4,9 @@
         
         <!--CF2: ¿Quieres decir col-md-3? ¿Donde está el row?-->
 
-            <div class="col md-3">        <!--
-            <img src="/assets/img/image" class="img-fluid" alt="" id="UserNav">
-            <a class="navbar-brand" href="infoSuscripcion.php">Usuario </a>
+        <div class="col md-3">        <!--
+        <img src="/assets/img/image" class="img-fluid" alt="" id="UserNav">
+        <a class="navbar-brand" href="infoSuscripcion.php">Usuario </a>
         -->
 
         <ul>
