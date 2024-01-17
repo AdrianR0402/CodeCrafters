@@ -10,3 +10,4 @@
 <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
 <link href="/css/styles.css" rel="stylesheet" />
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="./js/scriptcookie.js"></script>
