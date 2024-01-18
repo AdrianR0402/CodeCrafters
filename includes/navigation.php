@@ -8,18 +8,24 @@
         <!--CF2: ¿Quieres decir col-md-3? ¿Donde está el row?-->
 
         <div class="col md-3">
-            <ul class="custom-ul">
-                <li class="custom-li custom-username">
+            <ul>
+                <li>
                     <?php
-                    if ($login_button == '') {
-                        echo '<img src="' . $_SESSION["user_image"] . '" referrerpolicy="no-referrer" class="custom-logoNav" />';
+                    if (isset($_SESSION["user_image"]) && $login_button == '') {
+                        echo '<img src="' . $_SESSION["user_image"] . '" referrerpolicy="no-referrer" id="logoNav />';
                     } else {
-                        echo '<div align=center">' . $login_button . '</div>';
+                        echo '<div align="center">';
+                        echo '<a href="login.php" class="btn btn-primary">login</a>';
+                        echo '<button class="btn btn-primary" type="button">register</button>';
+                        echo '</div>';
+                        echo '<div align="center">' . $login_button . '</div>';
+
                     }
                     ?>
                 </li>
                 <?php
-                if ($login_button == '') {
+
+                if (isset($_SESSION['user_first_name']) && $_SESSION['user_last_name'] && $login_button == '') {
                     echo '<li class="custom-li"><span class="custom-span">' . $_SESSION['user_first_name'] . ' ' . $_SESSION['user_last_name'] . '</span></li>';
                     echo '<li class="custom-li"><a class="custom-link" href="logout.php">Logout</a></li>';
                 }
