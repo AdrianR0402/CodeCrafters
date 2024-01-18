@@ -16,7 +16,7 @@
                     } else {
                         echo '<div align="center">';
                         echo '<a href="login.php" class="btn btn-primary">login</a>';
-                        echo '<button class="btn btn-primary" type="button">register</button>';
+                        echo '<a href="register.php" class="btn btn-primary">register</a>';
                         echo '</div>';
                         echo '<div align="center">' . $login_button . '</div>';
 
