@@ -3,10 +3,49 @@
 <html>
 
 <head>
-    <?php include("includes/head-tag-contents.php"); ?>
+    <?php include("includes/head-tag-contents.php");
+    require_once "/Model/Usuarios"; ?>
 </head>
 
 <body>
+    <?php
+    try {
+        $conex = new Connection();
+        $stmt = $conex->prepare("SELECT * FROM usuarios WHERE username = :user");
+        $stmt->bindParam(':user', $_POST['username']);
+        $stmt->execute();
+
+        $rowCount = $stmt->rowCount();
+
+        if ($rowCount > 0) {
+            $reg = $stmt->fetch(PDO::FETCH_OBJ);
+
+            // Crear objeto Usuarios con los datos de la base de datos
+            $usuario = new Usuarios(
+                $reg->username,
+                $reg->password,
+                $reg->nombre,
+                $reg->apellido1,
+                $reg->apellido2,
+                $reg->email,
+                $reg->fechanacimiento,
+                $reg->pais,
+                $reg->codigopostal,
+                $reg->telefono,
+                $reg->rol
+            );
+
+            // Guardar el objeto Usuarios en una variable de sesión
+            $_SESSION['usuario'] = $usuario;
+        } else {
+            $_SESSION['usuario'] = false;
+        }
+    } catch (Exception $ex) {
+        $_SESSION['usuario'] = false;
+        echo $ex->getMessage();
+    }
+
+    ?>
 
     <?php include("includes/navigation.php"); ?>
     <main>
@@ -27,7 +66,8 @@
                                             <label for="usuario"
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">Usuario:</label>
                                             <div class="col-sm-9">
-                                                <input type="text" class="form-control font-weight-bold" id="usuario">
+                                                <input type="text" name="username" class="form-control font-weight-bold"
+                                                    id="usuario">
                                             </div>
                                         </div>
 
@@ -58,7 +98,8 @@
                             <div class="row mt-4">
                                 <div class="col-md-8 offset-md-2">
                                     <div class="text-center">
-                                        <button type="button" class="btn btn-primary btn-acceder font-weight-bold">ACCEDER</button>
+                                        <button type="button"
+                                            class="btn btn-primary btn-acceder font-weight-bold">ACCEDER</button>
                                     </div>
                                 </div>
                             </div>
@@ -75,6 +116,8 @@
                 </div>
             </div>
         </section>
+
+
     </main>
 
     <?php include("includes/footer.php"); ?>
