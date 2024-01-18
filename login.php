@@ -21,7 +21,7 @@
                             </div>
                             <div class="inicioSesion container-border">
                                 <div class="col-md-8 offset-md-2">
-                                    <form class="mt-4 mb-4">
+                                    <form method="POST" action="" class="mt-4 mb-4">
                                         <!-- Usuario -->
                                         <div class="form-group row mb-3">
                                             <label for="usuario"
@@ -58,8 +58,7 @@
                             <div class="row mt-4">
                                 <div class="col-md-8 offset-md-2">
                                     <div class="text-center">
-                                        <button type="button"
-                                            class="btn btn-primary btn-acceder font-weight-bold">ACCEDER</button>
+                                        <button type="button" class="btn btn-primary btn-acceder font-weight-bold">ACCEDER</button>
                                     </div>
                                 </div>
                             </div>
@@ -68,8 +67,7 @@
                             <div class="row mt-3">
                                 <div class="col-md-8 offset-md-2 text-center">
                                     <span class="no-tienes-cuenta-container">¿No tienes cuenta? <a href="register.php"
-                                            class="crear-cuenta">CREAR
-                                            CUENTA</a></span>
+                                            class="crear-cuenta">CREAR CUENTA</a></span>
                                 </div>
                             </div>
                         </div>

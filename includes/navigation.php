@@ -14,12 +14,10 @@
                     if (isset($_SESSION["user_image"]) && $login_button == '') {
                         echo '<img src="' . $_SESSION["user_image"] . '" referrerpolicy="no-referrer" id="logoNav />';
                     } else {
-                        echo '<div align="center">';
+                        echo '<div align="left">';
                         echo '<a href="login.php" class="btn btn-primary">login</a>';
                         echo '<a href="register.php" class="btn btn-primary">register</a>';
                         echo '</div>';
-                        echo '<div align="center">' . $login_button . '</div>';
-
                     }
                     ?>
                 </li>

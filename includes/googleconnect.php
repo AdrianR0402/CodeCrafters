@@ -76,7 +76,7 @@ mysqli_close($conn);
 
 if (!isset($_SESSION['access_token'])) {
   //Create a URL to obtain user authorization
-  $login_button = '<a href="' . $google_client->createAuthUrl() . '" class="btn btn-primary">Iniciar Sesión <img src="assets/img/googleLogo.png" class="botonGoogle" /></a>';
+  $login_button = '<a href="' . $google_client->createAuthUrl() . '" class="btn btn-primary">Iniciar Sesión <img src="assets/img/googleLogo.png" id="imgGoogle" /></a>';
 
 
 }
