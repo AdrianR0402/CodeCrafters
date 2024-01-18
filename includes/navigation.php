@@ -1,36 +1,32 @@
 <!--CF2: En versión móvil el navbar no se parece a lo que habéis definido en la guía de estilos-->
 <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <style>
+
+    </style>
     <div class="container-fluid">
-        
+
         <!--CF2: ¿Quieres decir col-md-3? ¿Donde está el row?-->
 
-        <div class="col md-3">        <!--
-        <img src="/assets/img/image" class="img-fluid" alt="" id="UserNav">
-        <a class="navbar-brand" href="infoSuscripcion.php">Usuario </a>
-        -->
-
-        <ul>
-        <li>
-    <?php	
-	  if  ($login_button == '')
-      {
-        echo '<img src="'.$_SESSION["user_image"].'" referrerpolicy="no-referrer" class="image-circle" />';
-      }
-       else
-       {
-        echo '<div align="center">'.$login_button . '</div>';
-	   }
-	 ?>
-	</li>
-	<?php	
-	  if  ($login_button == '')
-      {
-   		  echo '<li>'.$_SESSION['user_first_name'].' '.$_SESSION['user_last_name'].'</li>'; 
-        echo '<li>'.'<a href="logout.php">Logout</a>'.'</li>';
-      } 
-	 ?>		
-  </ul>
+        <div class="col md-3">
+            <ul class="custom-ul">
+                <li class="custom-li custom-username">
+                    <?php
+                    if ($login_button == '') {
+                        echo '<img src="' . $_SESSION["user_image"] . '" referrerpolicy="no-referrer" class="custom-logoNav" />';
+                    } else {
+                        echo '<div align=center">' . $login_button . '</div>';
+                    }
+                    ?>
+                </li>
+                <?php
+                if ($login_button == '') {
+                    echo '<li class="custom-li"><span class="custom-span">' . $_SESSION['user_first_name'] . ' ' . $_SESSION['user_last_name'] . '</span></li>';
+                    echo '<li class="custom-li"><a class="custom-link" href="logout.php">Logout</a></li>';
+                }
+                ?>
+            </ul>
         </div>
+
 
 
         <div class="col md-6">

@@ -33,8 +33,9 @@
                     color: $primary;
                 }
             }
-            div.dropdown-menu{
-                a.dropdown-item{
+
+            div.dropdown-menu {
+                a.dropdown-item {
                     &:hover {
                         background-color: $primary;
 
@@ -90,9 +91,49 @@
 
 #logoNav {
     width: 100px;
+    height: 100px;
 }
+
 #UserNav {
     width: 100px;
     background-color: $secondary;
 }
 
+.container-fluid {
+    // Estilos generales para el contenedor fluido, ajusta según sea necesario
+}
+
+.col {
+    // Estilos generales para la columna, ajusta según sea necesario
+}
+
+.custom-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+    .custom-li {
+        margin-left: 10px; // Ajusta el margen según sea necesario
+
+        .custom-logoNav {
+            max-width: 100px; // Ajusta el ancho máximo de la imagen
+            border-radius: 50%; // Añade bordes redondeados a la imagen
+        }
+
+        .custom-username {
+            margin-right: 10px; // Ajusta el margen a la derecha según sea necesario
+            color: white; // Cambia el color del nombre de usuario a blanco
+        }
+
+        .custom-span {
+            font-weight: bold; // Aplica negrita al nombre del usuario
+        }
+
+        .custom-link {
+            text-decoration: none; // Elimina el subrayado de los enlaces
+            color: #333; // Cambia el color del enlace
+        }
+    }
+}
