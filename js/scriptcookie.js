@@ -1,4 +1,3 @@
-
 // Método para establecer una cookie con un nombre, valor y duración en días
 function setCookie(nombre, valor, dias) {
     var expiracion = "";
@@ -9,11 +8,7 @@ function setCookie(nombre, valor, dias) {
     }
     document.cookie = nombre + "=" + valor + expiracion + "; path=/";
 }
-
-// Método para establecer una cookie de sesión con un nombre y valor
-function setSessionCookie(nombre, valor) {
-    document.cookie = nombre + "=" + valor + "; path=/";
-}
+setCookie("usuario_logueado", "true", 365);// Quitar luego (Es para testear que funciona con la coockie - Esa coockie se creara en la pagina donde se realice la verificacion de inicio de sesion)
 
 // Método para obtener el valor de una cookie por su nombre
 function getCookie(nombre) {
@@ -31,23 +26,30 @@ function getCookie(nombre) {
     return null;
 }
 
-// Método principal que muestra la alerta de cookies y noticias sobre películas
+// Método principal que muestra la alerta de cookies y realiza las redirecciones necesarias
 function mostrarAlertaCookies() {
     // Verificar si la cookie de aceptación general está establecida
     if (!getCookie("cookie_aceptada")) {
         var respuestaUsuario = confirm("Este sitio web utiliza cookies. ¿Desea aceptar?");
         if (respuestaUsuario) {
-            setSessionCookie("cookie_aceptada", "true"); // Establecer la cookie por 30 días (puedes ajustar el valor)
+            setCookie("cookie_aceptada", "true", 365); // Establecer la cookie por 365 días (o ajusta el valor según necesites)
         }
     } else {
+        var usuarioLogueado = getCookie("usuario_logueado");
+        
+         // Verificar si no está autenticado
+         if (!usuarioLogueado) {
+            window.location.href = "login.php";
+            return;  // Salir de la función para evitar mostrar otras alertas o redirecciones
+        }
+
         // Verificar si la cookie de noticias mensuales está establecida
         var ultimaFechaNoticias = getCookie("ultima_fecha_noticias");
         var fechaActual = new Date().toISOString().split('T')[0]; // Obtener la fecha actual en formato YYYY-MM-DD
 
-        if (!ultimaFechaNoticias || ultimaFechaNoticias < fechaActual) {
-            // Mostrar la alerta de noticias sobre películas
-            var respuestaNoticias = confirm("¡Nuevas noticias sobre películas! ",
-            "fsdafas");
+        // Mostrar la alerta de noticias sobre películas solo si está autenticado
+        if (usuarioLogueado && (!ultimaFechaNoticias || ultimaFechaNoticias < fechaActual)) {
+            var respuestaNoticias = confirm("¡Nuevas noticias sobre películas! ¿Desea verlas?");
             
             if (respuestaNoticias) {
                 // Establecer la cookie de noticias para el próximo mes
@@ -62,3 +64,11 @@ function mostrarAlertaCookies() {
 
 // Ejecutar la función principal cuando la página se carga completamente
 window.onload = mostrarAlertaCookies;
+
+// Redirigir a la página de inicio de sesión si no está autenticado en cada cambio de página
+window.addEventListener('beforeunload', function () {
+    var usuarioLogueado = getCookie("usuario_logueado");
+    if (!usuarioLogueado) {
+        window.location.href = "login.php";
+    }
+});
