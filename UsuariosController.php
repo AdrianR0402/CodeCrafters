@@ -5,7 +5,7 @@ include("includes/dbconnection.php");
 
 class UsuariosController
 {
-    public static function buscarUsuarios($username)
+    public static function buscarUsuarios($usuario)
     {
         try {
             // Reemplaza estos valores con tus credenciales reales de la base de datos
@@ -23,7 +23,7 @@ class UsuariosController
             }
 
             $stmt = $conn->prepare("SELECT * FROM usuario WHERE username = ?");
-            $stmt->bind_param("s", $username);
+            $stmt->bind_param("s", $usuario);
             $stmt->execute();
 
             $result = $stmt->get_result();

@@ -1,5 +1,34 @@
+<?php
+require_once 'UsuariosController.php';
+if (isset($_POST['iniciar'])) {
+
+    echo "pokemon";
+    $usuario = UsuariosController::buscarUsuarios($_POST['username']);
+    var_dump($_POST['username']);
+
+    if ($usuario === false) {
+        echo '<script>alert("Usuario no existe.");</script>';
+    } else {
+        if ($usuario) {
+            $claveIngresada = $_POST["contrasena"];
+
+            if ($claveIngresada === $usuario->password) {
+                $_SESSION['usuario'] = $usuario;
+                $_SESSION['logueado'] = "";
+
+                header("location:index.php");
+                exit();
+            } else {
+                echo '<script>alert("Contraseña incorrecta. Por favor, inténtalo de nuevo.");</script>';
+
+            }
+        }
+    }
+}
+
+?>
 <?php include("includes/a_config.php"); ?>
-<?php include("UsuariosController.php"); ?>
+
 <!DOCTYPE html>
 <html>
 
@@ -12,30 +41,7 @@
     <?php include("includes/navigation.php"); ?>
 
     <main>
-        <?php
-        if (isset($_POST['iniciar'])) {
-            echo "pokemon";
-            $usuario = UsuariosController::buscarUsuarios($_POST['username']);
-            var_dump($_POST['username']);
 
-            if ($usuario === false) {
-                $error = "Usuario no existe";
-            } else {
-                if ($usuario) {
-                    $claveIngresada = $_POST["contrasena"];
-
-                    if ($claveIngresada === $usuario->password) {
-                        $_SESSION['usuario'] = $usuario;
-                        header("location:index.php");
-                        exit();
-                    } else {
-                        $error = "Contraseña incorrecta. Por favor, inténtalo de nuevo.";
-                    }
-                }
-            }
-        }
-
-        ?>
         <section class="page-section" id="inicioSesion">
             <div class="container-fluid my-5">
                 <div class="col-md-6 mx-auto">
@@ -81,8 +87,9 @@
                                         <div class="row mt-4">
                                             <div class="col-md-8 offset-md-2">
                                                 <div class="text-center">
-                                                    <button type="submit" name="iniciar"
-                                                        class="btn btn-primary btn-acceder font-weight-bold">ACCEDER</button>
+                                                    <input type="hidden" name="iniciar" value="acceder" />
+                                                    <input type="submit"
+                                                        class="btn btn-primary btn-acceder font-weight-bold"></input>
                                                 </div>
                                             </div>
                                         </div>

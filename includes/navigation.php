@@ -11,7 +11,8 @@
             <ul>
                 <li>
                     <?php
-                    if (isset($_SESSION["user_image"]) && $login_button == '') {
+                    if (isset($_SESSION["usuario"])) {
+                        echo "fucnion";
                         echo '<img src="' . $_SESSION["user_image"] . '" referrerpolicy="no-referrer" id="logoNav />';
                     } else {
                         echo '<div align="left">';
