@@ -1,7 +1,7 @@
 <?php
 require_once 'UsuariosController.php';
 if (isset($_POST['iniciar'])) {
-
+    session_start();
     echo "pokemon";
     $usuario = UsuariosController::buscarUsuarios($_POST['username']);
     var_dump($_POST['username']);
@@ -14,7 +14,6 @@ if (isset($_POST['iniciar'])) {
 
             if ($claveIngresada === $usuario->password) {
                 $_SESSION['usuario'] = $usuario;
-                $_SESSION['logueado'] = "";
 
                 header("location:index.php");
                 exit();

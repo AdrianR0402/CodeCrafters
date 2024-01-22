@@ -1,9 +1,12 @@
+<?php require_once 'UsuariosController.php'; ?>
 <?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html>
+
 <head>
     <?php include("includes/head-tag-contents.php"); ?>
 </head>
+
 <body>
     <?php include("includes/navigation.php"); ?>
     <main>
@@ -20,14 +23,19 @@
                             <h2 class="page-section-heading mb-4">Datos de usuario</h2>
                             <div class="container">
                                 <ul class="list-group">
-                                    <li class="list-group-item active"><a href="infoSuscripcion.php" class="linksMenu">Información de
+                                    <li class="list-group-item active"><a href="infoSuscripcion.php"
+                                            class="linksMenu">Información de
                                             Suscripción</a></li>
-                                    <li class="list-group-item"><a href="preferencias.php" class="linksMenu">Preferencias</a></li>
-                                    <li class="list-group-item"><a href="notifications.php" class="linksMenu">Notificaciones por
+                                    <li class="list-group-item"><a href="preferencias.php"
+                                            class="linksMenu">Preferencias</a></li>
+                                    <li class="list-group-item"><a href="notifications.php"
+                                            class="linksMenu">Notificaciones por
                                             correo</a></li>
-                                    <li class="list-group-item"><a href="cambiarCorreo.php" class="linksMenu">Cambiar correo</a>
+                                    <li class="list-group-item"><a href="cambiarCorreo.php" class="linksMenu">Cambiar
+                                            correo</a>
                                     </li>
-                                    <li class="list-group-item"><a href="password.php" class="linksMenu">Cambiar contraseña</a>
+                                    <li class="list-group-item"><a href="password.php" class="linksMenu">Cambiar
+                                            contraseña</a>
                                     </li>
                                 </ul>
                             </div>
@@ -40,12 +48,14 @@
                                         <!-- Mostrar informacion de la suscripcion -->
                                         <div class="col-md-12">
                                             <h1 class="datosUsuario-header">Información de suscripción</h1>
-                                            <p class="datosUsuario-text">Gestiona tu plan de suscripción y tu historial de pedidos</p>
+                                            <p class="datosUsuario-text">Gestiona tu plan de suscripción y tu historial
+                                                de pedidos</p>
                                         </div>
                                         <div class="col-md-6 text-center mx-auto">
                                             <p class="datosUsuario-header">Miembro Mega Fan</p>
                                             <p class="datosUsuario-text">64,99 € / anual + VAT aplicable</p>
-                                            <p class="datosUsuario-text">Tu suscripción se renovará el 6 de febrero de 2024</p>
+                                            <p class="datosUsuario-text">Tu suscripción se renovará el 6 de febrero de
+                                                2024</p>
                                             <!-- links -->
                                             <a href="#" class="linksContenido">Cancelar suscripción</a>
                                             <a href="#" class="linksContenido">Gestionar método de pago</a>
@@ -61,4 +71,5 @@
     </main>
     <?php include("includes/footer.php"); ?>
 </body>
+
 </html>

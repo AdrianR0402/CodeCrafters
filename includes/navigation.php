@@ -8,28 +8,28 @@
         <!--CF2: ¿Quieres decir col-md-3? ¿Donde está el row?-->
 
         <div class="col md-3">
-            <ul>
-                <li>
-                    <?php
-                    if (isset($_SESSION["usuario"])) {
-                        echo "fucnion";
-                        echo '<img src="' . $_SESSION["user_image"] . '" referrerpolicy="no-referrer" id="logoNav />';
-                    } else {
-                        echo '<div align="left">';
-                        echo '<a href="login.php" class="btn btn-primary">login</a>';
-                        echo '<a href="register.php" class="btn btn-primary">register</a>';
-                        echo '</div>';
-                    }
-                    ?>
-                </li>
-                <?php
+            <?php
+            if (isset($_SESSION["usuario"])) {
+                $usuario = $_SESSION['usuario'];
 
-                if (isset($_SESSION['user_first_name']) && $_SESSION['user_last_name'] && $login_button == '') {
-                    echo '<li class="custom-li"><span class="custom-span">' . $_SESSION['user_first_name'] . ' ' . $_SESSION['user_last_name'] . '</span></li>';
-                    echo '<li class="custom-li"><a class="custom-link" href="logout.php">Logout</a></li>';
-                }
-                ?>
-            </ul>
+                echo "<a href='password.php'><img id='imagenUsuario' src='assets/img/fondoUsuarios.png'/>";
+                echo " ";
+                echo '<span id="span">' . $usuario->username . '</span><br>';
+
+            } else {
+                echo '<div align="left">';
+                echo '<a href="login.php" class="btn btn-primary">login</a>';
+                echo '<a href="register.php" class="btn btn-primary">register</a>';
+                echo '</div>';
+            }
+            ?>
+            <?php
+
+            if (isset($_SESSION['user_first_name']) && $_SESSION['user_last_name'] && $login_button == '') {
+                echo '<li class="custom-li"><span class="custom-span">' . $_SESSION['user_first_name'] . ' ' . $_SESSION['user_last_name'] . '</span></li>';
+                echo '<li class="custom-li"><a class="custom-link" href="logout.php">Logout</a></li>';
+            }
+            ?>
         </div>
 
 

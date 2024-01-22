@@ -1,3 +1,4 @@
+<?php require_once 'UsuariosController.php'; ?>
 <?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html>
@@ -10,7 +11,7 @@
 
     <?php include("includes/navigation.php"); ?>
     <main>
-         <!-- CF2: has usado tres breakpoints en el documento !!!, no tienes cuatro layout en figma, solo dos,
+        <!-- CF2: has usado tres breakpoints en el documento !!!, no tienes cuatro layout en figma, solo dos,
          por tanto solo puedes usar un breakpoint-->
         <section class="page-section" id="inicioSesion">
             <div class="container-fluid my-5">

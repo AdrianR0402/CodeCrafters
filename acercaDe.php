@@ -1,3 +1,4 @@
+<?php require_once 'UsuariosController.php'; ?>
 <?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -63,14 +64,14 @@
                             <span class="text-bold">Trailers</span>
                         </p>
                     </div>
-                    
+
                 </div>
             </div>
-        <h2>Juegos</h2>
-        <a href="/juegos/juegoJuan/index.php">Juego 1</a><br>
-        <a href="/juegos/juegoIvan/index.php">Juego 2</a><br>
-        <a href="/juegos/juegoIzan/index.php">Juego 3</a><br>
-        <a href="/juegos/juegoAdrian/index.php">Juego 4</a><br>
+            <h2>Juegos</h2>
+            <a href="/juegos/juegoJuan/index.php">Juego 1</a><br>
+            <a href="/juegos/juegoIvan/index.php">Juego 2</a><br>
+            <a href="/juegos/juegoIzan/index.php">Juego 3</a><br>
+            <a href="/juegos/juegoAdrian/index.php">Juego 4</a><br>
         </section>
     </main>
     <?php include("includes/footer.php"); ?>

@@ -6,8 +6,8 @@ if (isset($_GET["code"])) {
   $token = $google_client->fetchAccessTokenWithAuthCode($_GET["code"]);
 
   //Si ha habido algún error en la autenticación, el array asociativo $token 
-  //contendrá la variable "error", en caso contrario hay éxito y 
-  //ya podemos recuperar los datos del perfil del usuario
+//contendrá la variable "error", en caso contrario hay éxito y 
+//ya podemos recuperar los datos del perfil del usuario
   if (!isset($token['error'])) {
     //Set the access token used for requests
     $google_client->setAccessToken($token['access_token']);

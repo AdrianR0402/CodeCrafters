@@ -1,3 +1,4 @@
+<?php require_once 'UsuariosController.php'; ?>
 <?php
 
 include("Model/Usuarios.php");

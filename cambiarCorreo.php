@@ -1,9 +1,13 @@
+<?php require_once 'UsuariosController.php'; ?>
 <?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html>
+
 <head>
     <?php include("includes/head-tag-contents.php"); ?>
 </head>
+
+
 <body>
     <?php include("includes/navigation.php"); ?>
     <main>
@@ -20,14 +24,19 @@
                             <h2 class="page-section-heading mb-4">Datos de usuario</h2>
                             <div class="container">
                                 <ul class="list-group">
-                                <li class="list-group-item"><a href="infoSuscripcion.php" class="linksMenu">Información de
+                                    <li class="list-group-item"><a href="infoSuscripcion.php"
+                                            class="linksMenu">Información de
                                             Suscripción</a></li>
-                                    <li class="list-group-item"><a href="preferencias.php" class="linksMenu">Preferencias</a></li>
-                                    <li class="list-group-item"><a href="notifications.php" class="linksMenu">Notificaciones por
+                                    <li class="list-group-item"><a href="preferencias.php"
+                                            class="linksMenu">Preferencias</a></li>
+                                    <li class="list-group-item"><a href="notifications.php"
+                                            class="linksMenu">Notificaciones por
                                             correo</a></li>
-                                    <li class="list-group-item active"><a href="cambiarCorreo.php" class="linksMenu">Cambiar correo</a>
+                                    <li class="list-group-item active"><a href="cambiarCorreo.php"
+                                            class="linksMenu">Cambiar correo</a>
                                     </li>
-                                    <li class="list-group-item"><a href="password.php" class="linksMenu">Cambiar contraseña</a>
+                                    <li class="list-group-item"><a href="password.php" class="linksMenu">Cambiar
+                                            contraseña</a>
                                     </li>
                                 </ul>
                             </div>
@@ -40,14 +49,18 @@
                                         <!-- Boton para mandar un enlace con instrucciones al correo actual -->
                                         <div class="col-md-12">
                                             <h2 class="datosUsuario-header">Cambiar correo</h2>
-                                            <p class="datosUsuario-text">Cambia la dirección de correo que utilizas para acceder y recibir información de Lucecine</p>
+                                            <p class="datosUsuario-text">Cambia la dirección de correo que utilizas para
+                                                acceder y recibir información de Lucecine</p>
                                         </div>
                                         <div class="col-md-6 text-center mx-auto">
                                             <p class="datosUsuario-header">Correo actual</p>
                                             <p class="datosUsuario-text">correoejemplo@gmail.com</p>
-                                            <button type="submit" class="btn btn-primary my-3">ENVIAR ENLACE PARA CAMBIAR DE CORREO</button>
-                                            <p class="datosUsuario-text">¿Tienes problemas? Ponte en contacto con nosotros en<a href="ayuda.php" class="linksContenido">Soporte al cliente</a>.</p>
-                                            
+                                            <button type="submit" class="btn btn-primary my-3">ENVIAR ENLACE PARA
+                                                CAMBIAR DE CORREO</button>
+                                            <p class="datosUsuario-text">¿Tienes problemas? Ponte en contacto con
+                                                nosotros en<a href="ayuda.php" class="linksContenido">Soporte al
+                                                    cliente</a>.</p>
+
                                         </div>
                                     </div>
                                 </div>
@@ -60,4 +73,5 @@
     </main>
     <?php include("includes/footer.php"); ?>
 </body>
+
 </html>

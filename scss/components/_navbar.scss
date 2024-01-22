@@ -2,6 +2,17 @@
 // Navbar
 // 
 
+#imagenUsuario {
+    width: 110px;
+    height: 110px;
+}
+
+#span {
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+    color: $primary;
+}
+
 #mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;

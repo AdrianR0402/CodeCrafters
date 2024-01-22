@@ -1,4 +1,5 @@
-<?php include("includes/a_config.php"); 
+<?php require_once 'UsuariosController.php'; ?>
+<?php include("includes/a_config.php");
 include("includes/dbconnection.php");
 include("includes/googleconnect.php");
 ?>
