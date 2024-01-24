@@ -8,7 +8,7 @@ function setCookie(nombre, valor, dias) {
     }
     document.cookie = nombre + "=" + valor + expiracion + "; path=/";
 }
-setCookie("usuario_logueado", "true", 365);// Quitar luego (Es para testear que funciona con la coockie - Esa coockie se creara en la pagina donde se realice la verificacion de inicio de sesion)
+//setCookie("usuario_logueado", "true", 365);// Quitar luego (Es para testear que funciona con la coockie - Esa coockie se creara en la pagina donde se realice la verificacion de inicio de sesion)
 
 // Método para obtener el valor de una cookie por su nombre
 function getCookie(nombre) {
@@ -63,8 +63,10 @@ function mostrarAlertaCookies() {
     }
 }
 
-// Ejecutar la función principal cuando la página se carga completamente
-window.onload = mostrarAlertaCookies;
+// Ejecutar la función principal cuando el DOM de la página está completamente cargado
+document.addEventListener('DOMContentLoaded', function () {
+    mostrarAlertaCookies();
+});
 
 // Redirigir a la página de inicio de sesión si no está autenticado en cada cambio de página
 window.addEventListener('beforeunload', function () {
