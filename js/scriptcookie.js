@@ -37,12 +37,13 @@ function mostrarAlertaCookies() {
     } else {
         var usuarioLogueado = getCookie("usuario_logueado");
         
-         // Verificar si no está autenticado
-         if (!usuarioLogueado) {
+         // Verificar si no está autenticado y no es la página index.php
+        if (!usuarioLogueado && window.location.pathname !== "/index.php") {
             window.location.href = "login.php";
             return;  // Salir de la función para evitar mostrar otras alertas o redirecciones
         }
 
+       
         // Verificar si la cookie de noticias mensuales está establecida
         var ultimaFechaNoticias = getCookie("ultima_fecha_noticias");
         var fechaActual = new Date().toISOString().split('T')[0]; // Obtener la fecha actual en formato YYYY-MM-DD
@@ -68,7 +69,7 @@ window.onload = mostrarAlertaCookies;
 // Redirigir a la página de inicio de sesión si no está autenticado en cada cambio de página
 window.addEventListener('beforeunload', function () {
     var usuarioLogueado = getCookie("usuario_logueado");
-    if (!usuarioLogueado) {
+    if (!usuarioLogueado && window.location.pathname !== "/index.php") {
         window.location.href = "login.php";
     }
 });
