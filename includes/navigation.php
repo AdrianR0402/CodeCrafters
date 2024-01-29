@@ -13,13 +13,14 @@
                 $usuario = $_SESSION['usuario'];
 
                 echo "<a href='password.php'><img id='imagenUsuario' src='assets/img/fondoUsuarios.png'/>";
-                echo " ";
-                echo '<span id="span">' . $usuario->username . '</span><br>';
+                echo '<span id="span">' . $usuario->username . '</span>';
+                echo '<a href="logout.php" class="btn btn-primary">Cerrar Sesion</a>';
 
             } else {
                 echo '<div align="left">';
                 echo '<a href="login.php" class="btn btn-primary">login</a>';
                 echo '<a href="register.php" class="btn btn-primary">register</a>';
+                echo '<div align="center">' . $login_button . '</div>';
                 echo '</div>';
             }
             ?>

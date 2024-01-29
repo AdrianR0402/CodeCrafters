@@ -1,8 +1,8 @@
 <?php
+
 require_once 'UsuariosController.php';
 if (isset($_POST['iniciar'])) {
     session_start();
-    echo "pokemon";
     $usuario = UsuariosController::buscarUsuarios($_POST['username']);
     var_dump($_POST['username']);
 
@@ -14,7 +14,7 @@ if (isset($_POST['iniciar'])) {
 
             if ($claveIngresada === $usuario->password) {
                 $_SESSION['usuario'] = $usuario;
-
+                setcookie('usuario_logueado', $usuario->username, time() + 86400, '/'); // La cookie expira en 1 dia (3600 segundos)
                 header("location:index.php");
                 exit();
             } else {
@@ -92,6 +92,7 @@ if (isset($_POST['iniciar'])) {
                                                 </div>
                                             </div>
                                         </div>
+                                        <!-- echo '<div align="center">' . $login_button . '</div>'; ? -->
                                     </form>
                                 </div>
                             </div>

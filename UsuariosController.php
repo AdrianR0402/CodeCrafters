@@ -33,7 +33,7 @@ class UsuariosController
                 $reg = $result->fetch_assoc();
                 $c = new Usuarios(
                     $reg['username'],
-                    $reg['password'],
+                    $reg['pass'],
                     $reg['nombre'],
                     $reg['apellido1'],
                     $reg['apellido2'],
@@ -57,5 +57,47 @@ class UsuariosController
 
         return $c;
     }
+
+    public static function realizarRegistro($usuario, $contrasena, $nombre, $apellido1, $apellido2, $email, $fecha, $pais, $postal, $telefono)
+    {
+        try {
+            // Reemplaza estos valores con tus credenciales reales de la base de datos
+            $servername = "localhost";
+            $database = "lucecine";
+            $username = "dwes";
+            $password = "abc123.";
+
+            $conn = new mysqli($servername, $username, $password, $database);
+
+            // Verificar la conexión
+            if ($conn->connect_error) {
+                die("Conexión fallida: " . $conn->connect_error);
+            }
+
+            $stmt = $conn->prepare("INSERT INTO usuario (username, pass, nombre, apellido1, apellido2, email, fechanacimiento, pais, codigopostal, telefono)
+                                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+
+            // Vincular parámetros
+            $stmt->bind_param('ssssssssis', $usuario, $contrasena, $nombre, $apellido1, $apellido2, $email, $fecha, $pais, $postal, $telefono);
+
+            // Ejecutar la consulta
+            $stmt->execute();
+
+            // Verificar errores en la consulta
+            if ($stmt->error) {
+                return "Error en la consulta: " . $stmt->error;
+            }
+
+            return "El registro se ha realizado correctamente.";
+
+        } catch (Exception $ex) {
+            return "Error al registrar: " . $ex->getMessage();
+        } finally {
+            // Cerrar la conexión después de ejecutar la consulta
+            $stmt->close();
+            $conn->close();
+        }
+    }
 }
+
 ?>
