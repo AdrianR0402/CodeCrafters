@@ -9,27 +9,31 @@
 
         <div class="col md-3">
             <?php
+            if (!isset($_SESSION['access_token'])) {
+                $login_button = '<a href="' . $google_client->createAuthUrl() . '" class="btn btn-primary"><img src="assets/img/sign-in-with-google.png" id="imgGoogle" /></a>';
+            }
             if (isset($_SESSION["usuario"])) {
                 $usuario = $_SESSION['usuario'];
 
                 echo "<a href='password.php'><img id='imagenUsuario' src='assets/img/fondoUsuarios.png'/>";
                 echo '<span id="span">' . $usuario->username . '</span>';
-                echo '<a href="logout.php" class="btn btn-primary">Cerrar Sesion</a>';
+                echo '<a href="logout.php">Cerrar Sesion</a>';
+
+            } elseif (isset($_SESSION['user_first_name']) && $_SESSION['user_last_name'] && $login_button == '') {
+                echo '<img id="imagenUsuario" src="' . $_SESSION["user_image"] . '" referrerpolicy="no-referrer" />';
+                echo '<span id="span">' . $_SESSION['user_first_name'] . ' ' . $_SESSION['user_last_name'] . '</span>';
+                echo '<a class="logout-link" href="logout.php">Cerrar Sesion</a>';
 
             } else {
                 echo '<div align="left">';
                 echo '<a href="login.php" class="btn btn-primary">login</a>';
                 echo '<a href="register.php" class="btn btn-primary">register</a>';
-                echo '<div align="center">' . $login_button . '</div>';
                 echo '</div>';
             }
             ?>
             <?php
 
-            if (isset($_SESSION['user_first_name']) && $_SESSION['user_last_name'] && $login_button == '') {
-                echo '<li class="custom-li"><span class="custom-span">' . $_SESSION['user_first_name'] . ' ' . $_SESSION['user_last_name'] . '</span></li>';
-                echo '<li class="custom-li"><a class="custom-link" href="logout.php">Logout</a></li>';
-            }
+
             ?>
         </div>
 

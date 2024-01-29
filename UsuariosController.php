@@ -74,8 +74,8 @@ class UsuariosController
                 die("Conexión fallida: " . $conn->connect_error);
             }
 
-            $stmt = $conn->prepare("INSERT INTO usuario (username, pass, nombre, apellido1, apellido2, email, fechanacimiento, pais, codigopostal, telefono)
-                                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+            $stmt = $conn->prepare("INSERT INTO usuario (username, pass, nombre, apellido1, apellido2, email, fechanacimiento, pais, codigopostal, telefono, rol)
+                                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'usuario')");
 
             // Vincular parámetros
             $stmt->bind_param('ssssssssis', $usuario, $contrasena, $nombre, $apellido1, $apellido2, $email, $fecha, $pais, $postal, $telefono);

@@ -57,17 +57,17 @@ if (isset($_POST['registrarse'])) {
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">Usuario:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control font-weight-bold" name="usuario"
-                                                    id="usuario">
+                                                    id="usuario" required>
                                             </div>
                                         </div>
 
                                         <!-- Nombre -->
                                         <div class="form-group row mb-3">
-                                            <label for="usuario"
+                                            <label for="nombre"
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">Nombre:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control font-weight-bold" name="nombre"
-                                                    id="nombre">
+                                                    id="nombre" required>
                                             </div>
                                         </div>
 
@@ -78,7 +78,7 @@ if (isset($_POST['registrarse'])) {
                                                 1:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control font-weight-bold"
-                                                    name="apellido1" id="apellido1">
+                                                    name="apellido1" id="apellido1" required>
                                             </div>
                                         </div>
 
@@ -89,7 +89,7 @@ if (isset($_POST['registrarse'])) {
                                                 2:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control font-weight-bold"
-                                                    name="apellido2" id="apellido2">
+                                                    name="apellido2" id="apellido2" required>
                                             </div>
                                         </div>
 
@@ -99,7 +99,7 @@ if (isset($_POST['registrarse'])) {
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">País:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control font-weight-bold" name="pais"
-                                                    id="pais">
+                                                    id="pais" required>
                                             </div>
                                         </div>
 
@@ -109,10 +109,9 @@ if (isset($_POST['registrarse'])) {
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">Teléfono:</label>
                                             <div class="col-sm-9">
                                                 <input type="tel" class="form-control font-weight-bold" name="telefono"
-                                                    id="telefono">
+                                                    id="telefono" required>
                                             </div>
                                         </div>
-
 
                                         <!-- Email -->
                                         <div class="form-group row mb-3">
@@ -120,31 +119,31 @@ if (isset($_POST['registrarse'])) {
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">Email:</label>
                                             <div class="col-sm-9">
                                                 <input type="email" class="form-control font-weight-bold" name="email"
-                                                    id="email">
-                                            </div>
-                                        </div>
-                                        <!-- fecha -->
-                                        <div class="form-group row mb-3">
-                                            <label for="fecha_nacimiento"
-                                                class="col-sm-4 col-form-label text-right letraInicioSesion">
-                                                Fecha de Nacimiento:</label>
-                                            <div class="col-sm-8">
-                                                <input type="date" class="form-control font-weight-bold"
-                                                    name="fecha_nacimiento" id="fecha_nacimiento">
+                                                    id="email" required>
                                             </div>
                                         </div>
 
-                                        <!-- nºpostal -->
+                                        <!-- Fecha -->
+                                        <div class="form-group row mb-3">
+                                            <label for="fecha_nacimiento"
+                                                class="col-sm-4 col-form-label text-right letraInicioSesion">Fecha de
+                                                Nacimiento:</label>
+                                            <div class="col-sm-8">
+                                                <input type="date" class="form-control font-weight-bold"
+                                                    name="fecha_nacimiento" id="fecha_nacimiento" required>
+                                            </div>
+                                        </div>
+
+                                        <!-- Código Postal -->
                                         <div class="form-group row mb-3">
                                             <label for="postal"
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">Código
                                                 Postal:</label>
                                             <div class="col-sm-9">
                                                 <input type="number" class="form-control font-weight-bold" name="postal"
-                                                    id="postal">
+                                                    id="postal" required>
                                             </div>
                                         </div>
-
 
                                         <!-- Contraseña -->
                                         <div class="form-group row mb-4">
@@ -152,9 +151,10 @@ if (isset($_POST['registrarse'])) {
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">Contraseña:</label>
                                             <div class="col-sm-9">
                                                 <input type="password" class="form-control font-weight-bold"
-                                                    id="contrasena" name="contrasena">
+                                                    id="contrasena" name="contrasena" required>
                                             </div>
                                         </div>
+
                                         <label for="captcha"><b>
                                                 <?php if (isset($_GET["captchaerror"]))
                                                     echo "Captcha Incorrecto.";

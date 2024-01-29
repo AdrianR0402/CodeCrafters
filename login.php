@@ -18,6 +18,7 @@ if (isset($_POST['iniciar'])) {
                 header("location:index.php");
                 exit();
             } else {
+
                 echo '<script>alert("Contraseña incorrecta. Por favor, inténtalo de nuevo.");</script>';
 
             }
@@ -92,7 +93,7 @@ if (isset($_POST['iniciar'])) {
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- echo '<div align="center">' . $login_button . '</div>'; ? -->
+                                        <?php echo '<div align="center">' . $login_button . '</div>'; ?>
                                     </form>
                                 </div>
                             </div>

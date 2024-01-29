@@ -432,6 +432,13 @@
                     <h4>Descripcion</h4>
                     <p id="texto4"></p>
                     <h4>Trailer</h4>
+                    <div id="valoracion">
+                        <img src="/assets/img/googlelogo.png" class="star" data-rating="1" />
+                        <img src="/assets/img/googlelogo.png" class="star" data-rating="2" />
+                        <img src="/assets/img/googlelogo.png" class="star" data-rating="3" />
+                        <img src="/assets/img/googlelogo.png" class="star" data-rating="4" />
+                        <img src="/assets/img/googlelogo.png" class="star" data-rating="5" />
+                    </div>
                 </div>
 
                 <div class="d-flex justify-content-center">
@@ -456,6 +463,7 @@
             document.getElementById('texto3').innerText = texto3;
             document.getElementById('texto4').innerText = texto4;
             document.getElementById('videoFrame').src = enlaceVideo;
+
             var ventanaEmergente = new bootstrap.Modal(document.getElementById('ventanaEmergente'));
             ventanaEmergente.show();
         }
