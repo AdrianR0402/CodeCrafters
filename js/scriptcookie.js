@@ -28,22 +28,17 @@ function getCookie(nombre) {
 
 // Método principal que muestra la alerta de cookies y realiza las redirecciones necesarias
 function mostrarAlertaCookies() {
+    
     // Verificar si la cookie de aceptación general está establecida
     if (!getCookie("cookie_aceptada")) {
         var respuestaUsuario = confirm("Este sitio web utiliza cookies. ¿Desea aceptar?");
         if (respuestaUsuario) {
             setCookie("cookie_aceptada", "true", 365); // Establecer la cookie por 365 días (o ajusta el valor según necesites)
+        }else{
+            window.location.reload();
         }
     } else {
         var usuarioLogueado = getCookie("usuario_logueado");
-        
-         // Verificar si no está autenticado y no es la página index.php
-        if (!usuarioLogueado && window.location.pathname !== "/index.php") {
-            window.location.href = "login.php";
-            return;  // Salir de la función para evitar mostrar otras alertas o redirecciones
-        }
-
-       
         // Verificar si la cookie de noticias mensuales está establecida
         var ultimaFechaNoticias = getCookie("ultima_fecha_noticias");
         var fechaActual = new Date().toISOString().split('T')[0]; // Obtener la fecha actual en formato YYYY-MM-DD
@@ -63,15 +58,10 @@ function mostrarAlertaCookies() {
     }
 }
 
+
+
+
 // Ejecutar la función principal cuando el DOM de la página está completamente cargado
 document.addEventListener('DOMContentLoaded', function () {
     mostrarAlertaCookies();
-});
-
-// Redirigir a la página de inicio de sesión si no está autenticado en cada cambio de página
-window.addEventListener('beforeunload', function () {
-    var usuarioLogueado = getCookie("usuario_logueado");
-    if (!usuarioLogueado && window.location.pathname !== "/index.php") {
-        window.location.href = "login.php";
-    }
 });
