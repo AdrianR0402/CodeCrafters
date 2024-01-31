@@ -395,10 +395,11 @@
                                 <img src="/assets/img/portfolio/imagenesPeliculas/9.jpg"
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
+                                <form action="detallesPelicula.php" method="POST">
                                     <span class="text-bold">Scarface</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('Malefica','Pelicula','00:00:00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/7pQQHnqBa2E')">Ver
-                                        más</button>
+                                    <input type="hidden" name="nombre" value="onepiece" />
+                                    <input type="submit" name="subir" value="detalles" />
+                                </form>
                                 </p>
                             </div>
                         </div>

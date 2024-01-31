@@ -52,10 +52,12 @@
                                 <img src="/assets/img/background-color4@2x.png"
                                     class="float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen ">
                                 <p class="mt-2 text-white nombre">
-                                    <span class="text-bold">One Piece</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/JoO7TGG2Kms')">Ver
-                                        más</button>
+
+                                    <span class="text-bold">onepiece</span>
+                                <form action="procesarFormulario.php" method="POST">
+                                    <input type="hidden" name="nombre" value="onepiece" />
+                                    <input type="submit" name="subir" value="detalles" />
+                                </form>
                                 </p>
                             </div>
                         </div>

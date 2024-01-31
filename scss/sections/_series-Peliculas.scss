@@ -2,9 +2,17 @@
     height: 320px;
 }
 
+h1 {
+    color: $primary;
+}
+
+
+
+
 .linksMenu {
-    
+
     transition: color 0.3s;
+
     &:hover {
         color: $primary;
     }
@@ -13,28 +21,35 @@
         color: $primary;
     }
 }
-.colorTitulo{
+
+.colorTitulo {
     color: $titulo;
 }
-.containerfila{
+
+.containerfila {
     overflow-x: auto;
 }
-.containerfila2{
+
+.containerfila2 {
     white-space: nowrap;
 }
-.containertarjeta{
+
+.containertarjeta {
     margin-right: 20px;
 }
-.imagencarusel{
+
+.imagencarusel {
     height: 800px;
 }
-.imagentarjeta{
-    max-width: none; 
+
+.imagentarjeta {
+    max-width: none;
     height: 340px;
-    width: 300px; 
-    margin-right: 10px; 
+    width: 300px;
+    margin-right: 10px;
 }
-.nombre{
+
+.nombre {
     font-size: 30px;
 }
 
@@ -43,8 +58,9 @@
     .series-Peliculas-header {
         color: $texto;
         font-family: $headings-font-family;
-        font-size:$headings-font-size;
+        font-size: $headings-font-size;
     }
+
     .series-Peliculas-text {
         color: $texto;
         font-family: $font-family-sans-serif;
@@ -77,23 +93,32 @@
         }
     }
 }
+
 .container-fluid::-webkit-scrollbar {
-    width: 5px; /* Ancho del scrollbar */
-    height: 5px; /* Altura del scrollbar */
-   
+    width: 5px;
+    /* Ancho del scrollbar */
+    height: 5px;
+    /* Altura del scrollbar */
+
 }
 
 .container-fluid::-webkit-scrollbar-track {
-    background: transparent; /* Fondo del scrollbar */
+    background: transparent;
+    /* Fondo del scrollbar */
 }
 
 .container-fluid::-webkit-scrollbar-thumb {
-    background-color:$primary; /* Color del scrollbar */
-    border-radius: 2px; /* Borde del scrollbar */
-    
+    background-color: $primary;
+    /* Color del scrollbar */
+    border-radius: 2px;
+    /* Borde del scrollbar */
+
 }
+
 @include media-breakpoint-down(md) {
-    header, footer {
+
+    header,
+    footer {
         display: none;
     }
 }
