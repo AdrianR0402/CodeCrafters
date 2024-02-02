@@ -1,5 +1,13 @@
+<?php
+
+
+?>
 <?php require_once 'UsuariosController.php'; ?>
-<?php include("includes/a_config.php"); ?>
+<?php include("includes/a_config.php");
+if (($_SESSION["usuario"]) == null) {
+    header("location:login.php");
+}
+?>
 <!DOCTYPE html>
 <html>
 
@@ -23,25 +31,17 @@
                         </div>
                         <div class="text-center"><!--diferentes divs para los datos de contacto -->
                             <!-- CF2: ¿Porqué h5? esto tiene que ser un <label>-->
-                            <h5>USUARIO</h5>
-                            <form id="contactForm">
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" type="text" />
-                                </div>
-                                <h5>CORREO</h5>
-                                <div class="form-floating mb-3">
-                                    <input class="form-control" />
-                                </div>
+
+                            <form action="procesarfeedback.php" method="POST" id="contactForm">
                                 <h5>TEMA A TRATAR</h5>
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" />
+                                    <input class="form-control" name="tema" />
                                 </div>
                                 <h5>DESCRIBEME TU FEEDBACK</h5>
                                 <div class="form-floating mb-3">
-                                    <textarea class="form-control" id="message" type="text"></textarea>
+                                    <textarea class="form-control" id="message" name="feed" type="text"></textarea>
                                 </div>
-                                <button class="btn btn-primary btn-xl disabled" id="submitButton"
-                                    type="submit">ENVIAR</button>
+                                <button class="btn btn-primary btn-xl" id="submitButton" type="submit">ENVIAR</button>
                             </form>
                         </div>
                     </div>

@@ -1,3 +1,4 @@
+<?php require_once 'Model/Usuarios.php'; ?>
 <!--CF2: En versión móvil el navbar no se parece a lo que habéis definido en la guía de estilos-->
 <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <style>

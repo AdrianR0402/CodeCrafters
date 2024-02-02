@@ -1,5 +1,13 @@
+<?php
+
+?>
+
 <?php require_once 'UsuariosController.php'; ?>
-<?php include("includes/a_config.php"); ?>
+<?php include("includes/a_config.php");
+if (($_SESSION["usuario"]) == null) {
+    header("location:login.php");
+}
+?>
 <!DOCTYPE html>
 <html>
 
@@ -11,6 +19,9 @@
 
     <?php include("includes/navigation.php"); ?>
     <main>
+
+
+
         <!-- CF2: has usado tres breakpoints en el documento !!!, no tienes cuatro layout en figma, solo dos,
          por tanto solo puedes usar un breakpoint-->
         <section class="page-section" id="inicioSesion">
@@ -25,13 +36,14 @@
                             </div>
                             <div class="inicioSesion container-border">
                                 <div class="col-md-8 offset-md-2">
-                                    <form class="mt-4 mb-4">
+                                    <form action="procesarAyuda.php" method="POST" class="mt-4 mb-4">
                                         <!-- Reporte -->
                                         <div class="form-group row mb-3">
                                             <label for="reporte"
                                                 class="col-sm-3 col-form-label text-right font-weight-bold text-white letraInicioSesion">Reporte:</label>
                                             <div class="col-sm-9">
-                                                <input type="text" class="form-control font-weight-bold" id="reporte">
+                                                <input type="text" class="form-control font-weight-bold" id="reporte"
+                                                    name="reporte">
                                             </div>
                                         </div>
 
@@ -40,8 +52,8 @@
                                             <label for="problemas"
                                                 class="col-sm-3 col-form-label text-right font-weight-bold text-white letraInicioSesion">Problemas:</label>
                                             <div class="col-sm-9">
-                                                <textarea class="form-control font-weight-bold"
-                                                    id="problemas"></textarea>
+                                                <textarea class="form-control font-weight-bold" id="problemas"
+                                                    name="problemas"></textarea>
                                             </div>
                                         </div>
 
@@ -62,7 +74,7 @@
                                                 </b>
                                             </div>
                                         </div>
-                                    </form>
+
                                 </div>
                             </div>
 
@@ -71,11 +83,13 @@
                                 <!-- CF2:¿Donde están las 4 columnas restantes? Si sólo hay una columna, usa la clase col-->
                                 <div class="col-md-8 offset-md-2">
                                     <div class="text-center">
-                                        <button type="button"
-                                            class="btn btn-primary btn-acceder font-weight-bold">ENVIAR INFORME</button>
+                                        <input type="submit" value="ENVIAR INFORME"
+                                            class="btn btn-primary btn-acceder font-weight-bold">
                                     </div>
                                 </div>
+
                             </div>
+                            </form>
                         </div>
                     </div>
                 </div>
