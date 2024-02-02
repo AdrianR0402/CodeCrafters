@@ -46,32 +46,46 @@
                                 <div class="container-fluid p-2 text-center">
                                     <div class="row">
                                         <div class="col-md-12">
+
                                             <h2 class="datosUsuario-header">Cambiar contraseña</h2>
                                             <p class="datosUsuario-text">Escoge una contraseña única para mantener
                                                 segura tu cuenta</p>
                                         </div>
                                         <div class="col-md-6 text-center mx-auto">
                                             <!-- formulario de cambiar contraseña -->
-                                            <form action="">
+                                            <form action="procesarCambioContrasena.php" method="POST">
+                                                <!-- Cambiado el action para que apunte al script PHP que procesará el cambio de contraseña -->
                                                 <div class="mb-3 mt-3">
-                                                    <label class="datosUsuario-text mb-1">Contraseña
-                                                        actual</label><input type="password" class="form-control"
-                                                        id="passAct" placeholder="Contraseña actual" name="passAct">
+                                                    <label class="datosUsuario-text mb-1">Contraseña actual</label>
+                                                    <input type="password" class="form-control" id="passAct"
+                                                        placeholder="Contraseña actual" name="passAct">
+                                                    <!-- Nombre del campo para la contraseña actual -->
                                                 </div>
                                                 <div class="mb-3">
                                                     <label class="datosUsuario-text mb-1">Contraseña nueva</label>
                                                     <input type="password" class="form-control" id="passNueva"
                                                         placeholder="Nueva contraseña" name="passNueva">
+                                                    <!-- Nombre del campo para la nueva contraseña -->
                                                 </div>
                                                 <div class="mb-3">
                                                     <label class="datosUsuario-text mb-1">Confirmar contraseña</label>
                                                     <input type="password" class="form-control" id="passRep"
                                                         placeholder="Repetir contraseña" name="passRep">
+                                                    <!-- Nombre del campo para confirmar la nueva contraseña -->
                                                 </div>
                                                 <button type="submit" class="btn btn-primary">Cambiar
                                                     contraseña</button>
                                             </form>
+                                            <div class="datosUsuario-text mb-1">
+                                                <?php
+                                                if (isset($_SESSION['errorMsg'])) {
+                                                    echo $_SESSION['errorMsg'];
+                                                    unset($_SESSION['errorMsg']); // Eliminar el mensaje de error de la sesión
+                                                }
+                                                ?>
+                                            </div>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
