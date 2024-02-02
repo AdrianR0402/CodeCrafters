@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 01-02-2024 a las 08:42:08
+-- Tiempo de generación: 01-02-2024 a las 11:32:39
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.2.4
 
@@ -24,6 +24,17 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `ayuda`
+--
+
+CREATE TABLE `ayuda` (
+  `usernameAyuda` varchar(50) NOT NULL,
+  `incidencias` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `pelicula`
 --
 
@@ -34,15 +45,18 @@ CREATE TABLE `pelicula` (
   `descripcion` varchar(500) NOT NULL,
   `trailer` varchar(900) NOT NULL,
   `subcategoria` varchar(50) NOT NULL,
-  `portada` varchar(500) NOT NULL
+  `portada` varchar(500) NOT NULL,
+  `valoracion` int(11) NOT NULL,
+  `comentarios` varchar(100) NOT NULL,
+  `usernamePelicula` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Volcado de datos para la tabla `pelicula`
 --
 
-INSERT INTO `pelicula` (`nombre`, `categoria`, `duracion`, `descripcion`, `trailer`, `subcategoria`, `portada`) VALUES
-('onepiece', 'anime', '00:24:00', 'quiere ser el rey de los piratas', '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/d-MKnSPqsK8?si=wMn0ixlxw0SwfCGx\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>', 'aventura', '/assets/img/background-color4@2x.png');
+INSERT INTO `pelicula` (`nombre`, `categoria`, `duracion`, `descripcion`, `trailer`, `subcategoria`, `portada`, `valoracion`, `comentarios`, `usernamePelicula`) VALUES
+('onepiece', 'anime', '00:24:00', 'quiere ser el rey de los piratas', '<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/d-MKnSPqsK8?si=wMn0ixlxw0SwfCGx\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>', 'aventura', '/assets/img/background-color4@2x.png', 0, '', 'pepe');
 
 -- --------------------------------------------------------
 
@@ -74,28 +88,22 @@ INSERT INTO `usuario` (`username`, `pass`, `nombre`, `apellido1`, `apellido2`, `
 ('pepe', '1234', 'pepe', 'pepe1', 'pepe2', 'pepe@gmail.com', '2024-01-01', 'españa', 14900, '123456789', 'admin'),
 ('usuarioBasico', '1234', 'pope', 'eeee', 'eeeeeee', 'izan@gmail.com', '0000-00-00', 'España', 13444, '676575754', 'usuario');
 
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `valoracion`
---
-
-CREATE TABLE `valoracion` (
-  `usuario` varchar(50) NOT NULL,
-  `pelicula` varchar(50) NOT NULL,
-  `valoracion` int(11) NOT NULL,
-  `comentario` varchar(1000) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
 --
 -- Índices para tablas volcadas
 --
 
 --
+-- Indices de la tabla `ayuda`
+--
+ALTER TABLE `ayuda`
+  ADD PRIMARY KEY (`usernameAyuda`);
+
+--
 -- Indices de la tabla `pelicula`
 --
 ALTER TABLE `pelicula`
-  ADD PRIMARY KEY (`nombre`);
+  ADD PRIMARY KEY (`nombre`),
+  ADD UNIQUE KEY `usernamePelicula` (`usernamePelicula`);
 
 --
 -- Indices de la tabla `usuario`
@@ -104,22 +112,20 @@ ALTER TABLE `usuario`
   ADD PRIMARY KEY (`username`);
 
 --
--- Indices de la tabla `valoracion`
---
-ALTER TABLE `valoracion`
-  ADD PRIMARY KEY (`usuario`,`pelicula`),
-  ADD KEY `pelicula` (`pelicula`);
-
---
 -- Restricciones para tablas volcadas
 --
 
 --
--- Filtros para la tabla `valoracion`
+-- Filtros para la tabla `ayuda`
 --
-ALTER TABLE `valoracion`
-  ADD CONSTRAINT `valoracion_ibfk_1` FOREIGN KEY (`usuario`) REFERENCES `usuario` (`username`),
-  ADD CONSTRAINT `valoracion_ibfk_2` FOREIGN KEY (`pelicula`) REFERENCES `pelicula` (`nombre`);
+ALTER TABLE `ayuda`
+  ADD CONSTRAINT `ayuda_ibfk_1` FOREIGN KEY (`usernameAyuda`) REFERENCES `usuario` (`username`);
+
+--
+-- Filtros para la tabla `pelicula`
+--
+ALTER TABLE `pelicula`
+  ADD CONSTRAINT `pelicula_ibfk_1` FOREIGN KEY (`usernamePelicula`) REFERENCES `usuario` (`username`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
