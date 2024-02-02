@@ -53,9 +53,10 @@
                                     class="float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen ">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">JuJutsu Kaisen</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/aPBUUJbrAWo')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Jujutsu-Kaisen" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -67,9 +68,10 @@
                                     class=" float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Death Note</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/NlJZ-YgAt-c')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Death-Note" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -80,9 +82,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Full Metal</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/kx0nBaS_q50')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Full-Metal" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -92,9 +95,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Kimetsu</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/VQGCKyvzIM4')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Kimetsu" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -104,9 +108,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Steins Gate</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/uMYhjVwp0Fk')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Steins-Gate" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -116,9 +121,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold ">One Punch Man </span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/Poo5lqoWSGw')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="One-Punch-Man" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -128,9 +134,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Black Clover</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/TiIZ2NZxjMI')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Black-Clover" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -140,9 +147,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">HunterXHunter</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/d6kBeJjTGnY')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="HunterxHunter" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -152,9 +160,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Dragon Ball</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/CYcrmsdZuyw')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Dragon-Ball" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -174,9 +183,10 @@
                                     class="float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen ">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">JuJutsu Kaisen</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/aPBUUJbrAWo')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Jujutsu-Kaisen" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -188,9 +198,10 @@
                                     class=" float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Death Note</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/NlJZ-YgAt-c')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Death-Note" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -201,9 +212,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Full Metal</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/kx0nBaS_q50')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Full-Metal" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -213,9 +225,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Kimetsu</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/VQGCKyvzIM4')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Kimetsu" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -225,9 +238,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Steins Gate</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/uMYhjVwp0Fk')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Steins-Gate" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -237,9 +251,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold ">One Punch Man </span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/Poo5lqoWSGw')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="One-Punch-Man" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -249,9 +264,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Black Clover</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/TiIZ2NZxjMI')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Black-Clover" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -261,9 +277,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">HunterXHunter</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/d6kBeJjTGnY')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="HunterxHunter" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -273,9 +290,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Dragon Ball</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/CYcrmsdZuyw')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Dragon-Ball" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -295,9 +313,10 @@
                                     class="float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen ">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">JuJutsu Kaisen</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/aPBUUJbrAWo')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Jujutsu-Kaisen" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -309,9 +328,10 @@
                                     class=" float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Death Note</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/NlJZ-YgAt-c')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Death-Note" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -322,9 +342,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Full Metal</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/kx0nBaS_q50')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Full-Metal" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -334,9 +355,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Kimetsu</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/VQGCKyvzIM4')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Kimetsu" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -346,9 +368,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Steins Gate</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/uMYhjVwp0Fk')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Steins-Gate" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -358,9 +381,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold ">One Punch Man </span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/Poo5lqoWSGw')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="One-Punch-Man" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -370,9 +394,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Black Clover</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/TiIZ2NZxjMI')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Black-Clover" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -382,9 +407,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">HunterXHunter</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/d6kBeJjTGnY')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="HunterxHunter" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -394,9 +420,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Dragon Ball</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('JuJutsu Kaisen','Pelicula',' 00: 00: 00 ','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/CYcrmsdZuyw')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Dragon-Ball" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -412,52 +439,6 @@
 
 
 
-    <!-- Ventana Emergente -->
-    <div class="modal" tabindex="-1" role="dialog" id="ventanaEmergente">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Caracteristicas</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <h4>Nombre</h4>
-                    <p id="texto1"></p>
-                    <h4>Categoria</h4>
-                    <p id="texto2"> </p>
-                    <h4>Duracion</h4>
-                    <p id="texto3"></p>
-                    <h4>Descripcion</h4>
-                    <p id="texto4"></p>
-                    <h4>Trailer</h4>
-                </div>
-
-                <div class="d-flex justify-content-center">
-
-                    <div class="ratio ratio-16x9 w-50">
-                        <iframe title="Frog" allowfullscreen id="videoFrame"></iframe>
-                    </div>
-                </div>
-
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Scrip para que el boton muestre la ventana emergente -->
-    <script>
-        function mostrarVentanaEmergente(texto1, texto2, texto3, texto4, enlaceVideo) {
-            document.getElementById('texto1').innerText = texto1;
-            document.getElementById('texto2').innerText = texto2;
-            document.getElementById('texto3').innerText = texto3;
-            document.getElementById('texto4').innerText = texto4;
-            document.getElementById('videoFrame').src = enlaceVideo;
-            var ventanaEmergente = new bootstrap.Modal(document.getElementById('ventanaEmergente'));
-            ventanaEmergente.show();
-        }
-    </script>
 
 </body>
 

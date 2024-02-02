@@ -53,9 +53,9 @@
                                     class="float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen ">
                                 <p class="mt-2 text-white nombre">
 
-                                    <span class="text-bold">onepiece</span>
+                                    <span class="text-bold">one piece</span>
                                 <form action="procesarFormulario.php" method="POST">
-                                    <input type="hidden" name="nombre" value="onepiece" />
+                                    <input type="hidden" name="nombre" value="one-piece" />
                                     <input type="submit" name="subir" value="detalles" />
                                 </form>
                                 </p>
@@ -69,9 +69,10 @@
                                     class=" float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Billy the Kid</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/j3Ukftj1VjU')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Billy-the-Kid" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -82,9 +83,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Pesadillas</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/oDSYH5VRmAA')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Pesadillas" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -94,9 +96,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Kraven</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/JoWdhvrkKjo')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="kraven" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -106,9 +109,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Hunger Games</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/NxW_X4kzeus')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Hunger-Games" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -118,9 +122,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold ">Old</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/01jQv0n9UKs')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Old" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -130,9 +135,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Objetos</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/JJa6TxVbyc8')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Objetos" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -142,9 +148,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Oblivion</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/Pt7TGR8wwdw')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Oblivion" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -154,9 +161,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Patrulla Canina</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/=ocakemeGalc')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Patrulla-Canina" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -175,10 +183,12 @@
                                 <img src="/assets/img/background-color4@2x.png"
                                     class="float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen ">
                                 <p class="mt-2 text-white nombre">
-                                    <span class="text-bold">One Piece</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/JoO7TGG2Kms')">Ver
-                                        más</button>
+
+                                    <span class="text-bold">one piece</span>
+                                <form action="procesarFormulario.php" method="POST">
+                                    <input type="hidden" name="nombre" value="one-piece" />
+                                    <input type="submit" name="subir" value="detalles" />
+                                </form>
                                 </p>
                             </div>
                         </div>
@@ -190,9 +200,10 @@
                                     class=" float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Billy the Kid</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/j3Ukftj1VjU')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Billy-the-Kid" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -203,9 +214,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Pesadillas</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/oDSYH5VRmAA')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Pesadillas" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -215,9 +227,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Kraven</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/JoWdhvrkKjo')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="kraven" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -227,9 +240,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Hunger Games</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/NxW_X4kzeus')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Hunger-Games" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -239,9 +253,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold ">Old</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/01jQv0n9UKs')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Old" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -251,9 +266,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Objetos</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/JJa6TxVbyc8')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Objetos" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -263,9 +279,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Oblivion</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/Pt7TGR8wwdw')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Oblivion" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -275,9 +292,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Patrulla Canina</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/=ocakemeGalc')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Patrulla-Canina" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -296,10 +314,12 @@
                                 <img src="/assets/img/background-color4@2x.png"
                                     class="float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen ">
                                 <p class="mt-2 text-white nombre">
-                                    <span class="text-bold">One Piece</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/JoO7TGG2Kms')">Ver
-                                        más</button>
+
+                                    <span class="text-bold">one piece</span>
+                                <form action="procesarFormulario.php" method="POST">
+                                    <input type="hidden" name="nombre" value="one-piece" />
+                                    <input type="submit" name="subir" value="detalles" />
+                                </form>
                                 </p>
                             </div>
                         </div>
@@ -311,9 +331,10 @@
                                     class=" float-left  mx-auto img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Billy the Kid</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/j3Ukftj1VjU')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Billy-the-Kid" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -324,9 +345,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Pesadillas</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/oDSYH5VRmAA')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Pesadillas" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -336,9 +358,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Kraven</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/JoWdhvrkKjo')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="kraven" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -348,9 +371,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Hunger Games</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/NxW_X4kzeus')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Hunger-Games" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -360,9 +384,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold ">Old</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/01jQv0n9UKs')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Old" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -372,9 +397,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Objetos</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/JJa6TxVbyc8')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Objetos" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -384,9 +410,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Oblivion</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/Pt7TGR8wwdw')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Oblivion" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -396,9 +423,10 @@
                                     class="float-left  mx-auto  img-thumbnail imagentarjeta" alt="Primera Imagen">
                                 <p class="mt-2 text-white nombre">
                                     <span class="text-bold">Patrulla Canina</span>
-                                    <button class="btn btn-link btn-sm"
-                                        onclick="mostrarVentanaEmergente('One Piece','Series','00:24:00 Por episodio','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.','https://www.youtube.com/embed/=ocakemeGalc')">Ver
-                                        más</button>
+                                    <form action="procesarFormulario.php" method="POST">
+                                        <input type="hidden" name="nombre" value="Patrulla-Canina" />
+                                        <input type="submit" name="subir" value="detalles" />
+                                    </form>
                                 </p>
                             </div>
                         </div>
@@ -413,54 +441,23 @@
     <?php include("includes/footer.php"); ?>
 
 
-
-
-    <!-- Ventana Emergente -->
-    <div class="modal" tabindex="-1" role="dialog" id="ventanaEmergente">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Caracteristicas</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <h4>Nombre</h4>
-                    <p id="texto1"></p>
-                    <h4>Categoria</h4>
-                    <p id="texto2"> </p>
-                    <h4>Duracion</h4>
-                    <p id="texto3"></p>
-                    <h4>Descripcion</h4>
-                    <p id="texto4"></p>
-                    <h4>Trailer</h4>
-                </div>
-
-                <div class="d-flex justify-content-center">
-
-                    <div class="ratio ratio-16x9 w-50">
-                        <iframe title="Frog" allowfullscreen id="videoFrame"></iframe>
-                    </div>
-                </div>
-
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
+    <!-- Contenedor de mensaje oculto -->
+  <div id="hidden-container">
+    <div id="message-container">
+      <span id="close-btn" onclick="closeMessage()">X</span>
+      <div id="message-text"></div>
     </div>
-    <!-- Scrip para que el boton muestre la ventana emergente -->
-    <script>
-        function mostrarVentanaEmergente(texto1, texto2, texto3, texto4, enlaceVideo) {
-            document.getElementById('texto1').innerText = texto1;
-            document.getElementById('texto2').innerText = texto2;
-            document.getElementById('texto3').innerText = texto3;
-            document.getElementById('texto4').innerText = texto4;
-            document.getElementById('videoFrame').src = enlaceVideo;
-            var ventanaEmergente = new bootstrap.Modal(document.getElementById('ventanaEmergente'));
-            ventanaEmergente.show();
-        }
-    </script>
+
+    <!-- Modal personalizado oculto -->
+    <div id="overlay"></div>
+    <div id="custom-modal">
+      <p id="modal-text"></p>
+      <button onclick="acceptAction()">Aceptar</button>
+      <button onclick="rejectAction()">Cancelar</button>
+    </div>
+  </div>
+  <script src="scriptcookie.js"></script>
+    
 
 </body>
 
