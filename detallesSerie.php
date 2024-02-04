@@ -19,7 +19,7 @@
 <body class="series-Peliculas ">
     <section class="page-section">
         <?php include("includes/navigation.php"); ?>
-        <header>
+         <header>
             <?php
             session_start();
 
@@ -62,12 +62,75 @@
 
                 echo "</div>"; // Cerrar la fila
             
+                ?>
+                <style>
+        /* Estilo para las estrellas */
+        #starRating {
+            font-size: 0; /* Elimina el espacio entre las estrellas */
+            white-space: nowrap; /* Evita que las estrellas se muevan a la siguiente línea */
+        }
 
+        #starRating input {
+            display: none; /* Oculta los radios originales */
+        }
+
+        #starRating label {
+            font-size: 30px; /* Tamaño de las estrellas */
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        #starRating label:before {
+            content: '\2605'; /* Carácter de estrella vacía Unicode */
+        }
+
+        #starRating input:checked + label:before {
+            content: '\2605'; /* Carácter de estrella rellena Unicode cuando se selecciona */
+            color: gold; /* Cambia el color de la estrella seleccionada */
+        }
+    </style>
+
+
+    <div style="text-align: center; padding: 20px;">
+        <h1>Valoraciones</h1>
+        <!-- Aumenta la altura del contenedor del editor y establece el fondo blanco -->
+        <form id="quill" action="procesarComentario.php" method="post">
+            <div id="editor" name="comentario" style="height: 400px; background-color: #fff;"></div>
+            <button type="submit" >Enviar Comentario</button>
+        </form>
+
+        <!-- Agrega un formulario para las estrellas -->
+        <form id="ratingForm" action="procesarComentario.php" method="post">
+            <h1>Selecciona una valoración: (1 - 5 )</h1>
+            <div id="starRating">
+                <!-- Utiliza etiquetas <label> para las estrellas -->
+                <input type="radio" name="rating" value="1" id="star1"><label for="star1"></label>
+                <input type="radio" name="rating" value="2" id="star2"><label for="star2"></label>
+                <input type="radio" name="rating" value="3" id="star3"><label for="star3"></label>
+                <input type="radio" name="rating" value="4" id="star4"><label for="star4"></label>
+                <input type="radio" name="rating" value="5" id="star5"><label for="star5"></label>
+            </div>
+            <br>
+            <button type="submit" >Enviar valoracion</button>
+        </form>
+    </div>
+
+    <script>
+        var quill = new Quill('#editor', {
+            theme: 'snow'
+        });
+
+    </script>
+
+
+
+            <?php 
 
             } else {
                 echo "No se han encontrado detalles de la película.";
             }
-
+            
             ?>
+            
     </section>
     <?php include("includes/footer.php"); ?>

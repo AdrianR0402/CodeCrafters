@@ -11,3 +11,5 @@
 <link href="/css/styles.css" rel="stylesheet" />
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 <script src="./js/scriptcookie.js"></script>
+<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>

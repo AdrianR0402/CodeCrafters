@@ -55,7 +55,7 @@
 
                                     <span class="text-bold">one piece</span>
                                 <form action="procesarFormulario.php" method="POST">
-                                    <input type="hidden" name="nombre" value="one-piece" />
+                                    <input type="hidden" name="nombre" value="onepiece" />
                                     <input type="submit" name="subir" value="detalles" />
                                 </form>
                                 </p>
@@ -441,22 +441,7 @@
     <?php include("includes/footer.php"); ?>
 
 
-    <!-- Contenedor de mensaje oculto -->
-  <div id="hidden-container">
-    <div id="message-container">
-      <span id="close-btn" onclick="closeMessage()">X</span>
-      <div id="message-text"></div>
-    </div>
-
-    <!-- Modal personalizado oculto -->
-    <div id="overlay"></div>
-    <div id="custom-modal">
-      <p id="modal-text"></p>
-      <button onclick="acceptAction()">Aceptar</button>
-      <button onclick="rejectAction()">Cancelar</button>
-    </div>
-  </div>
-  <script src="scriptcookie.js"></script>
+   
     
 
 </body>
