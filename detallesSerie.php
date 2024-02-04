@@ -93,14 +93,13 @@
 
     <div style="text-align: center; padding: 20px;">
         <h1>Valoraciones</h1>
-        <!-- Aumenta la altura del contenedor del editor y establece el fondo blanco -->
-        <form id="quill" action="procesarComentario.php" method="post">
+        <form id="quill" action="procesarComentario.php" method="POST">
             <div id="editor" name="comentario" style="height: 400px; background-color: #fff;"></div>
             <button type="submit" >Enviar Comentario</button>
         </form>
 
         <!-- Agrega un formulario para las estrellas -->
-        <form id="ratingForm" action="procesarComentario.php" method="post">
+        <form id="ratingForm" action="procesarComentario.php" method="POST">
             <h1>Selecciona una valoración: (1 - 5 )</h1>
             <div id="starRating">
                 <!-- Utiliza etiquetas <label> para las estrellas -->
