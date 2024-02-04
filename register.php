@@ -1,5 +1,4 @@
 <?php
-
 require_once 'UsuariosController.php';
 
 if (isset($_POST['registrarse'])) {
@@ -25,14 +24,60 @@ if (isset($_POST['registrarse'])) {
         }
     }
 }
-
 ?>
+
 <?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
 <html>
 
 <head>
     <?php include("includes/head-tag-contents.php"); ?>
+    <script>
+        // Función para validar el formulario antes de enviarlo
+        function validarFormulario() {
+            var usuario = document.getElementById("usuario").value;
+            var nombre = document.getElementById("nombre").value;
+            var apellido1 = document.getElementById("apellido1").value;
+            var apellido2 = document.getElementById("apellido2").value;
+            var pais = document.getElementById("pais").value;
+            var telefono = document.getElementById("telefono").value;
+            var email = document.getElementById("email").value;
+            var fechaNacimiento = document.getElementById("fecha_nacimiento").value;
+            var postal = document.getElementById("postal").value;
+            var contrasena = document.getElementById("contrasena").value;
+            var captcha = document.getElementById("captcha").value;
+
+            // Validación básica de campos vacíos
+            if (usuario == "" || nombre == "" || apellido1 == "" || apellido2 == "" || pais == "" || telefono == "" || email == "" || fechaNacimiento == "" || postal == "" || contrasena == "" || captcha == "") {
+                alert("Todos los campos son obligatorios");
+                return false;
+            }
+
+            // Validación de formato de email
+            var emailRegex = /\S+@\S+\.\S+/;
+            if (!emailRegex.test(email)) {
+                alert("El formato del email es inválido");
+                return false;
+            }
+
+            // Validación de formato de fecha (puede ser más específica según el formato deseado)
+            var fechaNacimientoRegex = /^\d{4}-\d{2}-\d{2}$/;
+            if (!fechaNacimientoRegex.test(fechaNacimiento)) {
+                alert("El formato de la fecha de nacimiento es inválido");
+                return false;
+            }
+
+            // Validación de captcha (solo letras mayúsculas)
+            var captchaRegex = /^[A-Z]{6}$/;
+            if (!captchaRegex.test(captcha)) {
+                alert("El captcha es inválido");
+                return false;
+            }
+
+            // Si pasa todas las validaciones, el formulario se enviará
+            return true;
+        }
+    </script>
 </head>
 
 <body>
@@ -50,7 +95,8 @@ if (isset($_POST['registrarse'])) {
                             </div>
                             <div class="inicioSesion container-border">
                                 <div class="col-md-8 offset-md-2">
-                                    <form class="mt-4 mb-4" action="" method="POST">
+                                    <form class="mt-4 mb-4" action="" method="POST"
+                                        onsubmit="return validarFormulario()">
                                         <!-- Usuario -->
                                         <div class="form-group row mb-3">
                                             <label for="usuario"
@@ -159,8 +205,7 @@ if (isset($_POST['registrarse'])) {
                                                 <?php if (isset($_GET["captchaerror"]))
                                                     echo "Captcha Incorrecto.";
                                                 else
-                                                    echo "Porfavor realize este Captcha<b>";
-                                                ?>
+                                                    echo "Porfavor realize este Captcha<b>"; ?>
                                             </b></label>
                                         <img src="includes/generatecaptcha.php" alt="CAPTCHA" class="captcha-image"><i
                                             class="fas fa-redo refresh-captcha"></i>
@@ -173,40 +218,36 @@ if (isset($_POST['registrarse'])) {
                                             }
                                         </script>
 
-
                                         <!-- Checkbox -->
                                         <div class="form-group row">
                                             <div class="col-sm-9 offset-sm-3">
                                                 <label class="LetraCheckbox">
                                                     <input type="checkbox">
                                                     Al crear una cuenta muestras tu conformidad con nuestros Términos de
-                                                    Uso y nuestra Política de
-                                                    Privacidad, confirmando además que tienes 16 años o más.
+                                                    Uso y nuestra Política de Privacidad, confirmando además que tienes
+                                                    16 años o más.
                                                 </label>
                                             </div>
                                         </div>
 
+                                        <div class="row mt-4">
+                                            <div class="col-md-8 offset-md-2">
+                                                <div class="text-center">
+                                                    <input type="hidden" name="registrado" value="registro" />
+                                                    <input type="submit" name="registrarse" value="CREAR CUENTA"
+                                                        class="btn btn-primary btn-acceder font-weight-bold"></input>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                                </div>
-                            </div>
-
-                            <!-- Botón ACCEDER fuera del contenedor -->
-                            <div class="row mt-4">
-                                <div class="col-md-8 offset-md-2">
-                                    <div class="text-center">
-                                        <input type="hidden" name="registrado" value="registro" />
-                                        <input type="submit" name="registrarse" value="CREAR CUENTA"
-                                            class="btn btn-primary btn-acceder font-weight-bold"></input>
+                                    </form>
+                                    <!-- Enlace "CREAR CUENTA" -->
+                                    <div class="row mt-3">
+                                        <div class="col-md-8 offset-md-2 text-center">
+                                            <span class="no-tienes-cuenta-container">¿Ya tienes una cuenta? <a
+                                                    href="login.php" class="crear-cuenta">ACCEDER</a></span>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-
-                            </form>
-                            <!-- Enlace "CREAR CUENTA" -->
-                            <div class="row mt-3">
-                                <div class="col-md-8 offset-md-2 text-center">
-                                    <span class="no-tienes-cuenta-container">¿Ya tienes una cuenta? <a href="login.php"
-                                            class="crear-cuenta">ACCEDER</a></span>
                                 </div>
                             </div>
                         </div>
