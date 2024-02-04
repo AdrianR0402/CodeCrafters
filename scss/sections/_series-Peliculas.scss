@@ -6,6 +6,90 @@ h1 {
     color: $primary;
 }
 
+p {
+    color: $primary;
+}
+
+h2 {
+    color: $primary;
+}
+
+.detalle-valor {
+    text-align: right;
+}
+
+/* Estilos para las características de la película */
+.detalle-pelicula {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.detalle-titulo {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.detalle-info {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+/* Estilo para las estrellas */
+#starRating {
+    font-size: 0;
+    /* Elimina el espacio entre las estrellas */
+    white-space: nowrap;
+    /* Evita que las estrellas se muevan a la siguiente línea */
+}
+
+#starRating input {
+    display: none;
+    /* Oculta los radios originales */
+}
+
+#starRating label {
+    font-size: 30px;
+    /* Tamaño de las estrellas */
+    cursor: pointer;
+    display: inline-block;
+}
+
+.separacionDiv {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.edicion {
+    height: 400px;
+    background-color: #fff;
+}
+
+.row1 {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.margin1 {
+    margin-top: 50px;
+}
+
+#starRating label:before {
+    content: '\2605';
+    /* Carácter de estrella vacía Unicode */
+}
+
+#starRating input:checked+label:before {
+    content: '\2605';
+    /* Carácter de estrella rellena Unicode cuando se selecciona */
+    color: gold;
+    /* Cambia el color de la estrella seleccionada */
+}
+
 
 
 
