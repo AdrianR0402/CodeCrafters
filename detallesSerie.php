@@ -14,6 +14,30 @@
     .detalle-valor {
         text-align: right;
     }
+    /* Estilo para las estrellas */
+    #starRating {
+            font-size: 0; /* Elimina el espacio entre las estrellas */
+            white-space: nowrap; /* Evita que las estrellas se muevan a la siguiente línea */
+        }
+
+        #starRating input {
+            display: none; /* Oculta los radios originales */
+        }
+
+        #starRating label {
+            font-size: 30px; /* Tamaño de las estrellas */
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        #starRating label:before {
+            content: '\2605'; /* Carácter de estrella vacía Unicode */
+        }
+
+        #starRating input:checked + label:before {
+            content: '\2605'; /* Carácter de estrella rellena Unicode cuando se selecciona */
+            color: gold; /* Cambia el color de la estrella seleccionada */
+        }
 </style>
 
 <body class="series-Peliculas ">
@@ -63,39 +87,12 @@
                 echo "</div>"; // Cerrar la fila
             
                 ?>
-                <style>
-        /* Estilo para las estrellas */
-        #starRating {
-            font-size: 0; /* Elimina el espacio entre las estrellas */
-            white-space: nowrap; /* Evita que las estrellas se muevan a la siguiente línea */
-        }
-
-        #starRating input {
-            display: none; /* Oculta los radios originales */
-        }
-
-        #starRating label {
-            font-size: 30px; /* Tamaño de las estrellas */
-            cursor: pointer;
-            display: inline-block;
-        }
-
-        #starRating label:before {
-            content: '\2605'; /* Carácter de estrella vacía Unicode */
-        }
-
-        #starRating input:checked + label:before {
-            content: '\2605'; /* Carácter de estrella rellena Unicode cuando se selecciona */
-            color: gold; /* Cambia el color de la estrella seleccionada */
-        }
-    </style>
-
-
     <div style="text-align: center; padding: 20px;">
         <h1>Valoraciones</h1>
         <form id="quill" action="procesarComentario.php" method="POST">
             <div id="editor" name="comentario" style="height: 400px; background-color: #fff;"></div>
-            
+            <input type="hidden" name="contenido_quill" id="contenido_quill">
+
 
         <!-- Agrega un formulario para las estrellas -->
             <h1>Selecciona una valoración: (1 - 5 )</h1>
@@ -116,6 +113,11 @@
         var quill = new Quill('#editor', {
             theme: 'snow'
         });
+        // Actualiza el campo oculto con el contenido de Quill antes de enviar el formulario
+        document.querySelector('form').onsubmit = function() {
+            var contenidoQuill = quill.root.innerHTML;
+            document.getElementById('contenido_quill').value = contenidoQuill;
+        };
 
     </script>
 

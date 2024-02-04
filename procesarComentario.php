@@ -1,9 +1,12 @@
 <?php
 require_once 'Model/Usuarios.php';
+
+
+
 // Verificar si se ha enviado un comentario
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["comentario"]) && isset($_POST["valoracion"])) {
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["rating"]) && isset($_POST["contenido_quill"])) {
     // Obtener el comentario enviado por el formulario
-    $comentario = $_POST["comentario"];
+    $comentario = $_POST["contenido_quill"];
     // Obtener la valoración enviada por el formulario
     $valoracion = $_POST["rating"];
 
