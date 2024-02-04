@@ -81,7 +81,7 @@
                 $portada = $pelicula['portada'];
                 // Y así sucesivamente...
             ?>
-        <div class="row" style="margin-top: 10px;">
+        <div class="row" style="margin-top: 10px;margin-left: 5px;">
             <div class="col-md-6">
                 <div class="detalle-pelicula">
                     <h1 class="detalle-titulo">Nombre: <?php echo $nombre; ?></h1>
