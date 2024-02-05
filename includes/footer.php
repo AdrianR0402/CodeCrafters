@@ -5,14 +5,35 @@
             <!-- Footer Social Icons-->
             <!-- CF2: Si sólo hay un columna en el row, debe ser col-->
             <div class="col-lg-6 mb-5 mb-lg-0 mx-auto">
-                <!--CF2: ¿Por qué h4?-->
-                <h4 class="text-uppercase mb-4">Siguenos en nuestras redes</h4>
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
-                        class="fab fa-fw fa-twitter"></i></a><!--iconos de redes sociales -->
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                <h2 class="text-uppercase mb-4">Siguenos en nuestras redes</h2>
+                <ul class="list-unstyled d-flex justify-content-center">
+                    <li>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!" aria-label="Facebook">
+                            <i class="fab fa-fw fa-facebook-f" aria-hidden="true"></i>
+                            <span class="visually-hidden">Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!" aria-label="Twitter">
+                            <i class="fab fa-fw fa-twitter" aria-hidden="true"></i>
+                            <span class="visually-hidden">Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!" aria-label="LinkedIn">
+                            <i class="fab fa-fw fa-linkedin-in" aria-hidden="true"></i>
+                            <span class="visually-hidden">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!" aria-label="Dribbble">
+                            <i class="fab fa-fw fa-dribbble" aria-hidden="true"></i>
+                            <span class="visually-hidden">Dribbble</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
+
         </div>
         <div class="row">
             <!--CF2: Esto deve ser un <nav>-->
