@@ -1,7 +1,7 @@
 <?php require_once 'UsuariosController.php'; ?>
 <!DOCTYPE html>
 <?php include("includes/a_config.php"); ?>
-<html>
+<html lang="en">
 
 <head>
     <?php include("includes/head-tag-contents.php"); ?>
