@@ -11,24 +11,24 @@
         <div class="col md-3">
             <?php
             if (!isset($_SESSION['access_token'])) {
-                $login_button = '<a href="' . $google_client->createAuthUrl() . '" class="btn btn-primary"><img src="assets/img/sign-in-with-google.png" id="imgGoogle" /></a>';
+                $login_button = '<a href="' . $google_client->createAuthUrl() . '" class="btn btn-primary" alt="botonLoginGoogle"><img src="assets/img/sign-in-with-google.png" id="imgGoogle" alt="imgLoginGoogle"/></a>';
             }
             if (isset($_SESSION["usuario"])) {
                 $usuario = $_SESSION['usuario'];
 
-                echo "<a href='password.php'><img id='imagenUsuario' src='assets/img/fondoUsuarios.png'/>";
+                echo "<a href='password.php'><img id='imagenUsuario' src='assets/img/fondoUsuarios.png' alt='imagen del usuario'/>";
                 echo '<span id="span">' . $usuario->username . '</span>';
                 echo '<a href="logout.php">Cerrar Sesion</a>';
 
             } elseif (isset($_SESSION['user_first_name']) && $_SESSION['user_last_name'] && $login_button == '') {
-                echo '<img id="imagenUsuario" src="' . $_SESSION["user_image"] . '" referrerpolicy="no-referrer" />';
+                echo '<img id="imagenUsuario" src="' . $_SESSION["user_image"] . '" referrerpolicy="no-referrer" alt="imagen del usuario"/>';
                 echo '<span id="span">' . $_SESSION['user_first_name'] . ' ' . $_SESSION['user_last_name'] . '</span>';
                 echo '<a class="logout-link" href="logout.php">Cerrar Sesion</a>';
 
             } else {
                 echo '<div align="left">';
-                echo '<a href="login.php" class="btn btn-primary">login</a>';
-                echo '<a href="register.php" class="btn btn-primary">register</a>';
+                echo '<a href="login.php" class="btn btn-primary" alt="boton login">login</a>';
+                echo '<a href="register.php" class="btn btn-primary" alt="boton register">register</a>';
                 echo '</div>';
             }
             ?>
@@ -78,7 +78,7 @@
         </div>
         <div class="col md-3">
             <a class="navbar-brand" href="index.php"><img class="float-end" id="logoNav"
-                    src="/assets/img/portfolio/portada.jpg" alt="..."></a><!--logo -->
+                    src="/assets/img/portfolio/portada.jpg" alt="LogoLucecine"></a><!--logo -->
 
         </div>
         <div>
