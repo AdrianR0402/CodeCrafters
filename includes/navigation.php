@@ -17,7 +17,7 @@
                 $usuario = $_SESSION['usuario'];
 
                 echo "<a href='password.php'><img id='imagenUsuario' src='assets/img/fondoUsuarios.png' alt='imagen del usuario'/>";
-                echo '<span id="span">' . $usuario->username . '</span>';
+                echo '<span class="navbarAzul" id="span" >' . $usuario->username . '</span>';
                 echo '<a href="logout.php">Cerrar Sesion</a>';
 
             } elseif (isset($_SESSION['user_first_name']) && $_SESSION['user_last_name'] && $login_button == '') {
