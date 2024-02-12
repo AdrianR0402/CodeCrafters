@@ -1,7 +1,7 @@
 <?php require_once 'UsuariosController.php'; ?>
 <?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <?php include("includes/head-tag-contents.php"); ?>
@@ -14,13 +14,13 @@
         <section class="page-section">
             <div class="container-fluid mt-4 mx-0 px-0">
                 <div class="container-fluid m-0 p-0">
-                    <img class="img-fluid bannerDatos" src="/assets/img/bannerPlaceholder1.png" alt="">
+                    <img class="img-fluid bannerDatos" src="/assets/img/bannerPlaceholder1.png" alt="banner usuario">
                 </div>
                 <div class="container-fluid mt-5 px-5">
                     <div class="row">
                         <!-- List group conteniendo los distintos apartados para navegar en los datos de usuario -->
-                        <div class="col-md-3 text-center">
-                            <h2 class="page-section-heading mb-4">Datos de usuario</h2>
+                        <section class="col-md-3 text-center">
+                            <h1 class="page-section-heading mb-4">Datos de usuario</h1>
                             <div class="container">
                                 <ul class="list-group">
                                     <li class="list-group-item active"><a href="infoSuscripcion.php"
@@ -39,9 +39,9 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </section>
                         <!-- Contenido especifico de la información de suscripcion -->
-                        <div class="col-sm-12 col-md-9 px-3 px-md-5">
+                        <section class="col-sm-12 col-md-9 px-3 px-md-5">
                             <div class="datosUsuario container-border">
                                 <div class="container-fluid p-2 text-center">
                                     <div class="row">
@@ -52,7 +52,7 @@
                                                 de pedidos</p>
                                         </div>
                                         <div class="col-md-6 text-center mx-auto">
-                                            <p class="datosUsuario-header">Miembro Mega Fan</p>
+                                            <h1 class="datosUsuario-header">Miembro Mega Fan</h1>
                                             <p class="datosUsuario-text">64,99 € / anual + VAT aplicable</p>
                                             <p class="datosUsuario-text">Tu suscripción se renovará el 6 de febrero de
                                                 2024</p>
@@ -63,7 +63,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 <?php require_once 'UsuariosController.php'; ?>
 <?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <?php include("includes/head-tag-contents.php"); ?>
@@ -15,7 +15,7 @@
             <!-- CF2: ¿Por qué en algunas páginas usáis container-fluid y en otras container?-->
             <div class="container-fluid mt-4 mx-0 px-0">
                 <div class="container-fluid m-0 p-0">
-                    <img class="img-fluid bannerDatos" src="/assets/img/bannerPlaceholder1.png" alt="">
+                    <img class="img-fluid bannerDatos" src="/assets/img/bannerPlaceholder1.png" alt="banner usuario">
                 </div>
                 <!-- CF2: Ya has puesto el container!-->
                 <div class="container-fluid mt-5 px-5">
@@ -23,7 +23,7 @@
                         <!-- List group conteniendo los distintos apartados para navegar en los datos de usuario -->
                         <div class="col-md-3 text-center">
                             <!-- CF2: ¿Dónde está el h1?-->
-                            <h2 class="page-section-heading mb-4">Datos de usuario</h2>
+                            <h1 class="page-section-heading mb-4">Datos de usuario</h1>
                             <!-- CF2:Lo siguiente debe ser un elemento <nav>-->
                             <div class="container">
                                 <ul class="list-group">
@@ -52,39 +52,39 @@
                                     <div class="row">
                                         <!-- CF2: Las columnas deben sumar 12, aquí suman 18!-->
                                         <div class="col-md-12">
-                                            <h2 class="datosUsuario-header">Preferencias</h2>
+                                            <h1 class="datosUsuario-header">Preferencias</h1>
                                             <p class="datosUsuario-text">Configura tus preferencias de idioma y video
                                             </p>
                                         </div>
                                         <!-- formulario de configuracion de preferencias -->
                                         <div class="col-md-6 text-center mx-auto">
-                                            <p class="datosUsuario-header">Idioma</p>
+                                            <h1 class="datosUsuario-header">Idioma</h1>
                                             <form>
                                                 <div class="form-group">
-                                                    <label for="languageSelect"
+                                                    <label for="language"
                                                         class="mb-2 datosUsuario-text">Selecciona tu idioma</label>
-                                                    <select class="form-control" id="languageSelectText">
+                                                    <select class="form-control" id="language">
                                                         <option value="es">Español</option>
                                                         <option value="en">Inglés</option>
                                                         <option value="fr">Francés</option>
                                                     </select>
                                                 </div>
                                             </form>
-                                            <p class="datosUsuario-header mt-4">Video</p>
+                                            <h1 class="datosUsuario-header mt-4">Video</h1>
                                             <form>
                                                 <div class="form-group">
-                                                    <label for="languageSelect"
+                                                    <label for="languageSonido"
                                                         class="mb-2 datosUsuario-text">Selecciona tu idioma del
                                                         audio:</label>
-                                                    <select class="form-control" id="languageSelectSound">
+                                                    <select class="form-control" id="languageSonido">
                                                         <option value="es">Español</option>
                                                         <option value="en">Inglés</option>
                                                         <option value="fr">Francés</option>
                                                     </select>
-                                                    <label for="languageSelect"
+                                                    <label for="languageCaptions"
                                                         class="mt-2 mb-2 datosUsuario-text">Selecciona tu idioma de los
                                                         subtitulos:</label>
-                                                    <select class="form-control" id="languageSelectCaptions">
+                                                    <select class="form-control" id="languageCaptions">
                                                         <option value="es">Español</option>
                                                         <option value="en">Inglés</option>
                                                         <option value="fr">Francés</option>
@@ -92,10 +92,10 @@
                                                 </div>
                                             </form>
                                             <div class="form-check form-switch mt-5 ">
-                                                <input class="form-check-input" type="checkbox" id="mySwitch"
+                                                <input class="form-check-input" type="checkbox" id="contenidoAdulto"
                                                     name="darkmode" value="yes" checked>
                                                 <label class="form-check-label datosUsuario-text"
-                                                    for="mySwitch">Contenido para adultos</label>
+                                                    for="contenidoAdulto">Contenido para adultos</label>
                                             </div>
                                             <div class="container mt-4">
                                                 <p class="datosUsuario-text"><a href="" class="linksContenido">Cambiar

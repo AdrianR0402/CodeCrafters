@@ -7,23 +7,23 @@
     
     transition: color 0.3s;
     &:hover {
-        color: $primary;
+        color: $letras;
     }
 
     &.active {
-        color: $primary;
+        color: $letras;
     }
 }
 
 .linksContenido {
     transition: color 0.3s;
-    color: $primary;
+    color: $texto;
     &:hover {
-        color: $primary;
+        color: $letras;
     }
 
     &.active {
-        color: $primary;
+        color: $letras;
     }
 
 }
@@ -40,7 +40,7 @@
 .datosUsuario {
     background-color: $azulSecundario;
     .datosUsuario-header {
-        color: $primary;
+        color: $letras;
         font-family: $headings-font-family;
         font-size: $headings-font-size;
     }

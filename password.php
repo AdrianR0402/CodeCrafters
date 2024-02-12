@@ -1,7 +1,7 @@
 <?php require_once 'UsuariosController.php'; ?>
 <?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <?php include("includes/head-tag-contents.php"); ?>
@@ -14,13 +14,13 @@
             <!-- Banner personalizable del perfil -->
             <div class="container-fluid mt-4 mx-0 px-0">
                 <div class="container-fluid m-0 p-0">
-                    <img class="img-fluid bannerDatos" src="/assets/img/bannerPlaceholder1.png" alt="">
+                    <img class="img-fluid bannerDatos" src="/assets/img/bannerPlaceholder1.png" alt="Banner usuario">
                 </div>
                 <div class="container-fluid mt-5 px-5">
                     <div class="row">
                         <!-- List group conteniendo los distintos apartados para navegar en los datos de usuario -->
-                        <div class="col-md-3 text-center">
-                            <h2 class="page-section-heading mb-4">Datos de usuario</h2>
+                        <section class="col-md-3 text-center">
+                            <h1 class="page-section-heading mb-4">Datos de usuario</h1>
                             <div class="container">
                                 <ul class="list-group">
                                     <li class="list-group-item"><a href="infoSuscripcion.php"
@@ -39,9 +39,9 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </section>
                         <!-- Contenido especifico de cambiar contraseña -->
-                        <div class="col-sm-12 col-md-9 px-3 px-md-5">
+                        <section class="col-sm-12 col-md-9 px-3 px-md-5">
                             <div class="datosUsuario container-border">
                                 <div class="container-fluid p-2 text-center">
                                     <div class="row">
@@ -56,24 +56,24 @@
                                             <form action="procesarCambioContrasena.php" method="POST">
                                                 <!-- Cambiado el action para que apunte al script PHP que procesará el cambio de contraseña -->
                                                 <div class="mb-3 mt-3">
-                                                    <label class="datosUsuario-text mb-1">Contraseña actual</label>
+                                                    <label class="datosUsuario-text mb-1" for="passAct">Contraseña actual</label>
                                                     <input type="password" class="form-control" id="passAct"
-                                                        placeholder="Contraseña actual" name="passAct">
+                                                        placeholder="Contraseña actual" name="passAct" required>
                                                     <!-- Nombre del campo para la contraseña actual -->
                                                 </div>
                                                 <div class="mb-3">
-                                                    <label class="datosUsuario-text mb-1">Contraseña nueva</label>
+                                                    <label class="datosUsuario-text mb-1" for="passNueva">Contraseña nueva</label>
                                                     <input type="password" class="form-control" id="passNueva"
-                                                        placeholder="Nueva contraseña" name="passNueva">
+                                                        placeholder="Nueva contraseña" name="passNueva" required>
                                                     <!-- Nombre del campo para la nueva contraseña -->
                                                 </div>
                                                 <div class="mb-3">
-                                                    <label class="datosUsuario-text mb-1">Confirmar contraseña</label>
+                                                    <label class="datosUsuario-text mb-1" for="passRep">Confirmar contraseña</label>
                                                     <input type="password" class="form-control" id="passRep"
-                                                        placeholder="Repetir contraseña" name="passRep">
+                                                        placeholder="Repetir contraseña" name="passRep" required>
                                                     <!-- Nombre del campo para confirmar la nueva contraseña -->
                                                 </div>
-                                                <button type="submit" class="btn btn-primary">Cambiar
+                                                <button type="submit" class="btn btn-primary" alt="Confirmar cambiar contraseña">Cambiar
                                                     contraseña</button>
                                             </form>
                                             <div class="datosUsuario-text mb-1">
@@ -89,7 +89,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
             </div>
