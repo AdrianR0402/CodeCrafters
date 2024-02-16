@@ -43,7 +43,7 @@ include("includes/googleconnect.php");
             <div class="row align-items-center">
                 <div class="col-md-6 img1">
                     <img src="assets/img/portfolio/home/1.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                        alt="Tercera Imagen">
+                        alt="Los Juegos del hambre">
                 </div>
                 <div class="col-md-6">
                     <p class="mt-2 letra20 text-center text-white text-bold">Título</p>
@@ -67,27 +67,27 @@ include("includes/googleconnect.php");
                 <div class="row">
                     <div class="col">
                         <img src="assets/img/portfolio/home/11.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                            alt="Tercera Imagen">
+                            alt="Vive Muere Repite">
                     </div>
                     <div class="col">
                         <img src="assets/img/portfolio/home/6.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                            alt="Tercera Imagen">
+                            alt="Stars Wars">
                     </div>
                     <div class="col">
                         <img src="assets/img/portfolio/home/7.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                            alt="Tercera Imagen">
+                            alt="Hermosa Juventud">
                     </div>
                     <div class="col">
                         <img src="assets/img/portfolio/home/8.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                            alt="Tercera Imagen">
+                            alt="Malefica">
                     </div>
                     <div class="col">
                         <img src="assets/img/portfolio/home/9.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                            alt="Tercera Imagen">
+                            alt="Dos Madres Perfectas">
                     </div>
                     <div class="col">
                         <img src="assets/img/portfolio/home/10.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                            alt="Tercera Imagen">
+                            alt="Amor sin control">
                     </div>
                 </div>
 
@@ -101,7 +101,7 @@ include("includes/googleconnect.php");
                 <div class="row align-items-center">
                     <div class="col-md img1">
                         <img src="assets/img/portfolio/home/2.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                            alt="Tercera Imagen">
+                            alt="Black Friday">
                     </div>
                     <!--Para los contenidos debes usar el elemento semántico <article>-->
                     <div class="col-md">
@@ -125,27 +125,27 @@ include("includes/googleconnect.php");
                     <div class="row">
                         <div class="col">
                             <img src="assets/img/portfolio/home/12.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                                alt="Tercera Imagen">
+                                alt="Pelicula 1">
                         </div>
                         <div class="col">
                             <img src="assets/img/portfolio/home/13.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                                alt="Tercera Imagen">
+                                alt="Men">
                         </div>
                         <div class="col">
                             <img src="assets/img/portfolio/home/14.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                                alt="Tercera Imagen">
+                                alt="her">
                         </div>
                         <div class="col">
                             <img src="assets/img/portfolio/home/15.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                                alt="Tercera Imagen">
+                                alt="El medallon perdido">
                         </div>
                         <div class="col">
                             <img src="assets/img/portfolio/home/16.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                                alt="Tercera Imagen">
+                                alt="Al Hacker el dia">
                         </div>
                         <div class="col">
                             <img src="assets/img/portfolio/home/17.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                                alt="Tercera Imagen">
+                                alt="Solo Para Dos">
                         </div>
                     </div>
                     <div class="container-fluid py-4 text-left">
@@ -156,7 +156,7 @@ include("includes/googleconnect.php");
                     <div class="row align-items-center">
                         <div class="col-md img1">
                             <img src="assets/img/portfolio/home/5.jpg" class="img-fluid img-thumbnail d-block mx-auto"
-                                alt="Tercera Imagen">
+                                alt="Napoleon">
                         </div>
                         <div class="col-md">
                             <p class="mt-2 letra20 text-center text-white text-bold">Título</p>
@@ -179,27 +179,27 @@ include("includes/googleconnect.php");
                         <div class="row">
                             <div class="col">
                                 <img src="assets/img/portfolio/home/18.jpg"
-                                    class="img-fluid img-thumbnail d-block mx-auto" alt="Tercera Imagen">
+                                    class="img-fluid img-thumbnail d-block mx-auto" alt="Robocop">
                             </div>
                             <div class="col">
                                 <img src="assets/img/portfolio/home/19.jpg"
-                                    class="img-fluid img-thumbnail d-block mx-auto" alt="Tercera Imagen">
+                                    class="img-fluid img-thumbnail d-block mx-auto" alt="Cuando Todo Esta Perdido">
                             </div>
                             <div class="col">
                                 <img src="assets/img/portfolio/home/20.jpg"
-                                    class="img-fluid img-thumbnail d-block mx-auto" alt="Tercera Imagen">
+                                    class="img-fluid img-thumbnail d-block mx-auto" alt="Crepusculo">
                             </div>
                             <div class="col">
                                 <img src="assets/img/portfolio/home/21.jpg"
-                                    class="img-fluid img-thumbnail d-block mx-auto" alt="Tercera Imagen">
+                                    class="img-fluid img-thumbnail d-block mx-auto" alt="Pelicula 2">
                             </div>
                             <div class="col">
                                 <img src="assets/img/portfolio/home/22.jpg"
-                                    class="img-fluid img-thumbnail d-block mx-auto" alt="Tercera Imagen">
+                                    class="img-fluid img-thumbnail d-block mx-auto" alt="La plegaria punk">
                             </div>
                             <div class="col">
                                 <img src="assets/img/portfolio/home/23.jpg"
-                                    class="img-fluid img-thumbnail d-block mx-auto" alt="Tercera Imagen">
+                                    class="img-fluid img-thumbnail d-block mx-auto" alt="Happy Family">
                             </div>
                         </div>
 
@@ -212,7 +212,7 @@ include("includes/googleconnect.php");
 
                             <div class="col-md img1">
                                 <img src="assets/img/portfolio/home/4.jpg"
-                                    class="img-fluid img-thumbnail d-block mx-auto" alt="Tercera Imagen">
+                                    class="img-fluid img-thumbnail d-block mx-auto" alt="Wish">
                             </div>
                             <div class="col-md">
                                 <p class="mt-2 letra20 text-center text-white text-bold">Título</p>
@@ -236,27 +236,27 @@ include("includes/googleconnect.php");
                             <div class="row">
                                 <div class="col">
                                     <img src="assets/img/portfolio/home/15.jpg"
-                                        class="img-fluid img-thumbnail d-block mx-auto" alt="Tercera Imagen">
+                                        class="img-fluid img-thumbnail d-block mx-auto" alt="El medallon">
                                 </div>
                                 <div class="col">
                                     <img src="assets/img/portfolio/home/20.jpg"
-                                        class="img-fluid img-thumbnail d-block mx-auto" alt="Tercera Imagen">
+                                        class="img-fluid img-thumbnail d-block mx-auto" alt="Tiniebla">
                                 </div>
                                 <div class="col">
                                     <img src="assets/img/portfolio/home/7.jpg"
-                                        class="img-fluid img-thumbnail d-block mx-auto" alt="Tercera Imagen">
+                                        class="img-fluid img-thumbnail d-block mx-auto" alt="Juventud">
                                 </div>
                                 <div class="col">
                                     <img src="assets/img/portfolio/home/12.jpg"
-                                        class="img-fluid img-thumbnail d-block mx-auto" alt="Tercera Imagen">
+                                        class="img-fluid img-thumbnail d-block mx-auto" alt="Pelicula 5">
                                 </div>
                                 <div class="col">
                                     <img src="assets/img/portfolio/home/6.jpg"
-                                        class="img-fluid img-thumbnail d-block mx-auto" alt="Tercera Imagen">
+                                        class="img-fluid img-thumbnail d-block mx-auto" alt="Guerra de estrellas">
                                 </div>
                                 <div class="col">
                                     <img src="assets/img/portfolio/home/10.jpg"
-                                        class="img-fluid img-thumbnail d-block mx-auto" alt="Tercera Imagen">
+                                        class="img-fluid img-thumbnail d-block mx-auto" alt="without control">
                                 </div>
                             </div>
 
