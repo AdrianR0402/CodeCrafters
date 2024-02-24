@@ -9,6 +9,7 @@ if (($_SESSION["usuario"]) == null) {
 }
 ?>
 <!DOCTYPE html>
+<html lang="es">
 <html>
 
 <head>
@@ -43,7 +44,7 @@ if (($_SESSION["usuario"]) == null) {
                                                 class="col-sm-3 col-form-label text-right font-weight-bold text-white letraInicioSesion">Reporte:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control font-weight-bold" id="reporte"
-                                                    name="reporte">
+                                                    name="reporte" alt="pon tu reporte">
                                             </div>
                                         </div>
 
@@ -53,7 +54,7 @@ if (($_SESSION["usuario"]) == null) {
                                                 class="col-sm-3 col-form-label text-right font-weight-bold text-white letraInicioSesion">Problemas:</label>
                                             <div class="col-sm-9">
                                                 <textarea class="form-control font-weight-bold" id="problemas"
-                                                    name="problemas"></textarea>
+                                                    name="problemas" alt="pon tu problema"></textarea>
                                             </div>
                                         </div>
 
@@ -83,7 +84,7 @@ if (($_SESSION["usuario"]) == null) {
                                 <!-- CF2:¿Donde están las 4 columnas restantes? Si sólo hay una columna, usa la clase col-->
                                 <div class="col-md-8 offset-md-2">
                                     <div class="text-center">
-                                        <input type="submit" value="ENVIAR INFORME"
+                                        <input type="submit" value="ENVIAR INFORME" alt="enviar informe"
                                             class="btn btn-primary btn-acceder font-weight-bold">
                                     </div>
                                 </div>

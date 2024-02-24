@@ -9,7 +9,9 @@ if (($_SESSION["usuario"]) == null) {
 }
 ?>
 <!DOCTYPE html>
+<html lang="es">
 <html>
+
 
 <head>
     <?php include("includes/head-tag-contents.php"); ?>
@@ -35,13 +37,15 @@ if (($_SESSION["usuario"]) == null) {
                             <form action="procesarfeedback.php" method="POST" id="contactForm">
                                 <h5>TEMA A TRATAR</h5>
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" name="tema" />
+                                    <input class="form-control" name="tema" alt=" tema de 20 palabras" />
                                 </div>
                                 <h5>DESCRIBEME TU FEEDBACK</h5>
                                 <div class="form-floating mb-3">
-                                    <textarea class="form-control" id="message" name="feed" type="text"></textarea>
+                                    <textarea class="form-control" id="message" name="feed" type="text"
+                                        alt="describe el problema en 100 palabras"></textarea>
                                 </div>
-                                <button class="btn btn-primary btn-xl" id="submitButton" type="submit">ENVIAR</button>
+                                <button class="btn btn-primary btn-xl" id="submitButton" type="submit"
+                                    alt="enviar">ENVIAR</button>
                             </form>
                         </div>
                     </div>

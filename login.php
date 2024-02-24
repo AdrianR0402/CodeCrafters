@@ -30,6 +30,7 @@ if (isset($_POST['iniciar'])) {
 <?php include("includes/a_config.php"); ?>
 
 <!DOCTYPE html>
+<html lang="es">
 <html>
 
 <head>
@@ -59,7 +60,7 @@ if (isset($_POST['iniciar'])) {
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">Usuario:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" name="username" class="form-control font-weight-bold"
-                                                    id="usuario" required>
+                                                    id="usuario" alt="pon el usuario" required>
                                             </div>
                                         </div>
 
@@ -68,7 +69,7 @@ if (isset($_POST['iniciar'])) {
                                             <label for="contrasena"
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">Contraseña:</label>
                                             <div class="col-sm-9">
-                                                <input type="password" name="contrasena"
+                                                <input type="password" name="contrasena" alt="pon la password"
                                                     class="form-control font-weight-bold" id="contrasena" required>
                                             </div>
                                         </div>
@@ -88,7 +89,7 @@ if (isset($_POST['iniciar'])) {
                                             <div class="col-md-8 offset-md-2">
                                                 <div class="text-center">
                                                     <input type="hidden" name="iniciar" value="acceder" />
-                                                    <input type="submit"
+                                                    <input type="submit" value="ACCEDER"
                                                         class="btn btn-primary btn-acceder font-weight-bold"></input>
                                                 </div>
                                             </div>

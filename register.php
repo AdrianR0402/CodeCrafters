@@ -28,6 +28,7 @@ if (isset($_POST['registrarse'])) {
 
 <?php include("includes/a_config.php"); ?>
 <!DOCTYPE html>
+<html lang="es">
 <html>
 
 <head>
@@ -103,7 +104,7 @@ if (isset($_POST['registrarse'])) {
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">Usuario:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control font-weight-bold" name="usuario"
-                                                    id="usuario" required>
+                                                    id="usuario" alt="pon tu usuario corto" required>
                                             </div>
                                         </div>
 
@@ -113,7 +114,7 @@ if (isset($_POST['registrarse'])) {
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">Nombre:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control font-weight-bold" name="nombre"
-                                                    id="nombre" required>
+                                                    id="nombre" alt="pon tu nombre corto" required>
                                             </div>
                                         </div>
 
@@ -124,7 +125,8 @@ if (isset($_POST['registrarse'])) {
                                                 1:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control font-weight-bold"
-                                                    name="apellido1" id="apellido1" required>
+                                                    name="apellido1" id="apellido1" alt="pon tu apellido corto"
+                                                    required>
                                             </div>
                                         </div>
 
@@ -135,7 +137,8 @@ if (isset($_POST['registrarse'])) {
                                                 2:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control font-weight-bold"
-                                                    name="apellido2" id="apellido2" required>
+                                                    name="apellido2" id="apellido2" alt="pon tu apellido corto"
+                                                    required>
                                             </div>
                                         </div>
 
@@ -145,7 +148,7 @@ if (isset($_POST['registrarse'])) {
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">País:</label>
                                             <div class="col-sm-9">
                                                 <input type="text" class="form-control font-weight-bold" name="pais"
-                                                    id="pais" required>
+                                                    id="pais" alt="el pais en 10 letras mas o menos" required>
                                             </div>
                                         </div>
 
@@ -155,7 +158,7 @@ if (isset($_POST['registrarse'])) {
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">Teléfono:</label>
                                             <div class="col-sm-9">
                                                 <input type="tel" class="form-control font-weight-bold" name="telefono"
-                                                    id="telefono" required>
+                                                    id="telefono" alt="pon tu telefono con numeros" required>
                                             </div>
                                         </div>
 
@@ -165,7 +168,7 @@ if (isset($_POST['registrarse'])) {
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">Email:</label>
                                             <div class="col-sm-9">
                                                 <input type="email" class="form-control font-weight-bold" name="email"
-                                                    id="email" required>
+                                                    id="email" alt="tu email" required>
                                             </div>
                                         </div>
 
@@ -176,7 +179,8 @@ if (isset($_POST['registrarse'])) {
                                                 Nacimiento:</label>
                                             <div class="col-sm-8">
                                                 <input type="date" class="form-control font-weight-bold"
-                                                    name="fecha_nacimiento" id="fecha_nacimiento" required>
+                                                    name="fecha_nacimiento" id="fecha_nacimiento"
+                                                    alt="tu fecha de nacimiento" required>
                                             </div>
                                         </div>
 
@@ -187,7 +191,7 @@ if (isset($_POST['registrarse'])) {
                                                 Postal:</label>
                                             <div class="col-sm-9">
                                                 <input type="number" class="form-control font-weight-bold" name="postal"
-                                                    id="postal" required>
+                                                    id="postal" alt="el codigo postal" required>
                                             </div>
                                         </div>
 
@@ -197,7 +201,7 @@ if (isset($_POST['registrarse'])) {
                                                 class="col-sm-3 col-form-label text-right letraInicioSesion">Contraseña:</label>
                                             <div class="col-sm-9">
                                                 <input type="password" class="form-control font-weight-bold"
-                                                    id="contrasena" name="contrasena" required>
+                                                    id="contrasena" name="contrasena" alt="la password" required>
                                             </div>
                                         </div>
 
@@ -235,7 +239,8 @@ if (isset($_POST['registrarse'])) {
                                                 <div class="text-center">
                                                     <input type="hidden" name="registrado" value="registro" />
                                                     <input type="submit" name="registrarse" value="CREAR CUENTA"
-                                                        class="btn btn-primary btn-acceder font-weight-bold"></input>
+                                                        class="btn btn-primary btn-acceder font-weight-bold"
+                                                        alt="registrarse"></input>
                                                 </div>
                                             </div>
                                         </div>
@@ -245,7 +250,8 @@ if (isset($_POST['registrarse'])) {
                                     <div class="row mt-3">
                                         <div class="col-md-8 offset-md-2 text-center">
                                             <span class="no-tienes-cuenta-container">¿Ya tienes una cuenta? <a
-                                                    href="login.php" class="crear-cuenta">ACCEDER</a></span>
+                                                    href="login.php" class="crear-cuenta"
+                                                    alt="crear cuenta">ACCEDER</a></span>
                                         </div>
                                     </div>
                                 </div>
