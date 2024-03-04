@@ -29,20 +29,24 @@ if (($_SESSION["usuario"]) == null) {
                             <!-- CF2:¿Dónde está el h1?-->
                             <h2 class="page-section-heading display-2 text-white mb-0 ">
                                 CONTACTO</h2>
-                            <p>Mándanos tu feedback</p>
+                            <p id="wave1">Mándanos tu feedback</p>
                         </div>
                         <div class="text-center"><!--diferentes divs para los datos de contacto -->
                             <!-- CF2: ¿Porqué h5? esto tiene que ser un <label>-->
 
                             <form action="procesarfeedback.php" method="POST" id="contactForm">
-                                <h5>TEMA A TRATAR</h5>
+                                <h5 id="wave1">TEMA A TRATAR</h5>
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" name="tema" alt=" tema de 20 palabras" />
+                                    <label for="temaatratar">tema</label>
+                                    <input id="temaatratar" class="form-control" name="tema"
+                                        alt=" tema de 20 palabras" />
                                 </div>
-                                <h5>DESCRIBEME TU FEEDBACK</h5>
+                                <h5 id="wave1">DESCRIBEME TU FEEDBACK</h5>
                                 <div class="form-floating mb-3">
-                                    <textarea class="form-control" id="message" name="feed" type="text"
-                                        alt="describe el problema en 100 palabras"></textarea>
+                                    <label for="temaatratart">describe
+                                    </label>
+                                    <textarea id="temaatratart" class="form-control" id="message" name="feed"
+                                        type="text" alt="describe el problema en 100 palabras"></textarea>
                                 </div>
                                 <button class="btn btn-primary btn-xl" id="submitButton" type="submit"
                                     alt="enviar">ENVIAR</button>

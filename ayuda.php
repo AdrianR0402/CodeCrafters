@@ -63,7 +63,7 @@ if (($_SESSION["usuario"]) == null) {
                                             <div class="col-sm-9 offset-sm-3">
                                                 <b
                                                     class="olvidaste-tu-contrasea font-weight-bold text-white letraInicioSesion">
-                                                    <p class="crear-cuenta">
+                                                    <p id="wave2" class="crear-cuenta">
                                                         ¿Necesitas ayuda?
                                                         Contáctanos al:
                                                         <br>
